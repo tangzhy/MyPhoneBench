@@ -51,7 +51,7 @@ MyPhoneBench addresses two challenges that have prevented privacy evaluation of 
 
 ```bash
 # Clone the repo
-git clone https://github.com/anonymous/MyPhoneBench.git
+git clone https://github.com/tangzhy/MyPhoneBench.git
 cd MyPhoneBench
 
 # Install Python dependencies
@@ -173,9 +173,9 @@ MyPhoneBench/
 If you use MyPhoneBench in your research, please cite:
 
 ```bibtex
-@article{myphonebench2025,
+@misc{tang2025myphonebench,
   title={MyPhoneBench: Do Phone-Use Agents Respect Your Privacy?},
-  author={Anonymous},
+  author={Zhengyang Tang and Ke Ji and Xidong Wang and Zihan Ye and Xinyuan Wang and Yiduo Guo and Ziniu Li and Chenxin Li and Jingyuan Hu and Shunian Chen and Zeyu Qin and Xin Lai and Pengyuan Lyu and Junyi Li and Can Xu and Chengquan Zhang and Han Hu and Benyou Wang},
   year={2025},
 }
 ```
