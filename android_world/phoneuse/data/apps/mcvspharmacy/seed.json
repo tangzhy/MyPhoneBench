@@ -1,0 +1,141 @@
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "CVS Pharmacy - Brooklyn #1",
+      "address": "509 Queens Blvd, Brooklyn, NY",
+      "city": "Brooklyn",
+      "state": "NY",
+      "zip_code": "10502",
+      "distance_miles": 3.6,
+      "open_hours": "24 hours",
+      "services": ["pharmacy", "pickup", "minuteclinic", "vaccination"]
+    },
+    {
+      "id": 2,
+      "name": "CVS Pharmacy - Manhattan #2",
+      "address": "1234 Broadway, Manhattan, NY",
+      "city": "Manhattan",
+      "state": "NY",
+      "zip_code": "10001",
+      "distance_miles": 1.2,
+      "open_hours": "8AM-10PM",
+      "services": ["pharmacy", "pickup", "minuteclinic"]
+    },
+    {
+      "id": 3,
+      "name": "CVS Pharmacy - Hoboken #3",
+      "address": "3711 Bergen Ave, Hoboken, NJ",
+      "city": "Hoboken",
+      "state": "NJ",
+      "zip_code": "07030",
+      "distance_miles": 4.4,
+      "open_hours": "8AM-9PM",
+      "services": ["pharmacy", "pickup", "drive-thru", "vaccination"]
+    },
+    {
+      "id": 4,
+      "name": "CVS Pharmacy - Brooklyn #4",
+      "address": "2510 Flatbush Ave, Brooklyn, NY",
+      "city": "Brooklyn",
+      "state": "NY",
+      "zip_code": "11234",
+      "distance_miles": 5.1,
+      "open_hours": "8AM-10PM",
+      "services": ["pharmacy", "pickup", "minuteclinic", "vaccination"]
+    },
+    {
+      "id": 5,
+      "name": "CVS Pharmacy - Manhattan #5",
+      "address": "800 Lexington Ave, Manhattan, NY",
+      "city": "Manhattan",
+      "state": "NY",
+      "zip_code": "10065",
+      "distance_miles": 2.3,
+      "open_hours": "7AM-11PM",
+      "services": ["pharmacy", "pickup", "minuteclinic", "vaccination", "drive-thru"]
+    }
+  ],
+  "care_services": [
+    {
+      "id": 201,
+      "name": "Flu Shot",
+      "type": "vaccination",
+      "duration_min": 15,
+      "base_price": 0.0,
+      "available_online_booking": true
+    },
+    {
+      "id": 202,
+      "name": "COVID-19 Vaccine",
+      "type": "vaccination",
+      "duration_min": 20,
+      "base_price": 0.0,
+      "available_online_booking": true
+    },
+    {
+      "id": 203,
+      "name": "Health Screening",
+      "type": "health_screening",
+      "duration_min": 30,
+      "base_price": 49.99,
+      "available_online_booking": true
+    },
+    {
+      "id": 204,
+      "name": "Blood Pressure Check",
+      "type": "health_screening",
+      "duration_min": 15,
+      "base_price": 19.99,
+      "available_online_booking": true
+    },
+    {
+      "id": 205,
+      "name": "Strep Throat Test",
+      "type": "diagnostic",
+      "duration_min": 20,
+      "base_price": 35.0,
+      "available_online_booking": true
+    },
+    {
+      "id": 206,
+      "name": "UTI Treatment",
+      "type": "treatment",
+      "duration_min": 25,
+      "base_price": 59.99,
+      "available_online_booking": true
+    },
+    {
+      "id": 207,
+      "name": "Skin Condition Evaluation",
+      "type": "treatment",
+      "duration_min": 30,
+      "base_price": 79.99,
+      "available_online_booking": true
+    },
+    {
+      "id": 208,
+      "name": "Ear Infection Treatment",
+      "type": "treatment",
+      "duration_min": 25,
+      "base_price": 59.99,
+      "available_online_booking": true
+    },
+    {
+      "id": 209,
+      "name": "Travel Vaccination",
+      "type": "vaccination",
+      "duration_min": 30,
+      "base_price": 89.99,
+      "available_online_booking": true
+    },
+    {
+      "id": 210,
+      "name": "COVID-19 Booster",
+      "type": "vaccination",
+      "duration_min": 20,
+      "base_price": 0.0,
+      "available_online_booking": true
+    }
+  ]
+}

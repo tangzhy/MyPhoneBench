@@ -1,0 +1,1254 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Sarah Smith",
+      "specialty": "Dermatology",
+      "hospital": "NYC Medical Center",
+      "city": "New York",
+      "rating": 4.8,
+      "available_slots": [
+        "2026-02-11 09:00",
+        "2026-02-11 10:00",
+        "2026-02-11 14:00",
+        "2026-02-12 09:00",
+        "2026-02-12 11:00",
+        "2026-02-13 09:00",
+        "2026-02-13 14:00"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dr. Michael Johnson",
+      "specialty": "General Practice",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 4.6,
+      "available_slots": [
+        "2026-02-11 08:00",
+        "2026-02-11 11:00",
+        "2026-02-11 15:00",
+        "2026-02-12 10:00",
+        "2026-02-12 14:00"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dr. Emily Chen",
+      "specialty": "Cardiology",
+      "hospital": "NYC Medical Center",
+      "city": "New York",
+      "rating": 4.9,
+      "available_slots": [
+        "2026-02-11 13:00",
+        "2026-02-12 08:00",
+        "2026-02-12 13:00",
+        "2026-02-13 10:00"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dr. James Wilson",
+      "specialty": "Pediatrics",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 4.7,
+      "available_slots": [
+        "2026-02-11 09:00",
+        "2026-02-11 14:00",
+        "2026-02-12 09:00",
+        "2026-02-12 15:00"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dr. Lisa Anderson",
+      "specialty": "Dermatology",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 4.5,
+      "available_slots": [
+        "2026-02-11 10:00",
+        "2026-02-11 15:00",
+        "2026-02-12 11:00",
+        "2026-02-13 09:00"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Dr. Christopher Lopez",
+      "specialty": "Dermatology",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 3.9,
+      "available_slots": [
+        "2026-02-11 08:00",
+        "2026-02-12 09:00",
+        "2026-02-12 11:00",
+        "2026-02-20 15:30"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Dr. Ashley Ward",
+      "specialty": "Dermatology",
+      "hospital": "NYC Medical Center",
+      "city": "New York",
+      "rating": 4.3,
+      "available_slots": [
+        "2026-02-11 10:30",
+        "2026-02-12 09:00",
+        "2026-02-14 14:00",
+        "2026-02-14 16:00",
+        "2026-02-15 10:00",
+        "2026-02-17 14:00",
+        "2026-02-19 15:30",
+        "2026-02-20 13:00"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Dr. Jason Jackson",
+      "specialty": "Dermatology",
+      "hospital": "Bronx Health Center",
+      "city": "New York",
+      "rating": 4.8,
+      "available_slots": [
+        "2026-02-12 08:30",
+        "2026-02-15 08:30",
+        "2026-02-17 09:00",
+        "2026-02-18 09:30",
+        "2026-02-19 13:30",
+        "2026-02-20 11:00",
+        "2026-02-20 14:30"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Dr. Ashley Campbell",
+      "specialty": "Dermatology",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 4.8,
+      "available_slots": [
+        "2026-02-13 14:30",
+        "2026-02-17 13:00",
+        "2026-02-18 14:30"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Dr. Melissa Scott",
+      "specialty": "Dermatology",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 4.6,
+      "available_slots": [
+        "2026-02-12 10:30",
+        "2026-02-13 16:00",
+        "2026-02-14 08:30",
+        "2026-02-15 09:00",
+        "2026-02-16 08:30",
+        "2026-02-16 15:00",
+        "2026-02-17 13:00",
+        "2026-02-19 11:30"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Dr. Sandra James",
+      "specialty": "Dermatology",
+      "hospital": "Bronx Health Center",
+      "city": "New York",
+      "rating": 3.8,
+      "available_slots": [
+        "2026-02-13 11:30",
+        "2026-02-13 13:00",
+        "2026-02-17 16:00",
+        "2026-02-19 13:00",
+        "2026-02-20 15:00",
+        "2026-02-20 15:30"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Dr. Edward Nguyen",
+      "specialty": "General Practice",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 4.3,
+      "available_slots": [
+        "2026-02-11 09:30",
+        "2026-02-13 10:30",
+        "2026-02-17 09:00"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Dr. Stephanie Edwards",
+      "specialty": "General Practice",
+      "hospital": "Mount Sinai",
+      "city": "New York",
+      "rating": 4.3,
+      "available_slots": [
+        "2026-02-11 09:30",
+        "2026-02-11 13:00",
+        "2026-02-13 16:00",
+        "2026-02-15 15:30",
+        "2026-02-16 09:30",
+        "2026-02-19 10:30",
+        "2026-02-19 13:00"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Dr. Stephen Martin",
+      "specialty": "General Practice",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 4.8,
+      "available_slots": [
+        "2026-02-12 14:30",
+        "2026-02-13 08:00",
+        "2026-02-13 14:30",
+        "2026-02-15 11:30",
+        "2026-02-18 08:00",
+        "2026-02-20 11:00",
+        "2026-02-20 14:00"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Dr. Patricia Flores",
+      "specialty": "General Practice",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 3.6,
+      "available_slots": [
+        "2026-02-12 10:00",
+        "2026-02-13 16:30",
+        "2026-02-14 11:00",
+        "2026-02-15 15:00",
+        "2026-02-15 15:30",
+        "2026-02-19 10:30"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Dr. Deborah Rogers",
+      "specialty": "General Practice",
+      "hospital": "Mount Sinai",
+      "city": "New York",
+      "rating": 3.7,
+      "available_slots": [
+        "2026-02-11 09:00",
+        "2026-02-11 11:30",
+        "2026-02-12 14:00",
+        "2026-02-20 11:30"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Dr. Patricia Hill",
+      "specialty": "General Practice",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 4.9,
+      "available_slots": [
+        "2026-02-12 11:30",
+        "2026-02-14 10:00",
+        "2026-02-14 16:30",
+        "2026-02-15 16:30",
+        "2026-02-20 16:30"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Dr. Ryan King",
+      "specialty": "General Practice",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 3.6,
+      "available_slots": [
+        "2026-02-11 09:30",
+        "2026-02-11 15:00",
+        "2026-02-14 11:00",
+        "2026-02-16 09:30",
+        "2026-02-16 15:30",
+        "2026-02-17 16:00"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Dr. Donald Watson",
+      "specialty": "Cardiology",
+      "hospital": "Mount Sinai",
+      "city": "New York",
+      "rating": 3.7,
+      "available_slots": [
+        "2026-02-11 08:00",
+        "2026-02-14 09:00",
+        "2026-02-15 16:00",
+        "2026-02-18 09:30"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Dr. Barbara Flores",
+      "specialty": "Cardiology",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 4.1,
+      "available_slots": [
+        "2026-02-11 10:30",
+        "2026-02-14 15:00",
+        "2026-02-17 08:00",
+        "2026-02-17 13:00",
+        "2026-02-17 16:30",
+        "2026-02-18 13:30"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Dr. Karen King",
+      "specialty": "Cardiology",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 3.8,
+      "available_slots": [
+        "2026-02-11 16:30",
+        "2026-02-16 08:30",
+        "2026-02-20 08:30"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Dr. Stephen Wood",
+      "specialty": "Cardiology",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 3.6,
+      "available_slots": [
+        "2026-02-12 09:00",
+        "2026-02-12 10:30",
+        "2026-02-12 11:30",
+        "2026-02-14 15:00",
+        "2026-02-17 14:00",
+        "2026-02-20 08:30",
+        "2026-02-20 09:00"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Dr. Kimberly Scott",
+      "specialty": "Cardiology",
+      "hospital": "Bronx Health Center",
+      "city": "New York",
+      "rating": 3.9,
+      "available_slots": [
+        "2026-02-12 08:00",
+        "2026-02-12 11:00",
+        "2026-02-13 13:30",
+        "2026-02-18 09:30",
+        "2026-02-18 14:00",
+        "2026-02-19 13:00"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Dr. Daniel Turner",
+      "specialty": "Cardiology",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 4.8,
+      "available_slots": [
+        "2026-02-12 10:00",
+        "2026-02-15 10:30",
+        "2026-02-18 13:30",
+        "2026-02-19 13:30",
+        "2026-02-20 08:00"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Dr. Kimberly Lee",
+      "specialty": "Cardiology",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 4.6,
+      "available_slots": [
+        "2026-02-15 13:30",
+        "2026-02-15 16:30",
+        "2026-02-16 11:00",
+        "2026-02-20 11:00"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Dr. Joshua Perez",
+      "specialty": "Pediatrics",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 4.5,
+      "available_slots": [
+        "2026-02-11 08:00",
+        "2026-02-15 10:30",
+        "2026-02-16 10:00",
+        "2026-02-18 15:30",
+        "2026-02-19 08:00"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Dr. Christopher Davis",
+      "specialty": "Pediatrics",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 4.3,
+      "available_slots": [
+        "2026-02-11 13:30",
+        "2026-02-16 08:30",
+        "2026-02-16 11:00",
+        "2026-02-17 10:00",
+        "2026-02-20 10:00"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Dr. Dorothy Martin",
+      "specialty": "Pediatrics",
+      "hospital": "Bronx Health Center",
+      "city": "New York",
+      "rating": 4.7,
+      "available_slots": [
+        "2026-02-11 10:30",
+        "2026-02-13 15:30",
+        "2026-02-14 10:30",
+        "2026-02-14 13:00",
+        "2026-02-16 15:30",
+        "2026-02-20 10:00"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Dr. Anthony Martin",
+      "specialty": "Pediatrics",
+      "hospital": "NYU Langone",
+      "city": "New York",
+      "rating": 4.8,
+      "available_slots": [
+        "2026-02-14 08:00",
+        "2026-02-14 11:00",
+        "2026-02-14 15:00",
+        "2026-02-15 11:30",
+        "2026-02-16 13:00",
+        "2026-02-18 14:30"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Dr. Joseph Hall",
+      "specialty": "Pediatrics",
+      "hospital": "Bronx Health Center",
+      "city": "New York",
+      "rating": 4.5,
+      "available_slots": [
+        "2026-02-11 09:30",
+        "2026-02-15 10:30",
+        "2026-02-16 14:00",
+        "2026-02-19 14:00",
+        "2026-02-20 13:00",
+        "2026-02-20 15:30"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Dr. Laura Cox",
+      "specialty": "Pediatrics",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 4.1,
+      "available_slots": [
+        "2026-02-11 11:00",
+        "2026-02-11 15:30",
+        "2026-02-12 13:30",
+        "2026-02-12 14:00",
+        "2026-02-14 13:00",
+        "2026-02-16 15:30",
+        "2026-02-20 14:00"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Dr. Stephen Carter",
+      "specialty": "Pediatrics",
+      "hospital": "NYU Langone",
+      "city": "New York",
+      "rating": 4.0,
+      "available_slots": [
+        "2026-02-14 15:30",
+        "2026-02-15 10:00",
+        "2026-02-15 13:30",
+        "2026-02-17 08:00",
+        "2026-02-17 10:30",
+        "2026-02-18 16:00",
+        "2026-02-20 13:30",
+        "2026-02-20 14:00"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Dr. Gary Torres",
+      "specialty": "Orthopedics",
+      "hospital": "Mount Sinai",
+      "city": "New York",
+      "rating": 4.7,
+      "available_slots": [
+        "2026-02-11 08:30",
+        "2026-02-12 11:30",
+        "2026-02-13 09:00",
+        "2026-02-14 10:00",
+        "2026-02-14 16:30",
+        "2026-02-15 11:30",
+        "2026-02-15 14:00",
+        "2026-02-20 09:00"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Dr. Nicholas Morales",
+      "specialty": "Orthopedics",
+      "hospital": "Brooklyn General Hospital",
+      "city": "New York",
+      "rating": 4.6,
+      "available_slots": [
+        "2026-02-11 09:30",
+        "2026-02-11 11:30",
+        "2026-02-13 16:00",
+        "2026-02-14 10:00",
+        "2026-02-17 11:30",
+        "2026-02-18 15:00"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Dr. Jessica Peterson",
+      "specialty": "Orthopedics",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 4.7,
+      "available_slots": [
+        "2026-02-13 16:30",
+        "2026-02-14 13:00",
+        "2026-02-18 09:00",
+        "2026-02-18 13:00",
+        "2026-02-18 15:30",
+        "2026-02-19 14:00",
+        "2026-02-19 16:00",
+        "2026-02-19 16:30"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Dr. Kevin Flores",
+      "specialty": "Orthopedics",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 4.0,
+      "available_slots": [
+        "2026-02-12 10:00",
+        "2026-02-13 11:30",
+        "2026-02-14 09:00",
+        "2026-02-16 16:00",
+        "2026-02-17 08:30",
+        "2026-02-17 10:00",
+        "2026-02-17 15:30"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Dr. Steven Morales",
+      "specialty": "Orthopedics",
+      "hospital": "NYU Langone",
+      "city": "New York",
+      "rating": 4.9,
+      "available_slots": [
+        "2026-02-11 15:00",
+        "2026-02-15 15:30",
+        "2026-02-16 13:30",
+        "2026-02-17 15:30",
+        "2026-02-18 08:00",
+        "2026-02-18 11:30",
+        "2026-02-19 11:30"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Dr. Jonathan Lopez",
+      "specialty": "Orthopedics",
+      "hospital": "NYU Langone",
+      "city": "New York",
+      "rating": 4.0,
+      "available_slots": [
+        "2026-02-12 15:30",
+        "2026-02-13 08:30",
+        "2026-02-13 16:00",
+        "2026-02-15 15:00",
+        "2026-02-17 08:00",
+        "2026-02-17 10:30",
+        "2026-02-18 10:00",
+        "2026-02-20 08:00"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Dr. Carol Torres",
+      "specialty": "Orthopedics",
+      "hospital": "Mount Sinai",
+      "city": "New York",
+      "rating": 4.0,
+      "available_slots": [
+        "2026-02-12 08:30",
+        "2026-02-15 09:00",
+        "2026-02-15 15:30",
+        "2026-02-16 11:30",
+        "2026-02-18 08:00",
+        "2026-02-19 08:30"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Dr. Jennifer Green",
+      "specialty": "Orthopedics",
+      "hospital": "Brooklyn General Hospital",
+      "city": "New York",
+      "rating": 4.8,
+      "available_slots": [
+        "2026-02-12 11:00",
+        "2026-02-13 11:30",
+        "2026-02-13 13:30",
+        "2026-02-13 16:30",
+        "2026-02-16 10:30",
+        "2026-02-18 13:00",
+        "2026-02-20 09:30"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Dr. Susan Kim",
+      "specialty": "Neurology",
+      "hospital": "NYC Medical Center",
+      "city": "New York",
+      "rating": 4.9,
+      "available_slots": [
+        "2026-02-12 13:30",
+        "2026-02-14 09:00",
+        "2026-02-16 15:30",
+        "2026-02-17 15:00",
+        "2026-02-20 08:30",
+        "2026-02-20 09:30",
+        "2026-02-20 11:30"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Dr. Deborah Brown",
+      "specialty": "Neurology",
+      "hospital": "Bronx Health Center",
+      "city": "New York",
+      "rating": 3.5,
+      "available_slots": [
+        "2026-02-17 10:30",
+        "2026-02-17 14:30",
+        "2026-02-18 09:30",
+        "2026-02-18 10:00",
+        "2026-02-19 13:00",
+        "2026-02-20 16:30"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Dr. Kathleen Cook",
+      "specialty": "Neurology",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 4.0,
+      "available_slots": [
+        "2026-02-12 13:00",
+        "2026-02-16 08:00",
+        "2026-02-18 11:30",
+        "2026-02-18 15:00"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Dr. Angela Gomez",
+      "specialty": "Neurology",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 4.2,
+      "available_slots": [
+        "2026-02-12 11:30",
+        "2026-02-15 13:00",
+        "2026-02-15 14:00",
+        "2026-02-19 08:00",
+        "2026-02-19 11:00"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Dr. Ryan Bell",
+      "specialty": "Neurology",
+      "hospital": "Brooklyn General Hospital",
+      "city": "New York",
+      "rating": 4.5,
+      "available_slots": [
+        "2026-02-11 09:00",
+        "2026-02-15 11:30",
+        "2026-02-15 14:30",
+        "2026-02-16 16:00",
+        "2026-02-17 11:30",
+        "2026-02-17 14:00",
+        "2026-02-18 14:30",
+        "2026-02-18 16:00"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Dr. Kenneth Carter",
+      "specialty": "Neurology",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 3.8,
+      "available_slots": [
+        "2026-02-12 10:30",
+        "2026-02-12 11:00",
+        "2026-02-14 11:00",
+        "2026-02-14 14:00",
+        "2026-02-15 11:30",
+        "2026-02-16 10:30",
+        "2026-02-18 13:00",
+        "2026-02-20 13:30"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Dr. Brian Martinez",
+      "specialty": "Neurology",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 3.9,
+      "available_slots": [
+        "2026-02-12 08:00",
+        "2026-02-13 16:30",
+        "2026-02-19 13:30"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Dr. Emma Rivera",
+      "specialty": "Neurology",
+      "hospital": "Mount Sinai",
+      "city": "New York",
+      "rating": 4.2,
+      "available_slots": [
+        "2026-02-12 08:30",
+        "2026-02-12 09:00",
+        "2026-02-13 08:30",
+        "2026-02-15 16:30",
+        "2026-02-17 16:30"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Dr. Karen Lewis",
+      "specialty": "Ophthalmology",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 3.6,
+      "available_slots": [
+        "2026-02-12 15:30",
+        "2026-02-18 16:00",
+        "2026-02-19 15:00",
+        "2026-02-20 11:30"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Dr. Brian Murphy",
+      "specialty": "Ophthalmology",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 4.4,
+      "available_slots": [
+        "2026-02-14 11:00",
+        "2026-02-15 09:00",
+        "2026-02-20 09:30"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Dr. Anthony Flores",
+      "specialty": "Ophthalmology",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 4.3,
+      "available_slots": [
+        "2026-02-11 15:30",
+        "2026-02-14 13:30",
+        "2026-02-15 08:30",
+        "2026-02-18 16:30"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Dr. Kevin Peterson",
+      "specialty": "Ophthalmology",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 4.5,
+      "available_slots": [
+        "2026-02-13 09:00",
+        "2026-02-13 13:00",
+        "2026-02-17 09:30",
+        "2026-02-19 11:30",
+        "2026-02-20 11:00"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Dr. Patricia Walker",
+      "specialty": "Ophthalmology",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 4.4,
+      "available_slots": [
+        "2026-02-12 16:00",
+        "2026-02-15 15:00",
+        "2026-02-15 16:00",
+        "2026-02-15 16:30",
+        "2026-02-17 14:00",
+        "2026-02-18 09:00",
+        "2026-02-20 08:30"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Dr. Helen Adams",
+      "specialty": "Ophthalmology",
+      "hospital": "NYC Medical Center",
+      "city": "New York",
+      "rating": 3.6,
+      "available_slots": [
+        "2026-02-13 16:30",
+        "2026-02-15 08:30",
+        "2026-02-15 10:30",
+        "2026-02-18 09:00",
+        "2026-02-18 14:30",
+        "2026-02-19 16:00",
+        "2026-02-20 08:00",
+        "2026-02-20 15:30"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Dr. Ryan Phillips",
+      "specialty": "Ophthalmology",
+      "hospital": "Bronx Health Center",
+      "city": "New York",
+      "rating": 4.5,
+      "available_slots": [
+        "2026-02-16 15:30",
+        "2026-02-17 08:30",
+        "2026-02-18 09:00",
+        "2026-02-18 13:30"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Dr. George Adams",
+      "specialty": "Ophthalmology",
+      "hospital": "Bronx Health Center",
+      "city": "New York",
+      "rating": 3.7,
+      "available_slots": [
+        "2026-02-14 14:30",
+        "2026-02-17 08:30",
+        "2026-02-18 08:30",
+        "2026-02-19 08:00",
+        "2026-02-19 16:00",
+        "2026-02-20 16:30"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Dr. Steven Baker",
+      "specialty": "Psychiatry",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 4.9,
+      "available_slots": [
+        "2026-02-11 11:30",
+        "2026-02-12 11:30",
+        "2026-02-13 13:30",
+        "2026-02-18 09:30",
+        "2026-02-19 08:00",
+        "2026-02-19 15:30"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Dr. Christopher Cooper",
+      "specialty": "Psychiatry",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 4.5,
+      "available_slots": [
+        "2026-02-17 16:30",
+        "2026-02-18 11:30",
+        "2026-02-18 13:30",
+        "2026-02-19 13:00"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Dr. Nicholas Bennett",
+      "specialty": "Psychiatry",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 4.1,
+      "available_slots": [
+        "2026-02-11 13:30",
+        "2026-02-12 13:00",
+        "2026-02-13 16:00",
+        "2026-02-15 16:30",
+        "2026-02-17 14:00",
+        "2026-02-19 10:00",
+        "2026-02-19 13:00"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Dr. Justin Bailey",
+      "specialty": "Psychiatry",
+      "hospital": "Bronx Health Center",
+      "city": "New York",
+      "rating": 4.0,
+      "available_slots": [
+        "2026-02-11 14:00",
+        "2026-02-14 15:00",
+        "2026-02-14 15:30",
+        "2026-02-16 11:00",
+        "2026-02-17 10:00",
+        "2026-02-17 16:00",
+        "2026-02-18 15:00"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Dr. Angela Hernandez",
+      "specialty": "Psychiatry",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 4.3,
+      "available_slots": [
+        "2026-02-11 10:00",
+        "2026-02-12 16:30",
+        "2026-02-15 14:00",
+        "2026-02-16 09:30",
+        "2026-02-17 10:00",
+        "2026-02-18 09:30",
+        "2026-02-19 16:00"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Dr. Jeffrey Miller",
+      "specialty": "Psychiatry",
+      "hospital": "Bronx Health Center",
+      "city": "New York",
+      "rating": 4.8,
+      "available_slots": [
+        "2026-02-12 16:00",
+        "2026-02-14 09:00",
+        "2026-02-14 13:30",
+        "2026-02-17 09:30",
+        "2026-02-17 14:00",
+        "2026-02-18 08:30",
+        "2026-02-20 09:00"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Dr. Nancy Mitchell",
+      "specialty": "Psychiatry",
+      "hospital": "NYC Medical Center",
+      "city": "New York",
+      "rating": 3.6,
+      "available_slots": [
+        "2026-02-13 11:30",
+        "2026-02-15 14:30",
+        "2026-02-16 15:30"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Dr. Anna Morris",
+      "specialty": "Psychiatry",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 3.8,
+      "available_slots": [
+        "2026-02-18 10:00",
+        "2026-02-20 11:30",
+        "2026-02-20 15:00"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Dr. Ashley Cooper",
+      "specialty": "ENT",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 4.2,
+      "available_slots": [
+        "2026-02-11 16:00",
+        "2026-02-12 16:00",
+        "2026-02-14 15:00",
+        "2026-02-15 10:30",
+        "2026-02-16 13:30",
+        "2026-02-17 13:00",
+        "2026-02-18 09:30",
+        "2026-02-18 13:30"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Dr. Andrew Edwards",
+      "specialty": "ENT",
+      "hospital": "Bronx Health Center",
+      "city": "New York",
+      "rating": 4.4,
+      "available_slots": [
+        "2026-02-11 08:30",
+        "2026-02-14 11:00",
+        "2026-02-15 08:00",
+        "2026-02-15 11:30",
+        "2026-02-17 13:00",
+        "2026-02-20 13:00",
+        "2026-02-20 14:30",
+        "2026-02-20 16:30"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Dr. Sarah Jackson",
+      "specialty": "ENT",
+      "hospital": "NYC Medical Center",
+      "city": "New York",
+      "rating": 4.0,
+      "available_slots": [
+        "2026-02-11 14:30",
+        "2026-02-13 09:00",
+        "2026-02-14 10:00",
+        "2026-02-15 14:00",
+        "2026-02-17 10:30",
+        "2026-02-19 14:30"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Dr. Anna Ward",
+      "specialty": "ENT",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 4.7,
+      "available_slots": [
+        "2026-02-13 11:30",
+        "2026-02-16 09:30",
+        "2026-02-17 14:30",
+        "2026-02-18 09:00",
+        "2026-02-18 13:30"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Dr. Barbara Reyes",
+      "specialty": "ENT",
+      "hospital": "NYC Medical Center",
+      "city": "New York",
+      "rating": 3.9,
+      "available_slots": [
+        "2026-02-15 15:00",
+        "2026-02-16 09:30",
+        "2026-02-18 14:30"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Dr. Ashley Reed",
+      "specialty": "ENT",
+      "hospital": "NYC Medical Center",
+      "city": "New York",
+      "rating": 4.4,
+      "available_slots": [
+        "2026-02-11 08:30",
+        "2026-02-12 09:30",
+        "2026-02-12 10:00",
+        "2026-02-12 16:00",
+        "2026-02-15 15:30",
+        "2026-02-15 16:30",
+        "2026-02-16 11:30"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Dr. Andrew Watson",
+      "specialty": "ENT",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 4.1,
+      "available_slots": [
+        "2026-02-15 08:30",
+        "2026-02-17 09:30",
+        "2026-02-18 15:30",
+        "2026-02-19 15:30",
+        "2026-02-20 10:00"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Dr. Deborah Torres",
+      "specialty": "ENT",
+      "hospital": "Mount Sinai",
+      "city": "New York",
+      "rating": 4.2,
+      "available_slots": [
+        "2026-02-11 15:00",
+        "2026-02-15 11:00",
+        "2026-02-16 09:30",
+        "2026-02-16 14:30"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Dr. Barbara Torres",
+      "specialty": "Gynecology",
+      "hospital": "NYC Medical Center",
+      "city": "New York",
+      "rating": 3.6,
+      "available_slots": [
+        "2026-02-12 11:00",
+        "2026-02-13 08:00",
+        "2026-02-14 10:00",
+        "2026-02-14 14:00",
+        "2026-02-20 11:00"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Dr. Emily Clark",
+      "specialty": "Gynecology",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 4.3,
+      "available_slots": [
+        "2026-02-12 08:00",
+        "2026-02-13 08:00",
+        "2026-02-16 11:30",
+        "2026-02-20 14:00"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Dr. David Young",
+      "specialty": "Gynecology",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 3.6,
+      "available_slots": [
+        "2026-02-12 16:30",
+        "2026-02-17 09:30",
+        "2026-02-18 08:00",
+        "2026-02-18 11:30",
+        "2026-02-18 14:30",
+        "2026-02-19 09:30",
+        "2026-02-19 13:30",
+        "2026-02-20 08:30"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Dr. Patricia Bailey",
+      "specialty": "Gynecology",
+      "hospital": "NYU Langone",
+      "city": "New York",
+      "rating": 4.1,
+      "available_slots": [
+        "2026-02-12 09:00",
+        "2026-02-16 10:00",
+        "2026-02-18 16:00"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Dr. Joseph White",
+      "specialty": "Gynecology",
+      "hospital": "Queens Medical Center",
+      "city": "New York",
+      "rating": 4.4,
+      "available_slots": [
+        "2026-02-12 09:30",
+        "2026-02-14 15:30",
+        "2026-02-17 13:30",
+        "2026-02-17 16:00",
+        "2026-02-18 15:30",
+        "2026-02-19 11:00",
+        "2026-02-19 14:00"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Dr. Amanda Peterson",
+      "specialty": "Gynecology",
+      "hospital": "NYU Langone",
+      "city": "New York",
+      "rating": 4.1,
+      "available_slots": [
+        "2026-02-16 10:00",
+        "2026-02-16 13:00",
+        "2026-02-16 15:30"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Dr. Eric Brown",
+      "specialty": "Gynecology",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 4.7,
+      "available_slots": [
+        "2026-02-16 10:00",
+        "2026-02-17 09:30",
+        "2026-02-19 08:30"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Dr. Nicole Gray",
+      "specialty": "Gynecology",
+      "hospital": "Bronx Health Center",
+      "city": "New York",
+      "rating": 4.5,
+      "available_slots": [
+        "2026-02-11 13:30",
+        "2026-02-13 16:30",
+        "2026-02-16 09:30",
+        "2026-02-16 15:30",
+        "2026-02-20 11:00",
+        "2026-02-20 13:30"
+      ]
+    }
+  ],
+  "appointments": []
+}

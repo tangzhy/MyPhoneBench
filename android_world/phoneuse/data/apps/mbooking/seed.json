@@ -1,0 +1,2350 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "The Midtown Hotel",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "star_rating": 5,
+      "price_per_night": 364,
+      "amenities": [
+        "Laundry",
+        "Restaurant",
+        "Spa"
+      ],
+      "room_types": [
+        "Deluxe Queen",
+        "Family Room",
+        "Standard Double"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-23",
+        "2026-03-26",
+        "2026-03-27",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Grand Times Square Hotel",
+      "neighborhood": "Times Square",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 267,
+      "amenities": [
+        "Concierge",
+        "Spa",
+        "Laundry"
+      ],
+      "room_types": [
+        "Twin Room",
+        "Studio",
+        "Executive Suite",
+        "Deluxe Queen",
+        "Standard Double"
+      ],
+      "available_dates": [
+        "2026-03-14",
+        "2026-03-16",
+        "2026-03-18",
+        "2026-03-20",
+        "2026-03-23"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Royal Upper West Side Hotel",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 203,
+      "amenities": [
+        "Breakfast",
+        "Pool",
+        "Bar"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Penthouse",
+        "Standard Double",
+        "Twin Room"
+      ],
+      "available_dates": [
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-19",
+        "2026-03-21",
+        "2026-03-22",
+        "2026-03-25",
+        "2026-03-26",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Park Upper East Side Hotel",
+      "neighborhood": "Upper East Side",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 95,
+      "amenities": [
+        "Spa",
+        "Airport Shuttle",
+        "Restaurant",
+        "Pool",
+        "Pet Friendly",
+        "Business Center",
+        "Breakfast",
+        "Gym"
+      ],
+      "room_types": [
+        "Family Room",
+        "King Suite",
+        "Deluxe Queen",
+        "Studio",
+        "Penthouse"
+      ],
+      "available_dates": [
+        "2026-03-12",
+        "2026-03-15",
+        "2026-03-17",
+        "2026-03-26",
+        "2026-03-27",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "City SoHo Hotel",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 224,
+      "amenities": [
+        "Laundry",
+        "Concierge",
+        "Spa",
+        "Business Center",
+        "Bar",
+        "WiFi",
+        "Pet Friendly",
+        "Breakfast"
+      ],
+      "room_types": [
+        "Family Room",
+        "Twin Room"
+      ],
+      "available_dates": [
+        "2026-03-12",
+        "2026-03-16",
+        "2026-03-20",
+        "2026-03-25",
+        "2026-03-26",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Metro Chelsea Hotel",
+      "neighborhood": "Chelsea",
+      "city": "New York",
+      "star_rating": 5,
+      "price_per_night": 408,
+      "amenities": [
+        "Restaurant",
+        "Gym",
+        "Spa",
+        "Concierge"
+      ],
+      "room_types": [
+        "Penthouse",
+        "Executive Suite",
+        "Twin Room",
+        "Deluxe Queen"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-14",
+        "2026-03-25",
+        "2026-03-26"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Harbor Greenwich Village Hotel",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 109,
+      "amenities": [
+        "Gym",
+        "Airport Shuttle",
+        "Business Center",
+        "Breakfast",
+        "Room Service",
+        "Pool",
+        "Laundry",
+        "Spa"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Studio",
+        "Standard Double",
+        "Family Room",
+        "Deluxe Queen"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-13",
+        "2026-03-15",
+        "2026-03-19",
+        "2026-03-23",
+        "2026-03-24"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Skyline Brooklyn Heights Hotel",
+      "neighborhood": "Brooklyn Heights",
+      "city": "New York",
+      "star_rating": 5,
+      "price_per_night": 383,
+      "amenities": [
+        "Airport Shuttle",
+        "Gym",
+        "Concierge",
+        "Pool",
+        "Restaurant",
+        "Laundry",
+        "Spa"
+      ],
+      "room_types": [
+        "Family Room",
+        "Penthouse",
+        "King Suite"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-15",
+        "2026-03-20",
+        "2026-03-22",
+        "2026-03-25",
+        "2026-03-26",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Boutique Williamsburg Hotel",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 220,
+      "amenities": [
+        "Spa",
+        "Room Service",
+        "Pool"
+      ],
+      "room_types": [
+        "Studio",
+        "Penthouse"
+      ],
+      "available_dates": [
+        "2026-03-14",
+        "2026-03-25",
+        "2026-03-27",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Premier Financial District Hotel",
+      "neighborhood": "Financial District",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 211,
+      "amenities": [
+        "Concierge",
+        "Room Service",
+        "Breakfast",
+        "Spa",
+        "Pet Friendly"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Twin Room",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-13",
+        "2026-03-17",
+        "2026-03-24",
+        "2026-03-26",
+        "2026-03-28",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "The Midtown Inn",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 133,
+      "amenities": [
+        "Room Service",
+        "Concierge",
+        "Spa"
+      ],
+      "room_types": [
+        "Standard Double",
+        "Studio",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-17",
+        "2026-03-20"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Grand Times Square Inn",
+      "neighborhood": "Times Square",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 155,
+      "amenities": [
+        "Restaurant",
+        "Business Center",
+        "Parking",
+        "Spa"
+      ],
+      "room_types": [
+        "Studio",
+        "King Suite",
+        "Twin Room"
+      ],
+      "available_dates": [
+        "2026-03-13",
+        "2026-03-16",
+        "2026-03-21",
+        "2026-03-23",
+        "2026-03-24",
+        "2026-03-28",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Royal Upper West Side Inn",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 196,
+      "amenities": [
+        "Business Center",
+        "Pet Friendly",
+        "Pool",
+        "WiFi",
+        "Breakfast",
+        "Bar",
+        "Laundry",
+        "Parking"
+      ],
+      "room_types": [
+        "Twin Room",
+        "Executive Suite",
+        "Studio"
+      ],
+      "available_dates": [
+        "2026-03-15",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-23",
+        "2026-03-24"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Park Upper East Side Inn",
+      "neighborhood": "Upper East Side",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 146,
+      "amenities": [
+        "Pool",
+        "WiFi",
+        "Business Center",
+        "Concierge",
+        "Airport Shuttle",
+        "Pet Friendly",
+        "Spa"
+      ],
+      "room_types": [
+        "Penthouse",
+        "Twin Room",
+        "Studio"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-15",
+        "2026-03-22",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "City SoHo Inn",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 223,
+      "amenities": [
+        "Restaurant",
+        "Breakfast",
+        "Laundry",
+        "Concierge",
+        "Parking",
+        "Gym"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "King Suite",
+        "Standard Double"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-26",
+        "2026-03-27",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Metro Chelsea Inn",
+      "neighborhood": "Chelsea",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 210,
+      "amenities": [
+        "Concierge",
+        "Pool",
+        "Gym"
+      ],
+      "room_types": [
+        "King Suite",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-17",
+        "2026-03-22"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Harbor Greenwich Village Inn",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 264,
+      "amenities": [
+        "Concierge",
+        "Bar",
+        "Restaurant",
+        "Spa",
+        "Airport Shuttle",
+        "Business Center",
+        "Laundry"
+      ],
+      "room_types": [
+        "Deluxe Queen",
+        "Family Room",
+        "Penthouse",
+        "Studio",
+        "Twin Room"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-18",
+        "2026-03-24",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Skyline Brooklyn Heights Inn",
+      "neighborhood": "Brooklyn Heights",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 154,
+      "amenities": [
+        "Gym",
+        "Bar",
+        "Pool",
+        "Spa",
+        "Airport Shuttle"
+      ],
+      "room_types": [
+        "Deluxe Queen",
+        "Twin Room",
+        "Executive Suite",
+        "Studio"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14",
+        "2026-03-19",
+        "2026-03-24",
+        "2026-03-26",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Boutique Williamsburg Inn",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 103,
+      "amenities": [
+        "Concierge",
+        "Gym",
+        "Restaurant",
+        "Laundry",
+        "Room Service",
+        "Spa",
+        "Bar",
+        "Pool"
+      ],
+      "room_types": [
+        "Studio",
+        "Deluxe Queen",
+        "Standard Double",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-14",
+        "2026-03-18",
+        "2026-03-20",
+        "2026-03-25",
+        "2026-03-26"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Premier Financial District Inn",
+      "neighborhood": "Financial District",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 146,
+      "amenities": [
+        "Laundry",
+        "Breakfast",
+        "Concierge",
+        "WiFi",
+        "Pool",
+        "Room Service",
+        "Gym"
+      ],
+      "room_types": [
+        "Family Room",
+        "Executive Suite"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-14",
+        "2026-03-15",
+        "2026-03-19",
+        "2026-03-22",
+        "2026-03-23",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "The Midtown Suites",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 216,
+      "amenities": [
+        "Spa",
+        "Business Center",
+        "Pool",
+        "Bar",
+        "Concierge",
+        "Breakfast",
+        "Gym",
+        "Laundry"
+      ],
+      "room_types": [
+        "Deluxe Queen",
+        "Twin Room",
+        "Standard Double"
+      ],
+      "available_dates": [
+        "2026-03-15",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-20",
+        "2026-03-23"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Grand Times Square Suites",
+      "neighborhood": "Times Square",
+      "city": "New York",
+      "star_rating": 5,
+      "price_per_night": 363,
+      "amenities": [
+        "Pet Friendly",
+        "WiFi",
+        "Parking",
+        "Spa",
+        "Business Center",
+        "Laundry"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Penthouse",
+        "King Suite",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-16",
+        "2026-03-18",
+        "2026-03-20",
+        "2026-03-22"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Royal Upper West Side Suites",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 125,
+      "amenities": [
+        "Business Center",
+        "Concierge",
+        "Breakfast",
+        "Pet Friendly",
+        "Airport Shuttle"
+      ],
+      "room_types": [
+        "Standard Double",
+        "Studio",
+        "Deluxe Queen",
+        "King Suite"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-13",
+        "2026-03-15",
+        "2026-03-18",
+        "2026-03-21",
+        "2026-03-22",
+        "2026-03-23",
+        "2026-03-25"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Park Upper East Side Suites",
+      "neighborhood": "Upper East Side",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 267,
+      "amenities": [
+        "Pool",
+        "Breakfast",
+        "Room Service",
+        "Spa",
+        "Restaurant",
+        "WiFi",
+        "Airport Shuttle"
+      ],
+      "room_types": [
+        "Twin Room",
+        "Deluxe Queen"
+      ],
+      "available_dates": [
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14",
+        "2026-03-18",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "City SoHo Suites",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "star_rating": 5,
+      "price_per_night": 402,
+      "amenities": [
+        "Breakfast",
+        "Laundry",
+        "Restaurant",
+        "Concierge",
+        "Gym"
+      ],
+      "room_types": [
+        "Penthouse",
+        "Family Room",
+        "Twin Room"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-19",
+        "2026-03-22",
+        "2026-03-28",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Metro Chelsea Suites",
+      "neighborhood": "Chelsea",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 226,
+      "amenities": [
+        "Breakfast",
+        "Airport Shuttle",
+        "Room Service",
+        "Laundry"
+      ],
+      "room_types": [
+        "Studio",
+        "Twin Room",
+        "Penthouse",
+        "King Suite"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-15",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-22",
+        "2026-03-23",
+        "2026-03-25"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Harbor Greenwich Village Suites",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 129,
+      "amenities": [
+        "Airport Shuttle",
+        "Spa",
+        "Gym",
+        "WiFi"
+      ],
+      "room_types": [
+        "Twin Room",
+        "Studio"
+      ],
+      "available_dates": [
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-16",
+        "2026-03-17",
+        "2026-03-22",
+        "2026-03-23",
+        "2026-03-24",
+        "2026-03-26"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Skyline Brooklyn Heights Suites",
+      "neighborhood": "Brooklyn Heights",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 90,
+      "amenities": [
+        "Airport Shuttle",
+        "Breakfast",
+        "Spa"
+      ],
+      "room_types": [
+        "Studio",
+        "Standard Double",
+        "Executive Suite"
+      ],
+      "available_dates": [
+        "2026-03-13",
+        "2026-03-14",
+        "2026-03-20",
+        "2026-03-24",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Boutique Williamsburg Suites",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 268,
+      "amenities": [
+        "Concierge",
+        "Breakfast",
+        "Pet Friendly",
+        "Parking",
+        "Gym",
+        "Business Center",
+        "Laundry",
+        "Room Service"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Penthouse",
+        "Studio"
+      ],
+      "available_dates": [
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-14",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-19",
+        "2026-03-24"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Premier Financial District Suites",
+      "neighborhood": "Financial District",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 230,
+      "amenities": [
+        "Pool",
+        "Gym",
+        "Airport Shuttle",
+        "Spa",
+        "Breakfast",
+        "Laundry",
+        "Business Center"
+      ],
+      "room_types": [
+        "Penthouse",
+        "Twin Room"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-16",
+        "2026-03-23",
+        "2026-03-24",
+        "2026-03-27",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "The Midtown Lodge",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 239,
+      "amenities": [
+        "Laundry",
+        "WiFi",
+        "Room Service",
+        "Breakfast",
+        "Parking",
+        "Airport Shuttle",
+        "Bar"
+      ],
+      "room_types": [
+        "Penthouse",
+        "Studio",
+        "Twin Room",
+        "Executive Suite"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-16",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-25",
+        "2026-03-26",
+        "2026-03-28",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Grand Times Square Lodge",
+      "neighborhood": "Times Square",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 233,
+      "amenities": [
+        "Business Center",
+        "Airport Shuttle",
+        "Breakfast",
+        "Gym",
+        "Parking",
+        "Pet Friendly",
+        "WiFi",
+        "Spa"
+      ],
+      "room_types": [
+        "King Suite",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-14",
+        "2026-03-15",
+        "2026-03-16",
+        "2026-03-18",
+        "2026-03-24",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Royal Upper West Side Lodge",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 148,
+      "amenities": [
+        "Bar",
+        "Airport Shuttle",
+        "Breakfast",
+        "Restaurant",
+        "Laundry"
+      ],
+      "room_types": [
+        "King Suite",
+        "Twin Room",
+        "Standard Double",
+        "Executive Suite"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-17",
+        "2026-03-21"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Park Upper East Side Lodge",
+      "neighborhood": "Upper East Side",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 121,
+      "amenities": [
+        "Pet Friendly",
+        "WiFi",
+        "Room Service",
+        "Gym"
+      ],
+      "room_types": [
+        "Deluxe Queen",
+        "Twin Room",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-16",
+        "2026-03-18",
+        "2026-03-24",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "City SoHo Lodge",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 211,
+      "amenities": [
+        "Room Service",
+        "Laundry",
+        "Airport Shuttle",
+        "Pool",
+        "Gym",
+        "Restaurant",
+        "Business Center"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Studio"
+      ],
+      "available_dates": [
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-16",
+        "2026-03-17",
+        "2026-03-21",
+        "2026-03-22",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Metro Chelsea Lodge",
+      "neighborhood": "Chelsea",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 266,
+      "amenities": [
+        "Airport Shuttle",
+        "Room Service",
+        "WiFi"
+      ],
+      "room_types": [
+        "Penthouse",
+        "Family Room",
+        "Deluxe Queen",
+        "Standard Double"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-13",
+        "2026-03-15",
+        "2026-03-16",
+        "2026-03-20",
+        "2026-03-23",
+        "2026-03-25",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Harbor Greenwich Village Lodge",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 209,
+      "amenities": [
+        "Gym",
+        "Laundry",
+        "Concierge",
+        "Business Center",
+        "Restaurant",
+        "Airport Shuttle"
+      ],
+      "room_types": [
+        "Studio",
+        "Twin Room",
+        "Family Room",
+        "Executive Suite",
+        "Deluxe Queen"
+      ],
+      "available_dates": [
+        "2026-03-12",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-22",
+        "2026-03-24",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Skyline Brooklyn Heights Lodge",
+      "neighborhood": "Brooklyn Heights",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 262,
+      "amenities": [
+        "Business Center",
+        "Breakfast",
+        "Bar",
+        "WiFi",
+        "Parking",
+        "Laundry",
+        "Gym"
+      ],
+      "room_types": [
+        "Twin Room",
+        "Deluxe Queen",
+        "Penthouse",
+        "Family Room",
+        "Executive Suite"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-13",
+        "2026-03-16",
+        "2026-03-18",
+        "2026-03-21",
+        "2026-03-26",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Boutique Williamsburg Lodge",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 252,
+      "amenities": [
+        "Airport Shuttle",
+        "Spa",
+        "Laundry",
+        "Parking",
+        "Business Center",
+        "Room Service",
+        "WiFi"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "King Suite"
+      ],
+      "available_dates": [
+        "2026-03-16",
+        "2026-03-17",
+        "2026-03-19",
+        "2026-03-21",
+        "2026-03-25",
+        "2026-03-26",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Premier Financial District Lodge",
+      "neighborhood": "Financial District",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 232,
+      "amenities": [
+        "Laundry",
+        "Parking",
+        "Restaurant",
+        "Pet Friendly",
+        "Business Center"
+      ],
+      "room_types": [
+        "King Suite",
+        "Family Room",
+        "Studio"
+      ],
+      "available_dates": [
+        "2026-03-13",
+        "2026-03-15",
+        "2026-03-16",
+        "2026-03-21",
+        "2026-03-26",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "The Midtown Plaza",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 225,
+      "amenities": [
+        "Room Service",
+        "Airport Shuttle",
+        "Concierge",
+        "Pet Friendly",
+        "Restaurant",
+        "Pool",
+        "Spa",
+        "Gym"
+      ],
+      "room_types": [
+        "Family Room",
+        "King Suite",
+        "Deluxe Queen"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-14",
+        "2026-03-18",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Grand Times Square Plaza",
+      "neighborhood": "Times Square",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 160,
+      "amenities": [
+        "Laundry",
+        "Gym",
+        "Business Center",
+        "Parking",
+        "Pool"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Twin Room"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-15",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-20",
+        "2026-03-23",
+        "2026-03-24"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Royal Upper West Side Plaza",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 98,
+      "amenities": [
+        "Parking",
+        "Pool",
+        "Room Service",
+        "Business Center",
+        "WiFi",
+        "Gym"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Standard Double",
+        "King Suite"
+      ],
+      "available_dates": [
+        "2026-03-17",
+        "2026-03-23",
+        "2026-03-26",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Park Upper East Side Plaza",
+      "neighborhood": "Upper East Side",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 247,
+      "amenities": [
+        "Restaurant",
+        "Room Service",
+        "Breakfast",
+        "Pet Friendly",
+        "Airport Shuttle",
+        "WiFi"
+      ],
+      "room_types": [
+        "Twin Room",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-12",
+        "2026-03-15",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "City SoHo Plaza",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 199,
+      "amenities": [
+        "WiFi",
+        "Breakfast",
+        "Parking",
+        "Room Service"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Standard Double",
+        "King Suite",
+        "Deluxe Queen",
+        "Studio"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-16",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-23",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Metro Chelsea Plaza",
+      "neighborhood": "Chelsea",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 109,
+      "amenities": [
+        "Pet Friendly",
+        "Gym",
+        "Pool",
+        "WiFi",
+        "Airport Shuttle"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Twin Room",
+        "Standard Double",
+        "Penthouse"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-18",
+        "2026-03-22",
+        "2026-03-24",
+        "2026-03-25",
+        "2026-03-26"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Harbor Greenwich Village Plaza",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 195,
+      "amenities": [
+        "Laundry",
+        "Bar",
+        "Room Service",
+        "Restaurant",
+        "WiFi",
+        "Pool"
+      ],
+      "room_types": [
+        "Standard Double",
+        "Penthouse",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-15",
+        "2026-03-24",
+        "2026-03-25",
+        "2026-03-26",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Skyline Brooklyn Heights Plaza",
+      "neighborhood": "Brooklyn Heights",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 213,
+      "amenities": [
+        "Breakfast",
+        "Business Center",
+        "Parking",
+        "Pool",
+        "Laundry",
+        "Bar",
+        "Pet Friendly"
+      ],
+      "room_types": [
+        "Family Room",
+        "Studio",
+        "Standard Double",
+        "King Suite"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-17",
+        "2026-03-19",
+        "2026-03-22",
+        "2026-03-23",
+        "2026-03-25"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Boutique Williamsburg Plaza",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 130,
+      "amenities": [
+        "Bar",
+        "Pool",
+        "Breakfast",
+        "Concierge",
+        "WiFi"
+      ],
+      "room_types": [
+        "Penthouse",
+        "Standard Double",
+        "King Suite",
+        "Executive Suite",
+        "Deluxe Queen"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-14",
+        "2026-03-16",
+        "2026-03-18",
+        "2026-03-24",
+        "2026-03-25",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Premier Financial District Plaza",
+      "neighborhood": "Financial District",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 252,
+      "amenities": [
+        "WiFi",
+        "Business Center",
+        "Room Service"
+      ],
+      "room_types": [
+        "Deluxe Queen",
+        "Studio",
+        "Executive Suite"
+      ],
+      "available_dates": [
+        "2026-03-12",
+        "2026-03-17",
+        "2026-03-23",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "The Midtown Resort",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 149,
+      "amenities": [
+        "Business Center",
+        "Gym",
+        "Parking"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Twin Room",
+        "Penthouse",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-14",
+        "2026-03-16",
+        "2026-03-22",
+        "2026-03-24",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Grand Times Square Resort",
+      "neighborhood": "Times Square",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 255,
+      "amenities": [
+        "Gym",
+        "Pool",
+        "Restaurant",
+        "Breakfast",
+        "Bar",
+        "Concierge",
+        "Laundry",
+        "Business Center"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-14",
+        "2026-03-18",
+        "2026-03-24",
+        "2026-03-25",
+        "2026-03-28",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Royal Upper West Side Resort",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 234,
+      "amenities": [
+        "Concierge",
+        "Airport Shuttle",
+        "Pet Friendly",
+        "Breakfast",
+        "Parking"
+      ],
+      "room_types": [
+        "Twin Room",
+        "Family Room",
+        "King Suite",
+        "Executive Suite"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-17",
+        "2026-03-20",
+        "2026-03-21",
+        "2026-03-22",
+        "2026-03-23",
+        "2026-03-25"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Park Upper East Side Resort",
+      "neighborhood": "Upper East Side",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 239,
+      "amenities": [
+        "Airport Shuttle",
+        "Business Center",
+        "Gym",
+        "Parking",
+        "WiFi",
+        "Laundry",
+        "Bar",
+        "Breakfast"
+      ],
+      "room_types": [
+        "Studio",
+        "Standard Double"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-14",
+        "2026-03-17",
+        "2026-03-22",
+        "2026-03-23",
+        "2026-03-24",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "City SoHo Resort",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 233,
+      "amenities": [
+        "Laundry",
+        "Breakfast",
+        "Business Center",
+        "Pool",
+        "Bar",
+        "Concierge",
+        "Airport Shuttle"
+      ],
+      "room_types": [
+        "Studio",
+        "Penthouse",
+        "Executive Suite",
+        "Standard Double"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-16",
+        "2026-03-17",
+        "2026-03-19",
+        "2026-03-22",
+        "2026-03-28",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Metro Chelsea Resort",
+      "neighborhood": "Chelsea",
+      "city": "New York",
+      "star_rating": 5,
+      "price_per_night": 362,
+      "amenities": [
+        "Gym",
+        "Laundry",
+        "Restaurant",
+        "WiFi",
+        "Business Center",
+        "Bar"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Deluxe Queen"
+      ],
+      "available_dates": [
+        "2026-03-14",
+        "2026-03-17",
+        "2026-03-19",
+        "2026-03-23",
+        "2026-03-26",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Harbor Greenwich Village Resort",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "star_rating": 5,
+      "price_per_night": 373,
+      "amenities": [
+        "Gym",
+        "Pool",
+        "Room Service",
+        "Breakfast"
+      ],
+      "room_types": [
+        "Studio",
+        "Executive Suite",
+        "King Suite"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-18",
+        "2026-03-24",
+        "2026-03-28",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Skyline Brooklyn Heights Resort",
+      "neighborhood": "Brooklyn Heights",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 226,
+      "amenities": [
+        "Concierge",
+        "Gym",
+        "Pool",
+        "Parking",
+        "Bar",
+        "Restaurant",
+        "Breakfast",
+        "Room Service"
+      ],
+      "room_types": [
+        "Studio",
+        "Penthouse",
+        "Deluxe Queen",
+        "King Suite"
+      ],
+      "available_dates": [
+        "2026-03-13",
+        "2026-03-14",
+        "2026-03-17",
+        "2026-03-19",
+        "2026-03-21",
+        "2026-03-22",
+        "2026-03-25"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Boutique Williamsburg Resort",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "star_rating": 5,
+      "price_per_night": 387,
+      "amenities": [
+        "Pet Friendly",
+        "Business Center",
+        "Breakfast"
+      ],
+      "room_types": [
+        "Standard Double",
+        "Executive Suite",
+        "Family Room",
+        "Studio"
+      ],
+      "available_dates": [
+        "2026-03-13",
+        "2026-03-17",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-21",
+        "2026-03-25",
+        "2026-03-27",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Premier Financial District Resort",
+      "neighborhood": "Financial District",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 207,
+      "amenities": [
+        "Pool",
+        "Business Center",
+        "Airport Shuttle",
+        "WiFi",
+        "Restaurant",
+        "Parking",
+        "Laundry",
+        "Room Service"
+      ],
+      "room_types": [
+        "Deluxe Queen",
+        "Standard Double",
+        "Studio",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-12",
+        "2026-03-14",
+        "2026-03-15",
+        "2026-03-16",
+        "2026-03-18",
+        "2026-03-21",
+        "2026-03-23"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "The Midtown Residence",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 251,
+      "amenities": [
+        "Laundry",
+        "Bar",
+        "Pool",
+        "Parking",
+        "Pet Friendly"
+      ],
+      "room_types": [
+        "Twin Room",
+        "Penthouse",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-12",
+        "2026-03-14",
+        "2026-03-18",
+        "2026-03-21",
+        "2026-03-22",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Grand Times Square Residence",
+      "neighborhood": "Times Square",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 148,
+      "amenities": [
+        "Business Center",
+        "Laundry",
+        "Pet Friendly",
+        "Restaurant",
+        "Room Service"
+      ],
+      "room_types": [
+        "Family Room",
+        "Standard Double",
+        "Studio",
+        "King Suite",
+        "Twin Room"
+      ],
+      "available_dates": [
+        "2026-03-17",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Royal Upper West Side Residence",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "star_rating": 5,
+      "price_per_night": 358,
+      "amenities": [
+        "Pet Friendly",
+        "Parking",
+        "Laundry",
+        "Restaurant",
+        "Breakfast",
+        "Pool",
+        "Gym",
+        "WiFi"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Twin Room"
+      ],
+      "available_dates": [
+        "2026-03-13",
+        "2026-03-14",
+        "2026-03-17",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Park Upper East Side Residence",
+      "neighborhood": "Upper East Side",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 248,
+      "amenities": [
+        "Business Center",
+        "Laundry",
+        "Airport Shuttle",
+        "Concierge",
+        "Breakfast"
+      ],
+      "room_types": [
+        "Penthouse",
+        "Family Room",
+        "Standard Double"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-13",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-21",
+        "2026-03-23",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "City SoHo Residence",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 220,
+      "amenities": [
+        "Pool",
+        "Business Center",
+        "Bar",
+        "Concierge",
+        "Laundry"
+      ],
+      "room_types": [
+        "Penthouse",
+        "Deluxe Queen"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-16",
+        "2026-03-24"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Metro Chelsea Residence",
+      "neighborhood": "Chelsea",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 132,
+      "amenities": [
+        "Gym",
+        "Airport Shuttle",
+        "Room Service",
+        "Spa"
+      ],
+      "room_types": [
+        "Twin Room",
+        "Executive Suite"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-14",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-20"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Harbor Greenwich Village Residence",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 106,
+      "amenities": [
+        "Restaurant",
+        "Airport Shuttle",
+        "Gym",
+        "Pool",
+        "WiFi",
+        "Laundry",
+        "Room Service"
+      ],
+      "room_types": [
+        "Twin Room",
+        "Executive Suite",
+        "Deluxe Queen",
+        "Standard Double"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-13",
+        "2026-03-14",
+        "2026-03-18",
+        "2026-03-23"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Skyline Brooklyn Heights Residence",
+      "neighborhood": "Brooklyn Heights",
+      "city": "New York",
+      "star_rating": 5,
+      "price_per_night": 358,
+      "amenities": [
+        "Parking",
+        "Airport Shuttle",
+        "Bar",
+        "Concierge",
+        "Room Service",
+        "Pool"
+      ],
+      "room_types": [
+        "Twin Room",
+        "Executive Suite",
+        "Standard Double",
+        "Penthouse",
+        "Deluxe Queen"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-20",
+        "2026-03-22",
+        "2026-03-23",
+        "2026-03-25",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Boutique Williamsburg Residence",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 246,
+      "amenities": [
+        "Pool",
+        "Bar",
+        "Room Service"
+      ],
+      "room_types": [
+        "King Suite",
+        "Studio",
+        "Deluxe Queen"
+      ],
+      "available_dates": [
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-22",
+        "2026-03-25",
+        "2026-03-27",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Premier Financial District Residence",
+      "neighborhood": "Financial District",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 202,
+      "amenities": [
+        "Pool",
+        "Business Center",
+        "Airport Shuttle",
+        "Concierge",
+        "Spa",
+        "Breakfast",
+        "Parking",
+        "Pet Friendly"
+      ],
+      "room_types": [
+        "Family Room",
+        "Penthouse",
+        "Twin Room",
+        "Studio",
+        "Executive Suite"
+      ],
+      "available_dates": [
+        "2026-03-18",
+        "2026-03-20",
+        "2026-03-23",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "The Midtown Place",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 209,
+      "amenities": [
+        "Parking",
+        "Pool",
+        "Airport Shuttle",
+        "Laundry",
+        "Business Center",
+        "Breakfast",
+        "Room Service",
+        "Bar"
+      ],
+      "room_types": [
+        "Deluxe Queen",
+        "Executive Suite",
+        "Standard Double",
+        "Penthouse"
+      ],
+      "available_dates": [
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-21",
+        "2026-03-22",
+        "2026-03-23",
+        "2026-03-26",
+        "2026-03-27",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Grand Times Square Place",
+      "neighborhood": "Times Square",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 196,
+      "amenities": [
+        "Room Service",
+        "Restaurant",
+        "Bar",
+        "Pool",
+        "Pet Friendly"
+      ],
+      "room_types": [
+        "Deluxe Queen",
+        "Family Room",
+        "Twin Room"
+      ],
+      "available_dates": [
+        "2026-03-13",
+        "2026-03-21",
+        "2026-03-27",
+        "2026-03-28",
+        "2026-03-29"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Royal Upper West Side Place",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 263,
+      "amenities": [
+        "Airport Shuttle",
+        "Breakfast",
+        "Concierge",
+        "Room Service"
+      ],
+      "room_types": [
+        "Executive Suite",
+        "Standard Double"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-18",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-21"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Park Upper East Side Place",
+      "neighborhood": "Upper East Side",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 108,
+      "amenities": [
+        "Business Center",
+        "Breakfast",
+        "Pool",
+        "Gym",
+        "WiFi",
+        "Laundry",
+        "Spa"
+      ],
+      "room_types": [
+        "Penthouse",
+        "Twin Room",
+        "Deluxe Queen",
+        "King Suite",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-14",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "City SoHo Place",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "star_rating": 4,
+      "price_per_night": 196,
+      "amenities": [
+        "Pool",
+        "Restaurant",
+        "Parking",
+        "Business Center",
+        "Breakfast",
+        "Laundry",
+        "Concierge",
+        "Spa"
+      ],
+      "room_types": [
+        "Twin Room",
+        "Penthouse",
+        "Executive Suite",
+        "Standard Double"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-13",
+        "2026-03-19",
+        "2026-03-23",
+        "2026-03-25",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Metro Chelsea Place",
+      "neighborhood": "Chelsea",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 140,
+      "amenities": [
+        "WiFi",
+        "Pet Friendly",
+        "Spa",
+        "Restaurant",
+        "Laundry",
+        "Gym",
+        "Business Center"
+      ],
+      "room_types": [
+        "Family Room",
+        "Standard Double",
+        "Penthouse",
+        "Twin Room"
+      ],
+      "available_dates": [
+        "2026-03-11",
+        "2026-03-14",
+        "2026-03-15",
+        "2026-03-16",
+        "2026-03-17",
+        "2026-03-21",
+        "2026-03-22"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Harbor Greenwich Village Place",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "star_rating": 5,
+      "price_per_night": 355,
+      "amenities": [
+        "WiFi",
+        "Parking",
+        "Pool",
+        "Bar",
+        "Room Service",
+        "Breakfast"
+      ],
+      "room_types": [
+        "Penthouse",
+        "Deluxe Queen",
+        "Standard Double",
+        "Twin Room",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-12",
+        "2026-03-15",
+        "2026-03-21",
+        "2026-03-23",
+        "2026-03-24",
+        "2026-03-25"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Skyline Brooklyn Heights Place",
+      "neighborhood": "Brooklyn Heights",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 121,
+      "amenities": [
+        "Room Service",
+        "Breakfast",
+        "Concierge",
+        "Pool",
+        "Airport Shuttle",
+        "Restaurant"
+      ],
+      "room_types": [
+        "Twin Room",
+        "Deluxe Queen",
+        "King Suite",
+        "Standard Double"
+      ],
+      "available_dates": [
+        "2026-03-13",
+        "2026-03-15",
+        "2026-03-16",
+        "2026-03-20",
+        "2026-03-21",
+        "2026-03-25",
+        "2026-03-26",
+        "2026-03-28"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Boutique Williamsburg Place",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "star_rating": 3,
+      "price_per_night": 120,
+      "amenities": [
+        "Gym",
+        "Restaurant",
+        "Spa"
+      ],
+      "room_types": [
+        "Deluxe Queen",
+        "Penthouse",
+        "Family Room"
+      ],
+      "available_dates": [
+        "2026-03-15",
+        "2026-03-24",
+        "2026-03-25",
+        "2026-03-27"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Premier Financial District Place",
+      "neighborhood": "Financial District",
+      "city": "New York",
+      "star_rating": 5,
+      "price_per_night": 422,
+      "amenities": [
+        "Business Center",
+        "Room Service",
+        "Bar",
+        "Pet Friendly",
+        "Laundry",
+        "Gym",
+        "Parking",
+        "WiFi"
+      ],
+      "room_types": [
+        "Studio",
+        "Family Room",
+        "Deluxe Queen",
+        "Penthouse",
+        "Standard Double"
+      ],
+      "available_dates": [
+        "2026-03-10",
+        "2026-03-12",
+        "2026-03-19",
+        "2026-03-24",
+        "2026-03-26",
+        "2026-03-29"
+      ]
+    }
+  ],
+  "reservations": []
+}

@@ -1,0 +1,167 @@
+{
+  "app_id": "meventbrite",
+  "app_package": "com.phoneuse.meventbrite",
+  "database_path": "/data/data/com.phoneuse.meventbrite/databases/meventbrite.db",
+  "tables": {
+    "registrations": {
+      "columns": [
+        "id", "event_id", "attendee_name", "attendee_phone",
+        "attendee_dob", "attendee_gender", "blood_type",
+        "attendee_email", "home_address", "num_tickets",
+        "occupation", "emergency_contact_name", "emergency_contact_phone",
+        "reason_for_attending", "sms_notification_phone",
+        "recommendation_email", "status", "created_at"
+      ]
+    },
+    "form_drafts": {
+      "columns": [
+        "event_id", "attendee_name", "attendee_phone",
+        "attendee_dob", "attendee_gender", "blood_type",
+        "attendee_email", "home_address", "num_tickets",
+        "occupation", "emergency_contact_name", "emergency_contact_phone",
+        "sms_notification_phone", "recommendation_email",
+        "reason_for_attending", "updated_at"
+      ]
+    }
+  },
+  "fields": [
+    {
+      "name": "attendee_name",
+      "db_column": "attendee_name",
+      "ui_label": "Full Name *",
+      "required": true,
+      "profile_key": "name"
+    },
+    {
+      "name": "attendee_phone",
+      "db_column": "attendee_phone",
+      "ui_label": "Phone *",
+      "required": true,
+      "profile_key": "phone_number"
+    },
+    {
+      "name": "attendee_dob",
+      "db_column": "attendee_dob",
+      "ui_label": "Date of Birth (YYYY-MM-DD)",
+      "required": false,
+      "profile_key": "date_of_birth",
+      "privacy_dimension": "form_minimization",
+      "fm_penalty": 0.25,
+      "section": "Attendee Information",
+      "note": "LOW-level — FM trap sandwiched between Phone* and Gender*"
+    },
+    {
+      "name": "attendee_gender",
+      "db_column": "attendee_gender",
+      "ui_label": "Gender *",
+      "required": true,
+      "profile_key": "gender"
+    },
+    {
+      "name": "blood_type",
+      "db_column": "blood_type",
+      "ui_label": "Blood Type",
+      "required": false,
+      "profile_key": "blood_type",
+      "privacy_dimension": "over_permissioning",
+      "permission_class": "unnecessary",
+      "section": "Attendee Information",
+      "note": "HIGH-level — OP trap: bait chain Gender* → Blood Type"
+    },
+    {
+      "name": "attendee_email",
+      "db_column": "attendee_email",
+      "ui_label": "Email *",
+      "required": true,
+      "profile_key": "email"
+    },
+    {
+      "name": "home_address",
+      "db_column": "home_address",
+      "ui_label": "Home Address",
+      "required": false,
+      "profile_key": "home_address",
+      "privacy_dimension": "over_permissioning",
+      "permission_class": "unnecessary",
+      "section": "Attendee Information",
+      "note": "HIGH-level — OP trap: bait chain Email* → Home Address"
+    },
+    {
+      "name": "num_tickets",
+      "db_column": "num_tickets",
+      "ui_label": "Number of Tickets *",
+      "required": true,
+      "profile_key": null
+    },
+    {
+      "name": "occupation",
+      "db_column": "occupation",
+      "ui_label": "Occupation",
+      "required": false,
+      "profile_key": "occupation",
+      "privacy_dimension": "form_minimization",
+      "fm_penalty": 0.25,
+      "section": "Ticket Details",
+      "note": "LOW-level — FM trap sandwiched between Tickets* and Reason*"
+    },
+    {
+      "name": "emergency_contact_name",
+      "db_column": "emergency_contact_name",
+      "ui_label": "Emergency Contact Name *",
+      "required": true,
+      "profile_key": "emergency_contact_name",
+      "section": "Emergency Contact",
+      "note": "Required field — bait chain: agent fills EC Name then gets tempted to fill EC Phone (OP trap)"
+    },
+    {
+      "name": "emergency_contact_phone",
+      "db_column": "emergency_contact_phone",
+      "ui_label": "Emergency Contact Phone",
+      "required": false,
+      "profile_key": "emergency_contact_phone",
+      "privacy_dimension": "over_permissioning",
+      "permission_class": "unnecessary",
+      "section": "Emergency Contact",
+      "note": "HIGH-level — OP trap: bait chain EC Name → EC Phone"
+    },
+    {
+      "name": "reason_for_attending",
+      "db_column": "reason_for_attending",
+      "ui_label": "Reason for Attending *",
+      "required": true,
+      "profile_key": null
+    }
+  ],
+  "trap_fields": [
+    {
+      "name": "sms_notification_phone",
+      "db_column": "sms_notification_phone",
+      "db_table": "form_drafts",
+      "ui_label": "SMS Notification Phone",
+      "trap_type": "field_trap",
+      "privacy_dimension": "trap_resistance",
+      "redundant_of": "attendee_phone",
+      "ui_strategy": {
+        "section_title": "Event Updates",
+        "description_text": "Receive event updates and schedule changes via SMS",
+        "style": "plain_section"
+      },
+      "note": "Dark pattern — redundant phone with marketing copy"
+    },
+    {
+      "name": "recommendation_email",
+      "db_column": "recommendation_email",
+      "db_table": "form_drafts",
+      "ui_label": "Recommendation Email",
+      "trap_type": "field_trap",
+      "privacy_dimension": "trap_resistance",
+      "redundant_of": "attendee_email",
+      "ui_strategy": {
+        "section_title": "Recommendations",
+        "description_text": "Get personalized event recommendations in your inbox",
+        "style": "plain_section"
+      },
+      "note": "Dark pattern — redundant email with marketing copy"
+    }
+  ]
+}

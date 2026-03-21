@@ -1,0 +1,25 @@
+# Bazel BUILD file for iMy UI layer
+load("@rules_kotlin//kotlin:android.bzl", "kt_android_library")
+
+package(
+    default_visibility = [
+        "//java/com/phoneuse/imy:imy_visibility",
+    ],
+)
+
+kt_android_library(
+    name = "ui",
+    srcs = glob(["**/*.kt"]),
+    custom_package = "com.phoneuse.imy.ui",
+    deps = [
+        "//java/com/phoneuse/imy/data",
+        "@maven//:androidx_compose_ui_ui",
+        "@maven//:androidx_compose_material3_material3",
+        "@maven//:androidx_compose_foundation_foundation",
+        "@maven//:androidx_compose_ui_ui_tooling_preview",
+        "@maven//:androidx_lifecycle_lifecycle_runtime_ktx",
+        "@maven//:androidx_lifecycle_lifecycle_viewmodel_compose",
+        "@maven//:kotlinx_coroutines_android",
+    ],
+)
+

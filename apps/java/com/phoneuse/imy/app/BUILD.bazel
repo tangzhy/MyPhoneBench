@@ -1,0 +1,23 @@
+# Bazel BUILD file for iMy app MainActivity
+load("@rules_kotlin//kotlin:android.bzl", "kt_android_library")
+
+package(
+    default_visibility = [
+        "//java/com/phoneuse/imy:imy_visibility",
+    ],
+)
+
+kt_android_library(
+    name = "app",
+    srcs = ["MainActivity.kt"],
+    custom_package = "com.phoneuse.imy.app",
+    manifest = "AndroidManifest.xml",
+    deps = [
+        "//java/com/phoneuse/imy/data",
+        "//java/com/phoneuse/imy/ui",
+        "@maven//:androidx_activity_activity_compose",
+        "@maven//:androidx_compose_ui_ui",
+        "@maven//:androidx_compose_material3_material3",
+    ],
+)
+

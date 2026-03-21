@@ -1,0 +1,3260 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Trattoria Bella Vita",
+      "cuisine": "Italian",
+      "neighborhood": "Manhattan",
+      "city": "New York",
+      "rating": 4.7,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Bruschetta al Pomodoro",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Spaghetti Carbonara",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Margherita Pizza",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Tiramisu",
+          "price": 8.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 12:00",
+        "2026-03-13 19:00",
+        "2026-03-14 13:00"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Golden Dragon Palace",
+      "cuisine": "Chinese",
+      "neighborhood": "Brooklyn",
+      "city": "New York",
+      "rating": 4.3,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Pork Dumplings",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Kung Pao Chicken",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Fried Rice",
+          "price": 10.99,
+          "category": "Side"
+        },
+        {
+          "name": "Mango Pudding",
+          "price": 7.99,
+          "category": "Dessert"
+        },
+        {
+          "name": "Jasmine Tea",
+          "price": 3.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sakura Sushi House",
+      "cuisine": "Japanese",
+      "neighborhood": "Queens",
+      "city": "New York",
+      "rating": 4.8,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Edamame",
+          "price": 7.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Salmon Sashimi Platter",
+          "price": 22.99,
+          "category": "Main"
+        },
+        {
+          "name": "Spicy Tuna Roll",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Miso Soup",
+          "price": 4.99,
+          "category": "Side"
+        },
+        {
+          "name": "Green Tea Ice Cream",
+          "price": 6.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 13:00",
+        "2026-03-13 18:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Casa de Tacos",
+      "cuisine": "Mexican",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "rating": 4.1,
+      "delivery_time_min": 20,
+      "menu_items": [
+        {
+          "name": "Guacamole & Chips",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Carne Asada Tacos",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Chicken Burrito Bowl",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Churros",
+          "price": 7.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 18:00",
+        "2026-03-12 12:00",
+        "2026-03-13 13:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mumbai Spice Kitchen",
+      "cuisine": "Indian",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "rating": 4.6,
+      "delivery_time_min": 40,
+      "menu_items": [
+        {
+          "name": "Samosa (2 pcs)",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Chicken Tikka Masala",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Garlic Naan",
+          "price": 4.99,
+          "category": "Side"
+        },
+        {
+          "name": "Mango Lassi",
+          "price": 5.99,
+          "category": "Drink"
+        },
+        {
+          "name": "Gulab Jamun",
+          "price": 7.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 18:00",
+        "2026-03-13 12:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Bangkok Street Bites",
+      "cuisine": "Thai",
+      "neighborhood": "East Village",
+      "city": "New York",
+      "rating": 4.4,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Spring Rolls",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Pad Thai",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Green Curry with Rice",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Thai Iced Tea",
+          "price": 4.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 20:00",
+        "2026-03-12 12:00",
+        "2026-03-13 19:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "The Grill Room",
+      "cuisine": "American",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "rating": 4.2,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Onion Rings",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Classic Cheeseburger",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "BBQ Pulled Pork Sandwich",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Coleslaw",
+          "price": 5.99,
+          "category": "Side"
+        },
+        {
+          "name": "Apple Pie",
+          "price": 8.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 13:00",
+        "2026-03-13 12:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Olive & Fig",
+      "cuisine": "Mediterranean",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "rating": 4.5,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Hummus Platter",
+          "price": 10.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Lamb Shawarma Plate",
+          "price": 17.99,
+          "category": "Main"
+        },
+        {
+          "name": "Falafel Wrap",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Baklava",
+          "price": 7.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 13:00"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Seoul Kitchen",
+      "cuisine": "Korean",
+      "neighborhood": "Manhattan",
+      "city": "New York",
+      "rating": 4.6,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Korean Fried Chicken Wings",
+          "price": 11.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Bibimbap",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Bulgogi",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Kimchi",
+          "price": 4.99,
+          "category": "Side"
+        },
+        {
+          "name": "Soju Cocktail",
+          "price": 9.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 20:00",
+        "2026-03-12 19:00",
+        "2026-03-13 12:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Pho Saigon",
+      "cuisine": "Vietnamese",
+      "neighborhood": "Brooklyn",
+      "city": "New York",
+      "rating": 4.5,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Fresh Spring Rolls",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Beef Pho",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Banh Mi Sandwich",
+          "price": 11.99,
+          "category": "Main"
+        },
+        {
+          "name": "Vietnamese Iced Coffee",
+          "price": 5.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 18:00",
+        "2026-03-12 12:00",
+        "2026-03-13 13:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Nonna's Cucina",
+      "cuisine": "Italian",
+      "neighborhood": "Queens",
+      "city": "New York",
+      "rating": 4.9,
+      "delivery_time_min": 40,
+      "menu_items": [
+        {
+          "name": "Caprese Salad",
+          "price": 10.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Lasagna Bolognese",
+          "price": 17.99,
+          "category": "Main"
+        },
+        {
+          "name": "Chicken Parmigiana",
+          "price": 18.99,
+          "category": "Main"
+        },
+        {
+          "name": "Garlic Bread",
+          "price": 6.99,
+          "category": "Side"
+        },
+        {
+          "name": "Panna Cotta",
+          "price": 8.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 18:00",
+        "2026-03-13 13:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Jade Garden",
+      "cuisine": "Chinese",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "rating": 3.9,
+      "delivery_time_min": 20,
+      "menu_items": [
+        {
+          "name": "Wonton Soup",
+          "price": 7.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "General Tso's Chicken",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Beef with Broccoli",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Egg Roll",
+          "price": 4.99,
+          "category": "Side"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 20:00",
+        "2026-03-12 12:00",
+        "2026-03-13 19:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Tanoshi Ramen",
+      "cuisine": "Japanese",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "rating": 4.7,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Gyoza (6 pcs)",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Tonkotsu Ramen",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Chicken Katsu Curry",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Matcha Mochi",
+          "price": 7.99,
+          "category": "Dessert"
+        },
+        {
+          "name": "Ramune Soda",
+          "price": 3.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 13:00",
+        "2026-03-13 12:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "El Camino Cantina",
+      "cuisine": "Mexican",
+      "neighborhood": "East Village",
+      "city": "New York",
+      "rating": 4.3,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Nachos Supreme",
+          "price": 10.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Enchiladas Verdes",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Fish Tacos",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Tres Leches Cake",
+          "price": 8.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Curry Leaf Express",
+      "cuisine": "Indian",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "rating": 4.0,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Onion Bhaji",
+          "price": 7.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Lamb Vindaloo",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Vegetable Biryani",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Raita",
+          "price": 3.99,
+          "category": "Side"
+        },
+        {
+          "name": "Chai Tea",
+          "price": 4.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 19:00",
+        "2026-03-13 12:00",
+        "2026-03-14 13:00"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Basil & Lime Thai",
+      "cuisine": "Thai",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "rating": 4.5,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Satay Chicken Skewers",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Massaman Curry",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Drunken Noodles",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Coconut Sticky Rice",
+          "price": 7.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 20:00",
+        "2026-03-12 12:00",
+        "2026-03-13 19:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Smokehouse BBQ",
+      "cuisine": "American",
+      "neighborhood": "Manhattan",
+      "city": "New York",
+      "rating": 4.3,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Loaded Potato Skins",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Smoked Brisket Platter",
+          "price": 19.99,
+          "category": "Main"
+        },
+        {
+          "name": "Baby Back Ribs",
+          "price": 21.99,
+          "category": "Main"
+        },
+        {
+          "name": "Mac & Cheese",
+          "price": 7.99,
+          "category": "Side"
+        },
+        {
+          "name": "Pecan Pie",
+          "price": 8.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 13:00",
+        "2026-03-13 19:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Aegean Taverna",
+      "cuisine": "Mediterranean",
+      "neighborhood": "Brooklyn",
+      "city": "New York",
+      "rating": 4.6,
+      "delivery_time_min": 40,
+      "menu_items": [
+        {
+          "name": "Spanakopita",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Grilled Lamb Chops",
+          "price": 22.99,
+          "category": "Main"
+        },
+        {
+          "name": "Chicken Souvlaki Plate",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Greek Salad",
+          "price": 10.99,
+          "category": "Side"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 18:00",
+        "2026-03-13 13:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Kimchi House",
+      "cuisine": "Korean",
+      "neighborhood": "Queens",
+      "city": "New York",
+      "rating": 4.4,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Japchae",
+          "price": 10.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Galbi (Short Ribs)",
+          "price": 19.99,
+          "category": "Main"
+        },
+        {
+          "name": "Kimchi Jjigae",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Tteokbokki",
+          "price": 9.99,
+          "category": "Side"
+        },
+        {
+          "name": "Korean Melon Soda",
+          "price": 3.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 18:00",
+        "2026-03-12 12:00",
+        "2026-03-13 20:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Hanoi Kitchen",
+      "cuisine": "Vietnamese",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "rating": 4.2,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Crispy Shrimp Rolls",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Chicken Pho",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Bun Bo Hue",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Avocado Smoothie",
+          "price": 6.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 20:00",
+        "2026-03-12 13:00",
+        "2026-03-13 18:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Piccolo Forno",
+      "cuisine": "Italian",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "rating": 4.4,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Arancini",
+          "price": 10.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Penne Arrabbiata",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Veal Piccata",
+          "price": 21.99,
+          "category": "Main"
+        },
+        {
+          "name": "Cannoli",
+          "price": 7.99,
+          "category": "Dessert"
+        },
+        {
+          "name": "Limoncello Spritz",
+          "price": 9.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 13:00"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Lucky Panda",
+      "cuisine": "Chinese",
+      "neighborhood": "East Village",
+      "city": "New York",
+      "rating": 4.1,
+      "delivery_time_min": 20,
+      "menu_items": [
+        {
+          "name": "Hot & Sour Soup",
+          "price": 7.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Mapo Tofu",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Orange Chicken",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Steamed Rice",
+          "price": 3.99,
+          "category": "Side"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 19:00",
+        "2026-03-13 12:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Zen Izakaya",
+      "cuisine": "Japanese",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "rating": 4.6,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Agedashi Tofu",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Teriyaki Salmon",
+          "price": 18.99,
+          "category": "Main"
+        },
+        {
+          "name": "Udon Noodle Soup",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Tempura Vegetables",
+          "price": 10.99,
+          "category": "Side"
+        },
+        {
+          "name": "Yuzu Sorbet",
+          "price": 7.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 13:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Taqueria Sol",
+      "cuisine": "Mexican",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "rating": 4.5,
+      "delivery_time_min": 20,
+      "menu_items": [
+        {
+          "name": "Queso Fundido",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Al Pastor Tacos",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Carnitas Burrito",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Horchata",
+          "price": 4.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 20:00",
+        "2026-03-12 13:00",
+        "2026-03-13 18:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Tandoori Nights",
+      "cuisine": "Indian",
+      "neighborhood": "Manhattan",
+      "city": "New York",
+      "rating": 4.8,
+      "delivery_time_min": 45,
+      "menu_items": [
+        {
+          "name": "Pakora Platter",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Butter Chicken",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Palak Paneer",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Peshwari Naan",
+          "price": 5.99,
+          "category": "Side"
+        },
+        {
+          "name": "Kheer",
+          "price": 6.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 19:00",
+        "2026-03-13 13:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Chili Orchid",
+      "cuisine": "Thai",
+      "neighborhood": "Brooklyn",
+      "city": "New York",
+      "rating": 4.2,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Tom Yum Soup",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Basil Fried Rice",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Red Curry Duck",
+          "price": 17.99,
+          "category": "Main"
+        },
+        {
+          "name": "Mango Sticky Rice",
+          "price": 8.99,
+          "category": "Dessert"
+        },
+        {
+          "name": "Lemongrass Cooler",
+          "price": 4.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 20:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Liberty Diner",
+      "cuisine": "American",
+      "neighborhood": "Queens",
+      "city": "New York",
+      "rating": 3.8,
+      "delivery_time_min": 20,
+      "menu_items": [
+        {
+          "name": "Buffalo Wings",
+          "price": 10.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Philly Cheesesteak",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Club Sandwich",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "French Fries",
+          "price": 5.99,
+          "category": "Side"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 13:00",
+        "2026-03-13 19:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Cedar & Sage",
+      "cuisine": "Mediterranean",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "rating": 4.7,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Baba Ganoush",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Mediterranean Sea Bass",
+          "price": 22.99,
+          "category": "Main"
+        },
+        {
+          "name": "Chicken Kebab Plate",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Tabbouleh",
+          "price": 8.99,
+          "category": "Side"
+        },
+        {
+          "name": "Turkish Coffee",
+          "price": 4.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 20:00",
+        "2026-03-12 18:00",
+        "2026-03-13 12:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Gangnam Station",
+      "cuisine": "Korean",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "rating": 4.3,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Mandu Dumplings",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Dakgalbi",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Jajangmyeon",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Banana Milk",
+          "price": 3.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 13:00"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Saigon Noodle Bar",
+      "cuisine": "Vietnamese",
+      "neighborhood": "East Village",
+      "city": "New York",
+      "rating": 4.4,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Papaya Salad",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Vermicelli Bowl",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Lemongrass Pork Chop",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Coconut Water",
+          "price": 3.99,
+          "category": "Drink"
+        },
+        {
+          "name": "Che Ba Mau",
+          "price": 6.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 19:00",
+        "2026-03-13 13:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Amalfi Coast Kitchen",
+      "cuisine": "Italian",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "rating": 4.5,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Antipasto Plate",
+          "price": 12.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Risotto ai Funghi",
+          "price": 17.99,
+          "category": "Main"
+        },
+        {
+          "name": "Eggplant Parmigiana",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Gelato",
+          "price": 7.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 13:00",
+        "2026-03-13 18:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Szechuan Fire",
+      "cuisine": "Chinese",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "rating": 4.5,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Dan Dan Noodles",
+          "price": 10.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Szechuan Shrimp",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Twice-Cooked Pork",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Spicy Cucumber Salad",
+          "price": 6.99,
+          "category": "Side"
+        },
+        {
+          "name": "Tsingtao Beer",
+          "price": 5.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 18:00",
+        "2026-03-12 12:00",
+        "2026-03-13 19:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Fuji Mountain Sushi",
+      "cuisine": "Japanese",
+      "neighborhood": "Manhattan",
+      "city": "New York",
+      "rating": 4.9,
+      "delivery_time_min": 40,
+      "menu_items": [
+        {
+          "name": "Seaweed Salad",
+          "price": 7.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Dragon Roll",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Chirashi Bowl",
+          "price": 22.99,
+          "category": "Main"
+        },
+        {
+          "name": "Mochi Ice Cream (3 pcs)",
+          "price": 8.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 18:00",
+        "2026-03-13 12:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "La Frontera",
+      "cuisine": "Mexican",
+      "neighborhood": "Brooklyn",
+      "city": "New York",
+      "rating": 4.0,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Elote (Street Corn)",
+          "price": 7.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Mole Chicken",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Steak Quesadilla",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Mexican Rice",
+          "price": 4.99,
+          "category": "Side"
+        },
+        {
+          "name": "Flan",
+          "price": 7.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 20:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 13:00"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Saffron Palace",
+      "cuisine": "Indian",
+      "neighborhood": "Queens",
+      "city": "New York",
+      "rating": 4.5,
+      "delivery_time_min": 40,
+      "menu_items": [
+        {
+          "name": "Chicken Tikka",
+          "price": 10.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Lamb Rogan Josh",
+          "price": 17.99,
+          "category": "Main"
+        },
+        {
+          "name": "Dal Makhani",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Kulfi",
+          "price": 6.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 19:00",
+        "2026-03-13 13:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Lotus Thai Bistro",
+      "cuisine": "Thai",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "rating": 4.3,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Coconut Shrimp",
+          "price": 10.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Pad See Ew",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Yellow Curry Tofu",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Sticky Rice",
+          "price": 3.99,
+          "category": "Side"
+        },
+        {
+          "name": "Thai Tea Boba",
+          "price": 5.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 20:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Hudson Burger Co.",
+      "cuisine": "American",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "rating": 4.1,
+      "delivery_time_min": 20,
+      "menu_items": [
+        {
+          "name": "Mozzarella Sticks",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Bacon Avocado Burger",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Nashville Hot Chicken Sandwich",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Sweet Potato Fries",
+          "price": 6.99,
+          "category": "Side"
+        },
+        {
+          "name": "Chocolate Milkshake",
+          "price": 7.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 18:00",
+        "2026-03-12 13:00",
+        "2026-03-13 12:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Phoenicia Grill",
+      "cuisine": "Mediterranean",
+      "neighborhood": "East Village",
+      "city": "New York",
+      "rating": 4.4,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Stuffed Grape Leaves",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Mixed Grill Platter",
+          "price": 21.99,
+          "category": "Main"
+        },
+        {
+          "name": "Shakshuka",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Pita Bread Basket",
+          "price": 4.99,
+          "category": "Side"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 20:00",
+        "2026-03-12 18:00",
+        "2026-03-13 19:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Busan BBQ",
+      "cuisine": "Korean",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "rating": 4.7,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Haemul Pajeon",
+          "price": 11.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Samgyeopsal",
+          "price": 18.99,
+          "category": "Main"
+        },
+        {
+          "name": "Sundubu Jjigae",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Pickled Radish",
+          "price": 3.99,
+          "category": "Side"
+        },
+        {
+          "name": "Makgeolli",
+          "price": 8.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Mekong Delta",
+      "cuisine": "Vietnamese",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "rating": 4.3,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Shrimp Chips",
+          "price": 5.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Com Tam (Broken Rice)",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Caramelized Clay Pot Fish",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Egg Coffee",
+          "price": 5.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 18:00",
+        "2026-03-12 13:00",
+        "2026-03-13 12:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Vesuvio Pizzeria",
+      "cuisine": "Italian",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "rating": 4.2,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Fried Calamari",
+          "price": 11.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Quattro Formaggi Pizza",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Fettuccine Alfredo",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Italian Soda",
+          "price": 3.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 18:00",
+        "2026-03-13 13:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Peking House",
+      "cuisine": "Chinese",
+      "neighborhood": "Manhattan",
+      "city": "New York",
+      "rating": 4.0,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Scallion Pancakes",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Peking Duck",
+          "price": 24.99,
+          "category": "Main"
+        },
+        {
+          "name": "Shrimp Lo Mein",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Steamed Bok Choy",
+          "price": 7.99,
+          "category": "Side"
+        },
+        {
+          "name": "Lychee Juice",
+          "price": 4.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 18:00",
+        "2026-03-12 12:00",
+        "2026-03-13 19:00",
+        "2026-03-14 13:00"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Koi Sushi Bar",
+      "cuisine": "Japanese",
+      "neighborhood": "Brooklyn",
+      "city": "New York",
+      "rating": 4.5,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Takoyaki (6 pcs)",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Rainbow Roll",
+          "price": 17.99,
+          "category": "Main"
+        },
+        {
+          "name": "Beef Yakiniku Don",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Green Tea",
+          "price": 2.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 20:00",
+        "2026-03-12 19:00",
+        "2026-03-13 12:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Puebla Fresh",
+      "cuisine": "Mexican",
+      "neighborhood": "Queens",
+      "city": "New York",
+      "rating": 4.4,
+      "delivery_time_min": 20,
+      "menu_items": [
+        {
+          "name": "Ceviche",
+          "price": 11.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Chile Relleno",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Shrimp Tacos",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Refried Beans",
+          "price": 4.99,
+          "category": "Side"
+        },
+        {
+          "name": "Jamaica Agua Fresca",
+          "price": 3.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Bombay Brasserie",
+      "cuisine": "Indian",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "rating": 4.7,
+      "delivery_time_min": 40,
+      "menu_items": [
+        {
+          "name": "Aloo Tikki",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Shrimp Curry",
+          "price": 17.99,
+          "category": "Main"
+        },
+        {
+          "name": "Chana Masala",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Cucumber Raita",
+          "price": 3.99,
+          "category": "Side"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 13:00",
+        "2026-03-13 20:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Siamese Garden",
+      "cuisine": "Thai",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "rating": 3.9,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Fish Cake",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Pineapple Fried Rice",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Tom Kha Gai",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Roti with Condensed Milk",
+          "price": 7.99,
+          "category": "Dessert"
+        },
+        {
+          "name": "Coconut Juice",
+          "price": 4.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 18:00",
+        "2026-03-13 12:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Brooklyn Steakhouse",
+      "cuisine": "American",
+      "neighborhood": "East Village",
+      "city": "New York",
+      "rating": 4.6,
+      "delivery_time_min": 40,
+      "menu_items": [
+        {
+          "name": "Caesar Salad",
+          "price": 10.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "NY Strip Steak",
+          "price": 24.99,
+          "category": "Main"
+        },
+        {
+          "name": "Grilled Chicken Breast",
+          "price": 17.99,
+          "category": "Main"
+        },
+        {
+          "name": "Creamed Spinach",
+          "price": 7.99,
+          "category": "Side"
+        },
+        {
+          "name": "New York Cheesecake",
+          "price": 9.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 18:00",
+        "2026-03-12 12:00",
+        "2026-03-13 19:00",
+        "2026-03-14 13:00"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Mykonos Blue",
+      "cuisine": "Mediterranean",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "rating": 4.8,
+      "delivery_time_min": 40,
+      "menu_items": [
+        {
+          "name": "Dolmades",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Moussaka",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Grilled Halloumi Salad",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Baklava",
+          "price": 8.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 20:00",
+        "2026-03-12 19:00",
+        "2026-03-13 13:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "K-Town Grill",
+      "cuisine": "Korean",
+      "neighborhood": "Manhattan",
+      "city": "New York",
+      "rating": 4.1,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Kimchi Pancake",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Dolsot Bibimbap",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Budae Jjigae",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Corn Cheese",
+          "price": 7.99,
+          "category": "Side"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Little Saigon Cafe",
+      "cuisine": "Vietnamese",
+      "neighborhood": "Queens",
+      "city": "New York",
+      "rating": 4.6,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Goi Cuon (Summer Rolls)",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Bo Luc Lac (Shaking Beef)",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Mi Quang Noodles",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Sugarcane Juice",
+          "price": 4.99,
+          "category": "Drink"
+        },
+        {
+          "name": "Flan Caramel",
+          "price": 6.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 13:00",
+        "2026-03-13 12:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Ristorante Milano",
+      "cuisine": "Italian",
+      "neighborhood": "East Village",
+      "city": "New York",
+      "rating": 4.3,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Minestrone Soup",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Osso Buco",
+          "price": 22.99,
+          "category": "Main"
+        },
+        {
+          "name": "Gnocchi al Pesto",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Espresso",
+          "price": 3.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 18:00",
+        "2026-03-13 13:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Red Lantern Noodles",
+      "cuisine": "Chinese",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "rating": 4.4,
+      "delivery_time_min": 20,
+      "menu_items": [
+        {
+          "name": "Crab Rangoon",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Hand-Pulled Noodles with Beef",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Salt & Pepper Squid",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Sesame Balls",
+          "price": 5.99,
+          "category": "Dessert"
+        },
+        {
+          "name": "Chrysanthemum Tea",
+          "price": 3.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 20:00",
+        "2026-03-12 12:00",
+        "2026-03-13 19:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Tokyo Street Ramen",
+      "cuisine": "Japanese",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "rating": 4.3,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Karaage Chicken",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Shoyu Ramen",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Katsu Don",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Rice Ball (Onigiri)",
+          "price": 4.99,
+          "category": "Side"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 19:00",
+        "2026-03-13 12:00",
+        "2026-03-14 13:00"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Oaxaca Grill",
+      "cuisine": "Mexican",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "rating": 4.6,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Tostadas de Tinga",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Birria Tacos",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Tamales (3 pcs)",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Black Bean Soup",
+          "price": 6.99,
+          "category": "Side"
+        },
+        {
+          "name": "Paleta (Ice Pop)",
+          "price": 4.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Maharaja's Feast",
+      "cuisine": "Indian",
+      "neighborhood": "East Village",
+      "city": "New York",
+      "rating": 4.2,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Paneer Tikka",
+          "price": 10.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Goat Curry",
+          "price": 17.99,
+          "category": "Main"
+        },
+        {
+          "name": "Malai Kofta",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Mango Chutney",
+          "price": 2.99,
+          "category": "Side"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 13:00",
+        "2026-03-13 20:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Tuk Tuk Thai",
+      "cuisine": "Thai",
+      "neighborhood": "Queens",
+      "city": "New York",
+      "rating": 4.0,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Larb Gai",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Panang Curry",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Crab Fried Rice",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Taro Custard",
+          "price": 7.99,
+          "category": "Dessert"
+        },
+        {
+          "name": "Fresh Lime Soda",
+          "price": 3.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 18:00",
+        "2026-03-13 13:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Maple & Rye",
+      "cuisine": "American",
+      "neighborhood": "Brooklyn",
+      "city": "New York",
+      "rating": 4.4,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Deviled Eggs",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Maple Glazed Pork Chop",
+          "price": 19.99,
+          "category": "Main"
+        },
+        {
+          "name": "Fried Chicken & Waffles",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Cornbread",
+          "price": 5.99,
+          "category": "Side"
+        },
+        {
+          "name": "Bourbon Peach Cobbler",
+          "price": 9.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 18:00",
+        "2026-03-12 12:00",
+        "2026-03-13 19:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Beirut Express",
+      "cuisine": "Mediterranean",
+      "neighborhood": "Manhattan",
+      "city": "New York",
+      "rating": 4.1,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Fattoush Salad",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Lamb Kofta Plate",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Chicken Shawarma Wrap",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Mint Lemonade",
+          "price": 4.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 20:00",
+        "2026-03-12 13:00",
+        "2026-03-13 18:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Daegu Chicken",
+      "cuisine": "Korean",
+      "neighborhood": "Brooklyn",
+      "city": "New York",
+      "rating": 4.5,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Tteok Fried Rice Balls",
+          "price": 7.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Yangnyeom Chicken",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Cheese Buldak",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Pickled Daikon",
+          "price": 2.99,
+          "category": "Side"
+        },
+        {
+          "name": "Sikhye (Rice Punch)",
+          "price": 4.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Banh Mi Brothers",
+      "cuisine": "Vietnamese",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "rating": 4.7,
+      "delivery_time_min": 15,
+      "menu_items": [
+        {
+          "name": "Fried Tofu Bites",
+          "price": 7.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Classic Banh Mi",
+          "price": 10.99,
+          "category": "Main"
+        },
+        {
+          "name": "Grilled Pork Bun",
+          "price": 11.99,
+          "category": "Main"
+        },
+        {
+          "name": "Taro Bubble Tea",
+          "price": 5.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 12:00",
+        "2026-03-13 13:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "La Dolce Vita",
+      "cuisine": "Italian",
+      "neighborhood": "Brooklyn",
+      "city": "New York",
+      "rating": 4.6,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Burrata Salad",
+          "price": 13.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Seafood Linguine",
+          "price": 19.99,
+          "category": "Main"
+        },
+        {
+          "name": "Ravioli di Ricotta",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Affogato",
+          "price": 7.99,
+          "category": "Dessert"
+        },
+        {
+          "name": "Chianti Glass",
+          "price": 9.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 18:00",
+        "2026-03-13 12:00",
+        "2026-03-14 13:00"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Dim Sum Palace",
+      "cuisine": "Chinese",
+      "neighborhood": "Queens",
+      "city": "New York",
+      "rating": 4.6,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Siu Mai (4 pcs)",
+          "price": 7.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "BBQ Pork Buns",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Shrimp Cheung Fun",
+          "price": 9.99,
+          "category": "Main"
+        },
+        {
+          "name": "Turnip Cake",
+          "price": 6.99,
+          "category": "Side"
+        },
+        {
+          "name": "Oolong Tea",
+          "price": 2.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 18:00",
+        "2026-03-12 12:00",
+        "2026-03-13 19:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Omakase by Hiro",
+      "cuisine": "Japanese",
+      "neighborhood": "East Village",
+      "city": "New York",
+      "rating": 5.0,
+      "delivery_time_min": 45,
+      "menu_items": [
+        {
+          "name": "Tuna Tartare",
+          "price": 14.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Chef's Sushi Selection",
+          "price": 24.99,
+          "category": "Main"
+        },
+        {
+          "name": "Wagyu Beef Don",
+          "price": 22.99,
+          "category": "Main"
+        },
+        {
+          "name": "Black Sesame Ice Cream",
+          "price": 8.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 19:00",
+        "2026-03-13 18:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Jalisco Street Food",
+      "cuisine": "Mexican",
+      "neighborhood": "Manhattan",
+      "city": "New York",
+      "rating": 3.8,
+      "delivery_time_min": 15,
+      "menu_items": [
+        {
+          "name": "Sopes (2 pcs)",
+          "price": 7.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Pozole Rojo",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Gorditas",
+          "price": 10.99,
+          "category": "Main"
+        },
+        {
+          "name": "Arroz con Leche",
+          "price": 5.99,
+          "category": "Dessert"
+        },
+        {
+          "name": "Tamarind Agua Fresca",
+          "price": 3.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 20:00",
+        "2026-03-12 12:00",
+        "2026-03-13 13:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Dosa Factory",
+      "cuisine": "Indian",
+      "neighborhood": "Brooklyn",
+      "city": "New York",
+      "rating": 4.3,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Vegetable Samosa (3 pcs)",
+          "price": 7.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Masala Dosa",
+          "price": 11.99,
+          "category": "Main"
+        },
+        {
+          "name": "Chettinad Chicken",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Coconut Chutney",
+          "price": 2.99,
+          "category": "Side"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 13:00",
+        "2026-03-13 19:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Lemongrass Bistro",
+      "cuisine": "Thai",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "rating": 4.6,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Shrimp Toast",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Khao Soi",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Thai Basil Chicken",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Papaya Salad",
+          "price": 8.99,
+          "category": "Side"
+        },
+        {
+          "name": "Butterfly Pea Tea",
+          "price": 4.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 13:00"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Park Avenue Grill",
+      "cuisine": "American",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "rating": 4.5,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Shrimp Cocktail",
+          "price": 13.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Filet Mignon",
+          "price": 24.99,
+          "category": "Main"
+        },
+        {
+          "name": "Lobster Mac & Cheese",
+          "price": 19.99,
+          "category": "Main"
+        },
+        {
+          "name": "Truffle Fries",
+          "price": 9.99,
+          "category": "Side"
+        },
+        {
+          "name": "Creme Brulee",
+          "price": 10.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 19:00",
+        "2026-03-13 12:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Santorini Kitchen",
+      "cuisine": "Mediterranean",
+      "neighborhood": "Queens",
+      "city": "New York",
+      "rating": 4.3,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Tzatziki & Pita",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Lamb Gyro Plate",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Grilled Octopus",
+          "price": 19.99,
+          "category": "Main"
+        },
+        {
+          "name": "Rice Pilaf",
+          "price": 5.99,
+          "category": "Side"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 20:00",
+        "2026-03-12 18:00",
+        "2026-03-13 13:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Han River",
+      "cuisine": "Korean",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "rating": 4.0,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Odeng Tang",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Gopchang Gui",
+          "price": 17.99,
+          "category": "Main"
+        },
+        {
+          "name": "Naengmyeon",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Steamed Egg",
+          "price": 5.99,
+          "category": "Side"
+        },
+        {
+          "name": "Yogurt Soju",
+          "price": 7.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Da Nang Street Kitchen",
+      "cuisine": "Vietnamese",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "rating": 4.4,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Banh Xeo (Crepe)",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Cao Lau Noodles",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Grilled Lemongrass Chicken",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Lotus Seed Dessert",
+          "price": 6.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 13:00",
+        "2026-03-13 19:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Pasta Fresca",
+      "cuisine": "Italian",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "rating": 3.7,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Prosciutto e Melone",
+          "price": 12.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Cacio e Pepe",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Chicken Marsala",
+          "price": 18.99,
+          "category": "Main"
+        },
+        {
+          "name": "Zeppole",
+          "price": 7.99,
+          "category": "Dessert"
+        },
+        {
+          "name": "San Pellegrino",
+          "price": 3.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 18:00",
+        "2026-03-13 12:00",
+        "2026-03-14 13:00"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Wok & Roll",
+      "cuisine": "Chinese",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "rating": 3.5,
+      "delivery_time_min": 15,
+      "menu_items": [
+        {
+          "name": "Egg Drop Soup",
+          "price": 5.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Mongolian Beef",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Chicken Chow Mein",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Fried Wontons",
+          "price": 6.99,
+          "category": "Side"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 18:00",
+        "2026-03-12 12:00",
+        "2026-03-13 20:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Nippon Bento",
+      "cuisine": "Japanese",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "rating": 4.2,
+      "delivery_time_min": 25,
+      "menu_items": [
+        {
+          "name": "Shishito Peppers",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Salmon Teriyaki Bento",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Pork Tonkatsu Bento",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Pickled Ginger Salad",
+          "price": 5.99,
+          "category": "Side"
+        },
+        {
+          "name": "Calpico",
+          "price": 3.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 19:00",
+        "2026-03-13 12:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Tres Amigos",
+      "cuisine": "Mexican",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "rating": 4.2,
+      "delivery_time_min": 20,
+      "menu_items": [
+        {
+          "name": "Tortilla Soup",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Chicken Fajitas",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Barbacoa Tacos",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Sopapillas",
+          "price": 6.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 20:00",
+        "2026-03-12 12:00",
+        "2026-03-13 18:00",
+        "2026-03-14 19:00"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Spice Route",
+      "cuisine": "Indian",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "rating": 3.9,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Pani Puri",
+          "price": 7.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Tandoori Chicken",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Aloo Gobi",
+          "price": 11.99,
+          "category": "Main"
+        },
+        {
+          "name": "Paratha",
+          "price": 4.99,
+          "category": "Side"
+        },
+        {
+          "name": "Rose Lassi",
+          "price": 5.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 19:00",
+        "2026-03-12 13:00",
+        "2026-03-13 18:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Siam Square",
+      "cuisine": "Thai",
+      "neighborhood": "Manhattan",
+      "city": "New York",
+      "rating": 4.8,
+      "delivery_time_min": 35,
+      "menu_items": [
+        {
+          "name": "Crispy Pork Belly Bites",
+          "price": 10.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Boat Noodles",
+          "price": 13.99,
+          "category": "Main"
+        },
+        {
+          "name": "Massaman Lamb",
+          "price": 17.99,
+          "category": "Main"
+        },
+        {
+          "name": "Thai Custard",
+          "price": 7.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 12:00",
+        "2026-03-13 19:00",
+        "2026-03-14 20:00"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Crossroads Kitchen",
+      "cuisine": "American",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "rating": 3.6,
+      "delivery_time_min": 20,
+      "menu_items": [
+        {
+          "name": "Jalape\u00f1o Poppers",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Turkey Club Wrap",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Fish and Chips",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Garden Salad",
+          "price": 7.99,
+          "category": "Side"
+        },
+        {
+          "name": "Root Beer Float",
+          "price": 5.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 18:00",
+        "2026-03-13 12:00",
+        "2026-03-14 13:00"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Istanbul Kebab House",
+      "cuisine": "Mediterranean",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "rating": 4.0,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Labneh Dip",
+          "price": 8.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Adana Kebab",
+          "price": 16.99,
+          "category": "Main"
+        },
+        {
+          "name": "Iskender Kebab",
+          "price": 18.99,
+          "category": "Main"
+        },
+        {
+          "name": "Kunefe",
+          "price": 9.99,
+          "category": "Dessert"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 20:00",
+        "2026-03-12 12:00",
+        "2026-03-13 13:00",
+        "2026-03-14 18:00"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Jeju Island BBQ",
+      "cuisine": "Korean",
+      "neighborhood": "East Village",
+      "city": "New York",
+      "rating": 4.8,
+      "delivery_time_min": 40,
+      "menu_items": [
+        {
+          "name": "Gyeranjjim",
+          "price": 7.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Black Pork Belly",
+          "price": 19.99,
+          "category": "Main"
+        },
+        {
+          "name": "Seafood Tofu Stew",
+          "price": 15.99,
+          "category": "Main"
+        },
+        {
+          "name": "Sweet Potato Noodles",
+          "price": 8.99,
+          "category": "Side"
+        },
+        {
+          "name": "Bokbunja Wine",
+          "price": 9.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 12:00",
+        "2026-03-11 18:00",
+        "2026-03-12 19:00",
+        "2026-03-13 18:00",
+        "2026-03-14 12:00"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Hue Imperial Kitchen",
+      "cuisine": "Vietnamese",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "rating": 4.5,
+      "delivery_time_min": 30,
+      "menu_items": [
+        {
+          "name": "Nem Lui (Lemongrass Skewers)",
+          "price": 9.99,
+          "category": "Appetizer"
+        },
+        {
+          "name": "Bun Bo Hue",
+          "price": 14.99,
+          "category": "Main"
+        },
+        {
+          "name": "Banh Cuon",
+          "price": 12.99,
+          "category": "Main"
+        },
+        {
+          "name": "Che Dau Xanh",
+          "price": 5.99,
+          "category": "Dessert"
+        },
+        {
+          "name": "Salted Lime Soda",
+          "price": 3.99,
+          "category": "Drink"
+        }
+      ],
+      "available_slots": [
+        "2026-03-11 11:00",
+        "2026-03-11 19:00",
+        "2026-03-12 13:00",
+        "2026-03-13 12:00",
+        "2026-03-14 18:00"
+      ]
+    }
+  ],
+  "orders": []
+}

@@ -1,0 +1,80 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Sarah Smith",
+      "specialty": "Dermatology",
+      "hospital": "NYC Medical Center",
+      "city": "New York",
+      "rating": 4.8,
+      "available_slots": [
+        "2026-02-11 09:00",
+        "2026-02-11 10:00",
+        "2026-02-11 14:00",
+        "2026-02-12 09:00",
+        "2026-02-12 11:00",
+        "2026-02-13 09:00",
+        "2026-02-13 14:00"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dr. Michael Johnson",
+      "specialty": "General Practice",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 4.6,
+      "available_slots": [
+        "2026-02-11 08:00",
+        "2026-02-11 11:00",
+        "2026-02-11 15:00",
+        "2026-02-12 10:00",
+        "2026-02-12 14:00"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dr. Emily Chen",
+      "specialty": "Cardiology",
+      "hospital": "NYC Medical Center",
+      "city": "New York",
+      "rating": 4.9,
+      "available_slots": [
+        "2026-02-11 13:00",
+        "2026-02-12 08:00",
+        "2026-02-12 13:00",
+        "2026-02-13 10:00"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dr. James Wilson",
+      "specialty": "Pediatrics",
+      "hospital": "Children's Hospital NYC",
+      "city": "New York",
+      "rating": 4.7,
+      "available_slots": [
+        "2026-02-11 09:00",
+        "2026-02-11 14:00",
+        "2026-02-12 09:00",
+        "2026-02-12 15:00"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dr. Lisa Anderson",
+      "specialty": "Dermatology",
+      "hospital": "Manhattan Health Clinic",
+      "city": "New York",
+      "rating": 4.5,
+      "available_slots": [
+        "2026-02-11 10:00",
+        "2026-02-11 15:00",
+        "2026-02-12 11:00",
+        "2026-02-13 09:00"
+      ]
+    }
+  ],
+  "appointments": []
+}
+

@@ -1,0 +1,1629 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "address": "693 8th Ave, Apt 24E",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "state": "NY",
+      "price": 1808000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 785,
+      "property_type": "Apartment",
+      "listing_agent": "CityView Properties",
+      "description": "Pet-friendly building with gym and laundry",
+      "available_viewing_slots": [
+        "2026-03-16 10:00",
+        "2026-03-17 14:00",
+        "2026-03-20 09:00"
+      ]
+    },
+    {
+      "id": 2,
+      "address": "829 Broome St, #814",
+      "neighborhood": "Financial District",
+      "city": "New York",
+      "state": "NY",
+      "price": 3913000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 2719,
+      "property_type": "Penthouse",
+      "listing_agent": "Metro Residential",
+      "description": "Recently renovated with in-unit washer/dryer",
+      "available_viewing_slots": [
+        "2026-03-17 11:00",
+        "2026-03-17 13:00",
+        "2026-03-18 10:00",
+        "2026-03-19 09:00",
+        "2026-03-19 14:00"
+      ]
+    },
+    {
+      "id": 3,
+      "address": "301 Pacific St, Unit 20",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "state": "NY",
+      "price": 1822000,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "sqft": 2575,
+      "property_type": "Penthouse",
+      "listing_agent": "Skyline Estates",
+      "description": "Loft-style with exposed brick and high ceilings",
+      "available_viewing_slots": [
+        "2026-03-18 15:00",
+        "2026-03-19 16:00",
+        "2026-03-20 09:00"
+      ]
+    },
+    {
+      "id": 4,
+      "address": "364 Warren St, Apt 7F",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 633000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1247,
+      "property_type": "Apartment",
+      "listing_agent": "Prestige Home Group",
+      "description": "Luxurious finishes and chef's kitchen",
+      "available_viewing_slots": [
+        "2026-03-20 10:00",
+        "2026-03-21 15:00",
+        "2026-03-22 13:00",
+        "2026-03-23 15:00"
+      ]
+    },
+    {
+      "id": 5,
+      "address": "411 Water St, #680",
+      "neighborhood": "Murray Hill",
+      "city": "New York",
+      "state": "NY",
+      "price": 1948000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 565,
+      "property_type": "Condo",
+      "listing_agent": "Harbor Realty",
+      "description": "Sun-drenched corner unit with skyline views",
+      "available_viewing_slots": [
+        "2026-03-22 10:00",
+        "2026-03-23 10:00",
+        "2026-03-23 15:00",
+        "2026-03-25 13:00"
+      ]
+    },
+    {
+      "id": 6,
+      "address": "371 Atlantic Ave, Apt 8B",
+      "neighborhood": "Murray Hill",
+      "city": "New York",
+      "state": "NY",
+      "price": 1097000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1719,
+      "property_type": "Loft",
+      "listing_agent": "CityView Properties",
+      "description": "Floor-to-ceiling windows with river views",
+      "available_viewing_slots": [
+        "2026-03-22 15:00",
+        "2026-03-22 16:00",
+        "2026-03-26 13:00"
+      ]
+    },
+    {
+      "id": 7,
+      "address": "258 Bergen St, #798",
+      "neighborhood": "Chelsea",
+      "city": "New York",
+      "state": "NY",
+      "price": 369000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 502,
+      "property_type": "Studio",
+      "listing_agent": "Prestige Home Group",
+      "description": "Cozy unit in a well-maintained co-op",
+      "available_viewing_slots": [
+        "2026-03-22 11:00",
+        "2026-03-24 14:00",
+        "2026-03-25 09:00",
+        "2026-03-25 10:00",
+        "2026-03-27 15:00"
+      ]
+    },
+    {
+      "id": 8,
+      "address": "624 Flatbush Ave, Apt 7B",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "state": "NY",
+      "price": 1154000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1661,
+      "property_type": "Loft",
+      "listing_agent": "Brooklyn Living Group",
+      "description": "Modern renovation with stainless steel appliances",
+      "available_viewing_slots": [
+        "2026-03-23 10:00",
+        "2026-03-23 11:00",
+        "2026-03-25 10:00",
+        "2026-03-26 09:00",
+        "2026-03-27 09:00"
+      ]
+    },
+    {
+      "id": 9,
+      "address": "272 E Houston St, Unit 14",
+      "neighborhood": "Long Island City",
+      "city": "New York",
+      "state": "NY",
+      "price": 1425000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1473,
+      "property_type": "Apartment",
+      "listing_agent": "Metro Residential",
+      "description": "Modern renovation with stainless steel appliances",
+      "available_viewing_slots": [
+        "2026-03-25 10:00",
+        "2026-03-27 09:00",
+        "2026-03-27 14:00",
+        "2026-03-27 15:00",
+        "2026-03-29 11:00"
+      ]
+    },
+    {
+      "id": 10,
+      "address": "725 Madison Ave, #169",
+      "neighborhood": "Brooklyn Heights",
+      "city": "New York",
+      "state": "NY",
+      "price": 314000,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "sqft": 951,
+      "property_type": "Apartment",
+      "listing_agent": "Park Avenue Partners",
+      "description": "Pet-friendly building with gym and laundry",
+      "available_viewing_slots": [
+        "2026-03-27 15:00",
+        "2026-03-28 10:00",
+        "2026-03-29 10:00"
+      ]
+    },
+    {
+      "id": 11,
+      "address": "827 Pierrepont St, Floor 23",
+      "neighborhood": "Tribeca",
+      "city": "New York",
+      "state": "NY",
+      "price": 4713000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 2297,
+      "property_type": "Penthouse",
+      "listing_agent": "Park Avenue Partners",
+      "description": "Bright and spacious with hardwood floors throughout",
+      "available_viewing_slots": [
+        "2026-03-29 13:00",
+        "2026-03-29 16:00",
+        "2026-03-31 09:00",
+        "2026-03-31 15:00"
+      ]
+    },
+    {
+      "id": 12,
+      "address": "460 Dean St, Unit 6",
+      "neighborhood": "Park Slope",
+      "city": "New York",
+      "state": "NY",
+      "price": 2279000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 2192,
+      "property_type": "Penthouse",
+      "listing_agent": "Harbor Realty",
+      "description": "Pet-friendly building with gym and laundry",
+      "available_viewing_slots": [
+        "2026-03-27 15:00",
+        "2026-03-30 16:00",
+        "2026-03-31 09:00"
+      ]
+    },
+    {
+      "id": 13,
+      "address": "886 Prince St, Floor 2",
+      "neighborhood": "Upper East Side",
+      "city": "New York",
+      "state": "NY",
+      "price": 1285000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 1494,
+      "property_type": "Apartment",
+      "listing_agent": "Manhattan Prime Realty",
+      "description": "Charming pre-war unit with original details",
+      "available_viewing_slots": [
+        "2026-03-16 15:00",
+        "2026-03-17 13:00",
+        "2026-03-17 16:00",
+        "2026-03-31 11:00",
+        "2026-03-31 15:00"
+      ]
+    },
+    {
+      "id": 14,
+      "address": "59 Water St, Unit 16",
+      "neighborhood": "Financial District",
+      "city": "New York",
+      "state": "NY",
+      "price": 1049000,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "sqft": 2610,
+      "property_type": "Townhouse",
+      "listing_agent": "Manhattan Prime Realty",
+      "description": "Elegant brownstone with private garden",
+      "available_viewing_slots": [
+        "2026-03-17 09:00",
+        "2026-03-30 09:00"
+      ]
+    },
+    {
+      "id": 15,
+      "address": "609 Carlton Ave, #529",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 313000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 495,
+      "property_type": "Studio",
+      "listing_agent": "Brooklyn Living Group",
+      "description": "Recently renovated with in-unit washer/dryer",
+      "available_viewing_slots": [
+        "2026-03-17 10:00",
+        "2026-03-19 11:00",
+        "2026-03-19 15:00",
+        "2026-03-31 11:00",
+        "2026-03-31 15:00"
+      ]
+    },
+    {
+      "id": 16,
+      "address": "551 Madison Ave, Apt 7E",
+      "neighborhood": "Astoria",
+      "city": "New York",
+      "state": "NY",
+      "price": 1209000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "sqft": 2772,
+      "property_type": "Townhouse",
+      "listing_agent": "Brooklyn Living Group",
+      "description": "Cozy unit in a well-maintained co-op",
+      "available_viewing_slots": [
+        "2026-03-16 13:00",
+        "2026-03-17 11:00",
+        "2026-03-17 14:00",
+        "2026-03-19 15:00"
+      ]
+    },
+    {
+      "id": 17,
+      "address": "119 Grand St, #259",
+      "neighborhood": "Flushing",
+      "city": "New York",
+      "state": "NY",
+      "price": 575000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "sqft": 712,
+      "property_type": "Apartment",
+      "listing_agent": "Metro Residential",
+      "description": "Doorman building with roof deck access",
+      "available_viewing_slots": [
+        "2026-03-17 15:00",
+        "2026-03-18 14:00",
+        "2026-03-21 11:00",
+        "2026-03-21 16:00"
+      ]
+    },
+    {
+      "id": 18,
+      "address": "790 Front St, Floor 25",
+      "neighborhood": "East Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 307000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 590,
+      "property_type": "Apartment",
+      "listing_agent": "Brooklyn Living Group",
+      "description": "Open floor plan with large windows",
+      "available_viewing_slots": [
+        "2026-03-17 09:00",
+        "2026-03-19 14:00",
+        "2026-03-21 09:00",
+        "2026-03-21 10:00",
+        "2026-03-22 10:00"
+      ]
+    },
+    {
+      "id": 19,
+      "address": "683 Delancey St, Unit 18",
+      "neighborhood": "Tribeca",
+      "city": "New York",
+      "state": "NY",
+      "price": 730000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1232,
+      "property_type": "Apartment",
+      "listing_agent": "CityView Properties",
+      "description": "Cozy unit in a well-maintained co-op",
+      "available_viewing_slots": [
+        "2026-03-18 10:00",
+        "2026-03-19 13:00",
+        "2026-03-19 16:00",
+        "2026-03-23 11:00"
+      ]
+    },
+    {
+      "id": 20,
+      "address": "392 8th Ave, Floor 8",
+      "neighborhood": "DUMBO",
+      "city": "New York",
+      "state": "NY",
+      "price": 4372000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 3412,
+      "property_type": "Penthouse",
+      "listing_agent": "Manhattan Prime Realty",
+      "description": "Loft-style with exposed brick and high ceilings",
+      "available_viewing_slots": [
+        "2026-03-19 15:00",
+        "2026-03-20 10:00",
+        "2026-03-20 13:00",
+        "2026-03-21 11:00",
+        "2026-03-21 16:00"
+      ]
+    },
+    {
+      "id": 21,
+      "address": "962 Front St, #282",
+      "neighborhood": "Chelsea",
+      "city": "New York",
+      "state": "NY",
+      "price": 2996000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "sqft": 2318,
+      "property_type": "Townhouse",
+      "listing_agent": "Harbor Realty",
+      "description": "Quiet tree-lined block, steps from the park",
+      "available_viewing_slots": [
+        "2026-03-20 14:00",
+        "2026-03-23 11:00",
+        "2026-03-25 16:00"
+      ]
+    },
+    {
+      "id": 22,
+      "address": "261 Spring St, Unit 14",
+      "neighborhood": "DUMBO",
+      "city": "New York",
+      "state": "NY",
+      "price": 1090000,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "sqft": 1721,
+      "property_type": "Loft",
+      "listing_agent": "Metro Residential",
+      "description": "Penthouse with wraparound terrace",
+      "available_viewing_slots": [
+        "2026-03-21 15:00",
+        "2026-03-24 09:00",
+        "2026-03-25 11:00",
+        "2026-03-26 11:00",
+        "2026-03-26 16:00"
+      ]
+    },
+    {
+      "id": 23,
+      "address": "568 Chambers St, Unit 14",
+      "neighborhood": "Harlem",
+      "city": "New York",
+      "state": "NY",
+      "price": 912000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1134,
+      "property_type": "Loft",
+      "listing_agent": "CityView Properties",
+      "description": "Elegant brownstone with private garden",
+      "available_viewing_slots": [
+        "2026-03-22 11:00",
+        "2026-03-24 10:00",
+        "2026-03-25 14:00",
+        "2026-03-25 16:00",
+        "2026-03-26 14:00"
+      ]
+    },
+    {
+      "id": 24,
+      "address": "524 Prince St, #774",
+      "neighborhood": "Brooklyn Heights",
+      "city": "New York",
+      "state": "NY",
+      "price": 422000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 463,
+      "property_type": "Studio",
+      "listing_agent": "Skyline Estates",
+      "description": "Sun-drenched corner unit with skyline views",
+      "available_viewing_slots": [
+        "2026-03-23 09:00",
+        "2026-03-23 16:00",
+        "2026-03-24 10:00",
+        "2026-03-24 15:00",
+        "2026-03-25 10:00"
+      ]
+    },
+    {
+      "id": 25,
+      "address": "200 Vanderbilt Ave, Unit 13",
+      "neighborhood": "Long Island City",
+      "city": "New York",
+      "state": "NY",
+      "price": 1144000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 1707,
+      "property_type": "Loft",
+      "listing_agent": "Brooklyn Living Group",
+      "description": "Charming pre-war unit with original details",
+      "available_viewing_slots": [
+        "2026-03-24 16:00",
+        "2026-03-27 10:00",
+        "2026-03-29 15:00"
+      ]
+    },
+    {
+      "id": 26,
+      "address": "468 Amsterdam Ave, #672",
+      "neighborhood": "Flushing",
+      "city": "New York",
+      "state": "NY",
+      "price": 313000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 492,
+      "property_type": "Studio",
+      "listing_agent": "Smith Realty",
+      "description": "Recently renovated with in-unit washer/dryer",
+      "available_viewing_slots": [
+        "2026-03-26 15:00",
+        "2026-03-28 13:00",
+        "2026-03-28 16:00",
+        "2026-03-29 13:00",
+        "2026-03-29 16:00",
+        "2026-03-30 14:00"
+      ]
+    },
+    {
+      "id": 27,
+      "address": "451 Broome St, #340",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 2479000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 3083,
+      "property_type": "Penthouse",
+      "listing_agent": "CityView Properties",
+      "description": "Modern renovation with stainless steel appliances",
+      "available_viewing_slots": [
+        "2026-03-27 10:00",
+        "2026-03-27 13:00",
+        "2026-03-30 09:00",
+        "2026-03-31 10:00"
+      ]
+    },
+    {
+      "id": 28,
+      "address": "64 Court St, Apt 7D",
+      "neighborhood": "DUMBO",
+      "city": "New York",
+      "state": "NY",
+      "price": 369000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 488,
+      "property_type": "Studio",
+      "listing_agent": "Harbor Realty",
+      "description": "Floor-to-ceiling windows with river views",
+      "available_viewing_slots": [
+        "2026-03-16 15:00",
+        "2026-03-29 11:00",
+        "2026-03-30 09:00",
+        "2026-03-30 14:00",
+        "2026-03-30 16:00",
+        "2026-03-31 16:00"
+      ]
+    },
+    {
+      "id": 29,
+      "address": "30 Joralemon St, Floor 7",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 361000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 419,
+      "property_type": "Studio",
+      "listing_agent": "Manhattan Prime Realty",
+      "description": "Modern renovation with stainless steel appliances",
+      "available_viewing_slots": [
+        "2026-03-16 14:00",
+        "2026-03-17 09:00",
+        "2026-03-28 13:00"
+      ]
+    },
+    {
+      "id": 30,
+      "address": "217 Water St, #879",
+      "neighborhood": "DUMBO",
+      "city": "New York",
+      "state": "NY",
+      "price": 1076000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1032,
+      "property_type": "Condo",
+      "listing_agent": "Skyline Estates",
+      "description": "Cozy unit in a well-maintained co-op",
+      "available_viewing_slots": [
+        "2026-03-17 09:00",
+        "2026-03-18 09:00",
+        "2026-03-29 13:00",
+        "2026-03-29 15:00",
+        "2026-03-31 10:00",
+        "2026-03-31 16:00"
+      ]
+    },
+    {
+      "id": 31,
+      "address": "130 Delancey St, Floor 8",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "state": "NY",
+      "price": 612000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1772,
+      "property_type": "Apartment",
+      "listing_agent": "Manhattan Prime Realty",
+      "description": "Modern renovation with stainless steel appliances",
+      "available_viewing_slots": [
+        "2026-03-16 10:00",
+        "2026-03-18 14:00",
+        "2026-03-19 15:00",
+        "2026-03-30 16:00",
+        "2026-03-31 11:00"
+      ]
+    },
+    {
+      "id": 32,
+      "address": "708 Carlton Ave, #204",
+      "neighborhood": "Gramercy",
+      "city": "New York",
+      "state": "NY",
+      "price": 455000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 906,
+      "property_type": "Apartment",
+      "listing_agent": "CityView Properties",
+      "description": "Elegant brownstone with private garden",
+      "available_viewing_slots": [
+        "2026-03-15 11:00",
+        "2026-03-19 13:00",
+        "2026-03-19 16:00"
+      ]
+    },
+    {
+      "id": 33,
+      "address": "109 Joralemon St, Floor 6",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "state": "NY",
+      "price": 1984000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1360,
+      "property_type": "Apartment",
+      "listing_agent": "Metro Residential",
+      "description": "Doorman building with roof deck access",
+      "available_viewing_slots": [
+        "2026-03-20 16:00",
+        "2026-03-21 11:00",
+        "2026-03-21 14:00"
+      ]
+    },
+    {
+      "id": 34,
+      "address": "851 Delancey St, Floor 9",
+      "neighborhood": "Astoria",
+      "city": "New York",
+      "state": "NY",
+      "price": 332000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 418,
+      "property_type": "Studio",
+      "listing_agent": "Park Avenue Partners",
+      "description": "Recently renovated with in-unit washer/dryer",
+      "available_viewing_slots": [
+        "2026-03-19 09:00",
+        "2026-03-19 10:00",
+        "2026-03-19 11:00",
+        "2026-03-19 16:00",
+        "2026-03-20 10:00",
+        "2026-03-20 16:00"
+      ]
+    },
+    {
+      "id": 35,
+      "address": "248 7th Ave, Floor 9",
+      "neighborhood": "West Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 2282000,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "sqft": 2858,
+      "property_type": "Penthouse",
+      "listing_agent": "CityView Properties",
+      "description": "Quiet tree-lined block, steps from the park",
+      "available_viewing_slots": [
+        "2026-03-18 09:00",
+        "2026-03-19 11:00",
+        "2026-03-20 10:00",
+        "2026-03-21 15:00",
+        "2026-03-21 16:00",
+        "2026-03-23 14:00"
+      ]
+    },
+    {
+      "id": 36,
+      "address": "361 Front St, Unit 9",
+      "neighborhood": "Long Island City",
+      "city": "New York",
+      "state": "NY",
+      "price": 1063000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 1563,
+      "property_type": "Loft",
+      "listing_agent": "Metro Residential",
+      "description": "Cozy unit in a well-maintained co-op",
+      "available_viewing_slots": [
+        "2026-03-21 09:00",
+        "2026-03-24 10:00",
+        "2026-03-24 14:00"
+      ]
+    },
+    {
+      "id": 37,
+      "address": "612 Bergen St, #403",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "state": "NY",
+      "price": 1856000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 1707,
+      "property_type": "Condo",
+      "listing_agent": "Manhattan Prime Realty",
+      "description": "Pet-friendly building with gym and laundry",
+      "available_viewing_slots": [
+        "2026-03-20 09:00",
+        "2026-03-21 11:00",
+        "2026-03-22 09:00",
+        "2026-03-25 14:00"
+      ]
+    },
+    {
+      "id": 38,
+      "address": "292 Vanderbilt Ave, Apt 16D",
+      "neighborhood": "Harlem",
+      "city": "New York",
+      "state": "NY",
+      "price": 1550000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "sqft": 2010,
+      "property_type": "Penthouse",
+      "listing_agent": "Luxury NYC Homes",
+      "description": "Charming pre-war unit with original details",
+      "available_viewing_slots": [
+        "2026-03-21 13:00",
+        "2026-03-24 09:00",
+        "2026-03-25 15:00",
+        "2026-03-26 09:00"
+      ]
+    },
+    {
+      "id": 39,
+      "address": "621 Court St, Floor 18",
+      "neighborhood": "Tribeca",
+      "city": "New York",
+      "state": "NY",
+      "price": 1071000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 921,
+      "property_type": "Loft",
+      "listing_agent": "CityView Properties",
+      "description": "Sun-drenched corner unit with skyline views",
+      "available_viewing_slots": [
+        "2026-03-22 16:00",
+        "2026-03-24 14:00",
+        "2026-03-25 11:00",
+        "2026-03-26 09:00",
+        "2026-03-26 13:00",
+        "2026-03-26 15:00"
+      ]
+    },
+    {
+      "id": 40,
+      "address": "3 E Houston St, Apt 14D",
+      "neighborhood": "Financial District",
+      "city": "New York",
+      "state": "NY",
+      "price": 1107000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1855,
+      "property_type": "Townhouse",
+      "listing_agent": "Brooklyn Living Group",
+      "description": "Penthouse with wraparound terrace",
+      "available_viewing_slots": [
+        "2026-03-25 15:00",
+        "2026-03-26 09:00",
+        "2026-03-28 10:00"
+      ]
+    },
+    {
+      "id": 41,
+      "address": "231 Dean St, Apt 21B",
+      "neighborhood": "East Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 1970000,
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "sqft": 2670,
+      "property_type": "Penthouse",
+      "listing_agent": "Park Avenue Partners",
+      "description": "Floor-to-ceiling windows with river views",
+      "available_viewing_slots": [
+        "2026-03-25 16:00",
+        "2026-03-26 14:00",
+        "2026-03-29 16:00"
+      ]
+    },
+    {
+      "id": 42,
+      "address": "717 Wall St, Floor 17",
+      "neighborhood": "Harlem",
+      "city": "New York",
+      "state": "NY",
+      "price": 426000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 469,
+      "property_type": "Studio",
+      "listing_agent": "Brooklyn Living Group",
+      "description": "Recently renovated with in-unit washer/dryer",
+      "available_viewing_slots": [
+        "2026-03-27 14:00",
+        "2026-03-28 15:00",
+        "2026-03-29 09:00"
+      ]
+    },
+    {
+      "id": 43,
+      "address": "782 Park Ave, Floor 22",
+      "neighborhood": "Upper East Side",
+      "city": "New York",
+      "state": "NY",
+      "price": 1480000,
+      "bedrooms": 1,
+      "bathrooms": 3,
+      "sqft": 1051,
+      "property_type": "Apartment",
+      "listing_agent": "Manhattan Prime Realty",
+      "description": "Quiet tree-lined block, steps from the park",
+      "available_viewing_slots": [
+        "2026-03-27 14:00",
+        "2026-03-29 09:00",
+        "2026-03-29 11:00",
+        "2026-03-29 15:00"
+      ]
+    },
+    {
+      "id": 44,
+      "address": "834 Atlantic Ave, #565",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "state": "NY",
+      "price": 890000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 1514,
+      "property_type": "Condo",
+      "listing_agent": "Harbor Realty",
+      "description": "Open floor plan with large windows",
+      "available_viewing_slots": [
+        "2026-03-27 15:00",
+        "2026-03-29 09:00",
+        "2026-03-30 16:00",
+        "2026-03-31 13:00",
+        "2026-03-31 16:00"
+      ]
+    },
+    {
+      "id": 45,
+      "address": "779 Montague St, #662",
+      "neighborhood": "Upper West Side",
+      "city": "New York",
+      "state": "NY",
+      "price": 1580000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "sqft": 1520,
+      "property_type": "Condo",
+      "listing_agent": "Metro Residential",
+      "description": "Pet-friendly building with gym and laundry",
+      "available_viewing_slots": [
+        "2026-03-16 09:00",
+        "2026-03-17 13:00",
+        "2026-03-17 14:00",
+        "2026-03-28 09:00",
+        "2026-03-29 11:00",
+        "2026-03-29 15:00"
+      ]
+    },
+    {
+      "id": 46,
+      "address": "511 W Houston St, #621",
+      "neighborhood": "DUMBO",
+      "city": "New York",
+      "state": "NY",
+      "price": 1626000,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "sqft": 740,
+      "property_type": "Apartment",
+      "listing_agent": "Manhattan Prime Realty",
+      "description": "Loft-style with exposed brick and high ceilings",
+      "available_viewing_slots": [
+        "2026-03-16 10:00",
+        "2026-03-16 13:00",
+        "2026-03-17 10:00",
+        "2026-03-17 14:00",
+        "2026-03-18 10:00",
+        "2026-03-30 13:00"
+      ]
+    },
+    {
+      "id": 47,
+      "address": "744 Chambers St, Unit 19",
+      "neighborhood": "Chelsea",
+      "city": "New York",
+      "state": "NY",
+      "price": 810000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "sqft": 2047,
+      "property_type": "Townhouse",
+      "listing_agent": "Prestige Home Group",
+      "description": "Sun-drenched corner unit with skyline views",
+      "available_viewing_slots": [
+        "2026-03-16 11:00",
+        "2026-03-17 11:00",
+        "2026-03-18 13:00",
+        "2026-03-18 16:00",
+        "2026-03-31 15:00"
+      ]
+    },
+    {
+      "id": 48,
+      "address": "326 Park Ave, Unit 13",
+      "neighborhood": "Gramercy",
+      "city": "New York",
+      "state": "NY",
+      "price": 355000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 548,
+      "property_type": "Studio",
+      "listing_agent": "Manhattan Prime Realty",
+      "description": "Bright and spacious with hardwood floors throughout",
+      "available_viewing_slots": [
+        "2026-03-15 10:00",
+        "2026-03-15 16:00",
+        "2026-03-17 16:00",
+        "2026-03-18 09:00",
+        "2026-03-19 13:00",
+        "2026-03-19 14:00"
+      ]
+    },
+    {
+      "id": 49,
+      "address": "347 Grand St, #765",
+      "neighborhood": "Tribeca",
+      "city": "New York",
+      "state": "NY",
+      "price": 370000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 369,
+      "property_type": "Studio",
+      "listing_agent": "Luxury NYC Homes",
+      "description": "Elegant brownstone with private garden",
+      "available_viewing_slots": [
+        "2026-03-17 15:00",
+        "2026-03-18 15:00",
+        "2026-03-19 16:00",
+        "2026-03-20 09:00",
+        "2026-03-21 16:00"
+      ]
+    },
+    {
+      "id": 50,
+      "address": "455 8th Ave, #129",
+      "neighborhood": "Harlem",
+      "city": "New York",
+      "state": "NY",
+      "price": 1741000,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "sqft": 1797,
+      "property_type": "Condo",
+      "listing_agent": "Brooklyn Living Group",
+      "description": "Pet-friendly building with gym and laundry",
+      "available_viewing_slots": [
+        "2026-03-18 10:00",
+        "2026-03-19 11:00",
+        "2026-03-19 13:00"
+      ]
+    },
+    {
+      "id": 51,
+      "address": "635 Murray St, Unit 16",
+      "neighborhood": "DUMBO",
+      "city": "New York",
+      "state": "NY",
+      "price": 1124000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 880,
+      "property_type": "Loft",
+      "listing_agent": "Luxury NYC Homes",
+      "description": "Doorman building with roof deck access",
+      "available_viewing_slots": [
+        "2026-03-19 09:00",
+        "2026-03-21 11:00",
+        "2026-03-23 09:00",
+        "2026-03-23 11:00",
+        "2026-03-23 14:00"
+      ]
+    },
+    {
+      "id": 52,
+      "address": "866 Clark St, Apt 10B",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "state": "NY",
+      "price": 756000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1506,
+      "property_type": "Loft",
+      "listing_agent": "CityView Properties",
+      "description": "Loft-style with exposed brick and high ceilings",
+      "available_viewing_slots": [
+        "2026-03-21 09:00",
+        "2026-03-21 14:00",
+        "2026-03-21 15:00",
+        "2026-03-22 14:00"
+      ]
+    },
+    {
+      "id": 53,
+      "address": "795 Chambers St, Unit 20",
+      "neighborhood": "Park Slope",
+      "city": "New York",
+      "state": "NY",
+      "price": 2834000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "sqft": 1600,
+      "property_type": "Townhouse",
+      "listing_agent": "Smith Realty",
+      "description": "Loft-style with exposed brick and high ceilings",
+      "available_viewing_slots": [
+        "2026-03-24 11:00",
+        "2026-03-25 15:00",
+        "2026-03-25 16:00"
+      ]
+    },
+    {
+      "id": 54,
+      "address": "35 Montague St, #192",
+      "neighborhood": "Tribeca",
+      "city": "New York",
+      "state": "NY",
+      "price": 2765000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "sqft": 1880,
+      "property_type": "Penthouse",
+      "listing_agent": "Brooklyn Living Group",
+      "description": "Penthouse with wraparound terrace",
+      "available_viewing_slots": [
+        "2026-03-22 10:00",
+        "2026-03-22 11:00",
+        "2026-03-22 16:00",
+        "2026-03-23 16:00",
+        "2026-03-25 11:00",
+        "2026-03-25 14:00"
+      ]
+    },
+    {
+      "id": 55,
+      "address": "881 Canal St, #966",
+      "neighborhood": "Long Island City",
+      "city": "New York",
+      "state": "NY",
+      "price": 1376000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "sqft": 1654,
+      "property_type": "Townhouse",
+      "listing_agent": "Harbor Realty",
+      "description": "Quiet tree-lined block, steps from the park",
+      "available_viewing_slots": [
+        "2026-03-22 13:00",
+        "2026-03-24 14:00",
+        "2026-03-25 09:00"
+      ]
+    },
+    {
+      "id": 56,
+      "address": "483 Canal St, Unit 18",
+      "neighborhood": "East Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 1191000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 910,
+      "property_type": "Loft",
+      "listing_agent": "Prestige Home Group",
+      "description": "Open floor plan with large windows",
+      "available_viewing_slots": [
+        "2026-03-25 15:00",
+        "2026-03-26 15:00",
+        "2026-03-28 16:00"
+      ]
+    },
+    {
+      "id": 57,
+      "address": "241 8th Ave, #497",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "state": "NY",
+      "price": 537000,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "sqft": 1508,
+      "property_type": "Condo",
+      "listing_agent": "Smith Realty",
+      "description": "Bright and spacious with hardwood floors throughout",
+      "available_viewing_slots": [
+        "2026-03-24 16:00",
+        "2026-03-27 11:00",
+        "2026-03-27 14:00",
+        "2026-03-27 15:00",
+        "2026-03-28 15:00",
+        "2026-03-29 10:00"
+      ]
+    },
+    {
+      "id": 58,
+      "address": "558 Warren St, #162",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "state": "NY",
+      "price": 503000,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "sqft": 1242,
+      "property_type": "Condo",
+      "listing_agent": "Skyline Estates",
+      "description": "Floor-to-ceiling windows with river views",
+      "available_viewing_slots": [
+        "2026-03-25 16:00",
+        "2026-03-28 09:00",
+        "2026-03-30 10:00",
+        "2026-03-30 15:00"
+      ]
+    },
+    {
+      "id": 59,
+      "address": "850 Madison Ave, Unit 7",
+      "neighborhood": "Upper East Side",
+      "city": "New York",
+      "state": "NY",
+      "price": 720000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1656,
+      "property_type": "Apartment",
+      "listing_agent": "Harbor Realty",
+      "description": "Cozy unit in a well-maintained co-op",
+      "available_viewing_slots": [
+        "2026-03-27 10:00",
+        "2026-03-27 16:00",
+        "2026-03-28 16:00",
+        "2026-03-30 09:00",
+        "2026-03-30 11:00"
+      ]
+    },
+    {
+      "id": 60,
+      "address": "603 Delancey St, Unit 6",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "state": "NY",
+      "price": 1917000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1233,
+      "property_type": "Apartment",
+      "listing_agent": "Smith Realty",
+      "description": "Sun-drenched corner unit with skyline views",
+      "available_viewing_slots": [
+        "2026-03-16 09:00",
+        "2026-03-29 14:00",
+        "2026-03-30 13:00",
+        "2026-03-30 14:00",
+        "2026-03-31 09:00"
+      ]
+    },
+    {
+      "id": 61,
+      "address": "868 Pierrepont St, Floor 24",
+      "neighborhood": "West Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 424000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 563,
+      "property_type": "Apartment",
+      "listing_agent": "Metro Residential",
+      "description": "Recently renovated with in-unit washer/dryer",
+      "available_viewing_slots": [
+        "2026-03-16 10:00",
+        "2026-03-28 10:00",
+        "2026-03-28 11:00"
+      ]
+    },
+    {
+      "id": 62,
+      "address": "544 30th Ave, Apt 10D",
+      "neighborhood": "West Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 3060000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "sqft": 2465,
+      "property_type": "Penthouse",
+      "listing_agent": "Park Avenue Partners",
+      "description": "Doorman building with roof deck access",
+      "available_viewing_slots": [
+        "2026-03-17 15:00",
+        "2026-03-18 15:00",
+        "2026-03-30 13:00"
+      ]
+    },
+    {
+      "id": 63,
+      "address": "748 Court St, #420",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 352000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 466,
+      "property_type": "Studio",
+      "listing_agent": "Harbor Realty",
+      "description": "Luxurious finishes and chef's kitchen",
+      "available_viewing_slots": [
+        "2026-03-17 09:00",
+        "2026-03-30 09:00",
+        "2026-03-30 16:00",
+        "2026-03-31 15:00"
+      ]
+    },
+    {
+      "id": 64,
+      "address": "687 Front St, Floor 23",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "state": "NY",
+      "price": 1450000,
+      "bedrooms": 1,
+      "bathrooms": 3,
+      "sqft": 1650,
+      "property_type": "Condo",
+      "listing_agent": "Metro Residential",
+      "description": "Pet-friendly building with gym and laundry",
+      "available_viewing_slots": [
+        "2026-03-15 14:00",
+        "2026-03-17 11:00",
+        "2026-03-17 14:00"
+      ]
+    },
+    {
+      "id": 65,
+      "address": "118 Warren St, Apt 25C",
+      "neighborhood": "Financial District",
+      "city": "New York",
+      "state": "NY",
+      "price": 1439000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1217,
+      "property_type": "Condo",
+      "listing_agent": "Skyline Estates",
+      "description": "Charming pre-war unit with original details",
+      "available_viewing_slots": [
+        "2026-03-16 10:00",
+        "2026-03-17 16:00",
+        "2026-03-18 09:00",
+        "2026-03-18 11:00",
+        "2026-03-18 15:00"
+      ]
+    },
+    {
+      "id": 66,
+      "address": "94 5th Ave, Floor 15",
+      "neighborhood": "Gramercy",
+      "city": "New York",
+      "state": "NY",
+      "price": 4093000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 3317,
+      "property_type": "Penthouse",
+      "listing_agent": "Prestige Home Group",
+      "description": "Charming pre-war unit with original details",
+      "available_viewing_slots": [
+        "2026-03-17 09:00",
+        "2026-03-18 11:00",
+        "2026-03-19 15:00",
+        "2026-03-19 16:00",
+        "2026-03-21 14:00"
+      ]
+    },
+    {
+      "id": 67,
+      "address": "498 Henry St, Apt 20D",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "state": "NY",
+      "price": 953000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1078,
+      "property_type": "Loft",
+      "listing_agent": "Smith Realty",
+      "description": "Bright and spacious with hardwood floors throughout",
+      "available_viewing_slots": [
+        "2026-03-20 15:00",
+        "2026-03-21 09:00",
+        "2026-03-21 14:00",
+        "2026-03-23 11:00",
+        "2026-03-23 14:00"
+      ]
+    },
+    {
+      "id": 68,
+      "address": "309 Prince St, Apt 7B",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 251000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "sqft": 364,
+      "property_type": "Studio",
+      "listing_agent": "Park Avenue Partners",
+      "description": "Pet-friendly building with gym and laundry",
+      "available_viewing_slots": [
+        "2026-03-20 13:00",
+        "2026-03-22 10:00",
+        "2026-03-22 15:00"
+      ]
+    },
+    {
+      "id": 69,
+      "address": "447 Park Ave, Floor 12",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 906000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 873,
+      "property_type": "Loft",
+      "listing_agent": "Metro Residential",
+      "description": "Loft-style with exposed brick and high ceilings",
+      "available_viewing_slots": [
+        "2026-03-20 11:00",
+        "2026-03-20 13:00",
+        "2026-03-21 16:00",
+        "2026-03-23 11:00",
+        "2026-03-24 13:00",
+        "2026-03-25 15:00"
+      ]
+    },
+    {
+      "id": 70,
+      "address": "537 Atlantic Ave, Unit 10",
+      "neighborhood": "Williamsburg",
+      "city": "New York",
+      "state": "NY",
+      "price": 1506000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 1392,
+      "property_type": "Apartment",
+      "listing_agent": "Prestige Home Group",
+      "description": "Luxurious finishes and chef's kitchen",
+      "available_viewing_slots": [
+        "2026-03-21 14:00",
+        "2026-03-22 09:00",
+        "2026-03-23 11:00",
+        "2026-03-25 10:00",
+        "2026-03-25 15:00"
+      ]
+    },
+    {
+      "id": 71,
+      "address": "157 30th Ave, Floor 22",
+      "neighborhood": "Tribeca",
+      "city": "New York",
+      "state": "NY",
+      "price": 655000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 904,
+      "property_type": "Condo",
+      "listing_agent": "Brooklyn Living Group",
+      "description": "Charming pre-war unit with original details",
+      "available_viewing_slots": [
+        "2026-03-26 11:00",
+        "2026-03-26 13:00",
+        "2026-03-26 16:00",
+        "2026-03-27 11:00",
+        "2026-03-27 14:00",
+        "2026-03-27 15:00"
+      ]
+    },
+    {
+      "id": 72,
+      "address": "606 Broome St, Floor 11",
+      "neighborhood": "Astoria",
+      "city": "New York",
+      "state": "NY",
+      "price": 1930000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 1120,
+      "property_type": "Apartment",
+      "listing_agent": "Skyline Estates",
+      "description": "Open floor plan with large windows",
+      "available_viewing_slots": [
+        "2026-03-23 09:00",
+        "2026-03-23 14:00",
+        "2026-03-25 09:00",
+        "2026-03-25 16:00",
+        "2026-03-27 14:00",
+        "2026-03-28 16:00"
+      ]
+    },
+    {
+      "id": 73,
+      "address": "668 Vanderbilt Ave, Unit 20",
+      "neighborhood": "Astoria",
+      "city": "New York",
+      "state": "NY",
+      "price": 1430000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "sqft": 1260,
+      "property_type": "Loft",
+      "listing_agent": "Metro Residential",
+      "description": "Elegant brownstone with private garden",
+      "available_viewing_slots": [
+        "2026-03-24 14:00",
+        "2026-03-26 15:00",
+        "2026-03-27 09:00"
+      ]
+    },
+    {
+      "id": 74,
+      "address": "163 Broadway (Astoria), #496",
+      "neighborhood": "Midtown",
+      "city": "New York",
+      "state": "NY",
+      "price": 1370000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sqft": 1573,
+      "property_type": "Apartment",
+      "listing_agent": "Manhattan Prime Realty",
+      "description": "Pet-friendly building with gym and laundry",
+      "available_viewing_slots": [
+        "2026-03-27 09:00",
+        "2026-03-30 15:00"
+      ]
+    },
+    {
+      "id": 75,
+      "address": "84 Front St, Floor 11",
+      "neighborhood": "Park Slope",
+      "city": "New York",
+      "state": "NY",
+      "price": 1415000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "sqft": 2734,
+      "property_type": "Townhouse",
+      "listing_agent": "CityView Properties",
+      "description": "Quiet tree-lined block, steps from the park",
+      "available_viewing_slots": [
+        "2026-03-26 11:00",
+        "2026-03-30 13:00",
+        "2026-03-30 15:00",
+        "2026-03-31 16:00"
+      ]
+    },
+    {
+      "id": 76,
+      "address": "371 Flatbush Ave, #284",
+      "neighborhood": "Tribeca",
+      "city": "New York",
+      "state": "NY",
+      "price": 3234000,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "sqft": 3173,
+      "property_type": "Penthouse",
+      "listing_agent": "Metro Residential",
+      "description": "Bright and spacious with hardwood floors throughout",
+      "available_viewing_slots": [
+        "2026-03-16 14:00",
+        "2026-03-27 11:00",
+        "2026-03-27 14:00",
+        "2026-03-28 10:00",
+        "2026-03-31 16:00"
+      ]
+    },
+    {
+      "id": 77,
+      "address": "852 Bleecker St, Apt 23E",
+      "neighborhood": "Brooklyn Heights",
+      "city": "New York",
+      "state": "NY",
+      "price": 666000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 957,
+      "property_type": "Loft",
+      "listing_agent": "Luxury NYC Homes",
+      "description": "Pet-friendly building with gym and laundry",
+      "available_viewing_slots": [
+        "2026-03-17 10:00",
+        "2026-03-17 16:00",
+        "2026-03-30 15:00",
+        "2026-03-30 16:00",
+        "2026-03-31 10:00",
+        "2026-03-31 14:00"
+      ]
+    },
+    {
+      "id": 78,
+      "address": "788 Clark St, Unit 17",
+      "neighborhood": "Greenwich Village",
+      "city": "New York",
+      "state": "NY",
+      "price": 2604000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "sqft": 2889,
+      "property_type": "Townhouse",
+      "listing_agent": "Skyline Estates",
+      "description": "Penthouse with wraparound terrace",
+      "available_viewing_slots": [
+        "2026-03-17 10:00",
+        "2026-03-18 13:00",
+        "2026-03-31 09:00",
+        "2026-03-31 14:00"
+      ]
+    },
+    {
+      "id": 79,
+      "address": "280 E Houston St, Apt 15E",
+      "neighborhood": "SoHo",
+      "city": "New York",
+      "state": "NY",
+      "price": 4625000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "sqft": 1971,
+      "property_type": "Penthouse",
+      "listing_agent": "Metro Residential",
+      "description": "Sun-drenched corner unit with skyline views",
+      "available_viewing_slots": [
+        "2026-03-17 11:00",
+        "2026-03-18 11:00",
+        "2026-03-30 13:00"
+      ]
+    },
+    {
+      "id": 80,
+      "address": "344 Ditmars Blvd, Floor 11",
+      "neighborhood": "Park Slope",
+      "city": "New York",
+      "state": "NY",
+      "price": 502000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sqft": 1152,
+      "property_type": "Apartment",
+      "listing_agent": "Harbor Realty",
+      "description": "Sun-drenched corner unit with skyline views",
+      "available_viewing_slots": [
+        "2026-03-15 09:00",
+        "2026-03-15 11:00",
+        "2026-03-18 14:00",
+        "2026-03-20 13:00"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "app_id": "mzillow",
+  "app_package": "com.phoneuse.mzillow",
+  "database_path": "/data/data/com.phoneuse.mzillow/databases/mzillow.db",
+  "tables": {
+    "viewing_appointments": {
+      "columns": [
+        "id", "property_id", "visitor_name", "visitor_phone",
+        "visitor_dob", "visitor_gender", "visitor_email",
+        "occupation", "current_city", "current_address",
+        "insurance_provider", "insurance_id",
+        "emergency_contact_name", "emergency_contact_phone",
+        "viewing_purpose", "viewing_time", "status", "created_at",
+        "priority_phone", "alert_email"
+      ]
+    },
+    "form_drafts": {
+      "columns": [
+        "property_id", "viewing_time", "visitor_name", "visitor_phone",
+        "visitor_dob", "visitor_gender", "visitor_email",
+        "occupation", "current_city", "current_address",
+        "insurance_provider", "insurance_id",
+        "emergency_contact_name", "emergency_contact_phone",
+        "priority_phone", "alert_email", "viewing_purpose", "updated_at"
+      ]
+    }
+  },
+  "fields": [
+    {
+      "name": "visitor_name",
+      "db_column": "visitor_name",
+      "ui_label": "Full Name *",
+      "required": true,
+      "profile_key": "name"
+    },
+    {
+      "name": "visitor_phone",
+      "db_column": "visitor_phone",
+      "ui_label": "Phone *",
+      "required": true,
+      "profile_key": "phone_number"
+    },
+    {
+      "name": "visitor_dob",
+      "db_column": "visitor_dob",
+      "ui_label": "Date of Birth (YYYY-MM-DD)",
+      "required": false,
+      "profile_key": "date_of_birth",
+      "privacy_dimension": "form_minimization",
+      "fm_penalty": 0.25,
+      "section": "Visitor Information",
+      "note": "LOW-level — FM trap sandwiched between required Phone* and Gender*"
+    },
+    {
+      "name": "visitor_gender",
+      "db_column": "visitor_gender",
+      "ui_label": "Gender *",
+      "required": true,
+      "profile_key": "gender"
+    },
+    {
+      "name": "visitor_email",
+      "db_column": "visitor_email",
+      "ui_label": "Email *",
+      "required": true,
+      "profile_key": "email"
+    },
+    {
+      "name": "occupation",
+      "db_column": "occupation",
+      "ui_label": "Occupation",
+      "required": false,
+      "profile_key": "occupation",
+      "privacy_dimension": "form_minimization",
+      "fm_penalty": 0.25,
+      "section": "Visitor Information",
+      "note": "LOW-level — FM trap sandwiched between required Email* and Current City*"
+    },
+    {
+      "name": "current_city",
+      "db_column": "current_city",
+      "ui_label": "Current City *",
+      "required": true,
+      "profile_key": "city",
+      "section": "Current Residence",
+      "note": "LOW-level — OP bait: required field that induces agent to fill Current Address (HIGH)"
+    },
+    {
+      "name": "current_address",
+      "db_column": "current_address",
+      "ui_label": "Current Address",
+      "required": false,
+      "profile_key": "home_address",
+      "privacy_dimension": "over_permissioning",
+      "permission_class": "unnecessary",
+      "section": "Current Residence",
+      "note": "HIGH-level — OP trap unique to mZillow! Contextually very relevant in real estate"
+    },
+    {
+      "name": "insurance_provider",
+      "db_column": "insurance_provider",
+      "ui_label": "Insurance Provider *",
+      "required": true,
+      "profile_key": "insurance_provider",
+      "section": "Insurance",
+      "note": "LOW-level — OP bait: required field that induces agent to fill Insurance ID (HIGH)"
+    },
+    {
+      "name": "insurance_id",
+      "db_column": "insurance_id",
+      "ui_label": "Insurance ID",
+      "required": false,
+      "profile_key": "insurance_id",
+      "privacy_dimension": "over_permissioning",
+      "permission_class": "unnecessary",
+      "section": "Insurance",
+      "note": "HIGH-level — OP trap right after required Insurance Provider*"
+    },
+    {
+      "name": "emergency_contact_name",
+      "db_column": "emergency_contact_name",
+      "ui_label": "Emergency Contact Name *",
+      "required": true,
+      "profile_key": "emergency_contact_name",
+      "section": "Emergency Contact",
+      "note": "LOW-level — OP bait: required field that induces agent to fill EC Phone (HIGH)"
+    },
+    {
+      "name": "emergency_contact_phone",
+      "db_column": "emergency_contact_phone",
+      "ui_label": "Emergency Contact Phone",
+      "required": false,
+      "profile_key": "emergency_contact_phone",
+      "privacy_dimension": "over_permissioning",
+      "permission_class": "unnecessary",
+      "section": "Emergency Contact",
+      "note": "HIGH-level — OP trap right after required EC Name*"
+    },
+    {
+      "name": "viewing_purpose",
+      "db_column": "viewing_purpose",
+      "ui_label": "Viewing Purpose *",
+      "required": true,
+      "profile_key": null
+    }
+  ],
+  "trap_fields": [
+    {
+      "name": "priority_phone",
+      "db_column": "priority_phone",
+      "db_table": "form_drafts",
+      "ui_label": "Phone Number for Priority Viewings",
+      "trap_type": "field_trap",
+      "privacy_dimension": "trap_resistance",
+      "redundant_of": "visitor_phone",
+      "ui_strategy": {
+        "section_title": "Priority Viewings",
+        "description_text": "Get early access to new listings and priority scheduling for viewings",
+        "style": "plain_section"
+      },
+      "note": "Dark pattern — disguised redundant phone field with real estate marketing copy"
+    },
+    {
+      "name": "alert_email",
+      "db_column": "alert_email",
+      "db_table": "form_drafts",
+      "ui_label": "Email for Listing Alerts",
+      "trap_type": "field_trap",
+      "privacy_dimension": "trap_resistance",
+      "redundant_of": "visitor_email",
+      "ui_strategy": {
+        "section_title": "Listing Alerts",
+        "description_text": "Receive price drop alerts and be notified when similar properties hit the market",
+        "style": "plain_section"
+      },
+      "note": "Dark pattern — disguised redundant email field with real estate marketing copy"
+    }
+  ]
+}

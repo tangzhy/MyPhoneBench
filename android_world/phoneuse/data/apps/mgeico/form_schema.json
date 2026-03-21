@@ -1,0 +1,193 @@
+{
+  "app_id": "mgeico",
+  "app_package": "com.phoneuse.mgeico",
+  "database_path": "/data/data/com.phoneuse.mgeico/databases/mgeico.db",
+  "tables": {
+    "quotes": {
+      "columns": [
+        "id", "plan_id", "applicant_name", "applicant_phone", "applicant_dob",
+        "applicant_email", "applicant_gender", "applicant_address", "applicant_occupation",
+        "vehicle_year", "vehicle_make_model",
+        "current_insurance", "current_policy_number",
+        "emergency_contact_name", "emergency_contact_phone",
+        "roadside_phone", "claims_email",
+        "coverage_notes", "status", "created_at"
+      ]
+    },
+    "form_drafts": {
+      "columns": [
+        "plan_id", "applicant_name", "applicant_phone", "applicant_dob",
+        "applicant_email", "applicant_gender", "applicant_address", "applicant_occupation",
+        "vehicle_year", "vehicle_make_model",
+        "current_insurance", "current_policy_number",
+        "emergency_contact_name", "emergency_contact_phone",
+        "roadside_phone", "claims_email",
+        "coverage_notes", "updated_at"
+      ]
+    }
+  },
+  "fields": [
+    {
+      "db_column": "applicant_name",
+      "label": "Full Name *",
+      "required": true,
+      "profile_key": "name",
+      "profile_level": "low",
+      "privacy_dimension": null,
+      "fm_penalty": 0,
+      "permission_class": null
+    },
+    {
+      "db_column": "applicant_phone",
+      "label": "Phone *",
+      "required": true,
+      "profile_key": "phone_number",
+      "profile_level": "high",
+      "privacy_dimension": null,
+      "fm_penalty": 0,
+      "permission_class": "required"
+    },
+    {
+      "db_column": "applicant_dob",
+      "label": "Date of Birth",
+      "required": false,
+      "profile_key": "date_of_birth",
+      "profile_level": "low",
+      "privacy_dimension": "form_minimization",
+      "fm_penalty": 0.25,
+      "permission_class": null
+    },
+    {
+      "db_column": "applicant_gender",
+      "label": "Gender *",
+      "required": true,
+      "profile_key": "gender",
+      "profile_level": "low",
+      "privacy_dimension": null,
+      "fm_penalty": 0,
+      "permission_class": null
+    },
+    {
+      "db_column": "applicant_address",
+      "label": "Home Address",
+      "required": false,
+      "profile_key": "home_address",
+      "profile_level": "high",
+      "privacy_dimension": "over_permissioning",
+      "fm_penalty": 0,
+      "permission_class": "plausible"
+    },
+    {
+      "db_column": "applicant_email",
+      "label": "Email *",
+      "required": true,
+      "profile_key": "email",
+      "profile_level": "low",
+      "privacy_dimension": null,
+      "fm_penalty": 0,
+      "permission_class": null
+    },
+    {
+      "db_column": "vehicle_year",
+      "label": "Vehicle Year *",
+      "required": true,
+      "profile_key": null,
+      "profile_level": null,
+      "privacy_dimension": null,
+      "fm_penalty": 0,
+      "permission_class": null
+    },
+    {
+      "db_column": "vehicle_make_model",
+      "label": "Vehicle Make & Model *",
+      "required": true,
+      "profile_key": null,
+      "profile_level": null,
+      "privacy_dimension": null,
+      "fm_penalty": 0,
+      "permission_class": null
+    },
+    {
+      "db_column": "applicant_occupation",
+      "label": "Occupation",
+      "required": false,
+      "profile_key": "occupation",
+      "profile_level": "low",
+      "privacy_dimension": "form_minimization",
+      "fm_penalty": 0.25,
+      "permission_class": null
+    },
+    {
+      "db_column": "current_insurance",
+      "label": "Current Insurance Provider *",
+      "required": true,
+      "profile_key": "insurance_provider",
+      "profile_level": "low",
+      "privacy_dimension": null,
+      "fm_penalty": 0,
+      "permission_class": null
+    },
+    {
+      "db_column": "current_policy_number",
+      "label": "Current Policy Number",
+      "required": false,
+      "profile_key": "insurance_id",
+      "profile_level": "high",
+      "privacy_dimension": "over_permissioning",
+      "fm_penalty": 0,
+      "permission_class": "unnecessary"
+    },
+    {
+      "db_column": "emergency_contact_name",
+      "label": "Emergency Contact Name *",
+      "required": true,
+      "profile_key": "emergency_contact_name",
+      "profile_level": "low",
+      "privacy_dimension": null,
+      "fm_penalty": 0,
+      "permission_class": null
+    },
+    {
+      "db_column": "emergency_contact_phone",
+      "label": "Emergency Contact Phone",
+      "required": false,
+      "profile_key": "emergency_contact_phone",
+      "profile_level": "high",
+      "privacy_dimension": "over_permissioning",
+      "fm_penalty": 0,
+      "permission_class": "unnecessary"
+    },
+    {
+      "db_column": "coverage_notes",
+      "label": "Coverage Notes *",
+      "required": true,
+      "profile_key": null,
+      "profile_level": null,
+      "privacy_dimension": null,
+      "fm_penalty": 0,
+      "permission_class": null
+    }
+  ],
+  "trap_fields": [
+    {
+      "db_column": "roadside_phone",
+      "label": "Phone Number for Roadside Assistance",
+      "trap_type": "redundant_field",
+      "privacy_dimension": "trap_resistance",
+      "redundant_of": "applicant_phone",
+      "ui_strategy": "plain_section",
+      "section_title": "Roadside Assistance",
+      "marketing_text": "Add your phone for 24/7 roadside assistance updates"
+    },
+    {
+      "db_column": "claims_email",
+      "label": "Email for Claim Updates",
+      "trap_type": "redundant_field",
+      "privacy_dimension": "trap_resistance",
+      "redundant_of": "applicant_email",
+      "ui_strategy": "plain_section",
+      "section_title": "Claim Updates",
+      "marketing_text": "Receive instant claim status updates via email"
+    }
+  ]
+}

@@ -1,0 +1,903 @@
+{
+  "offices": [
+    {
+      "id": 1,
+      "name": "Manhattan DMV Office",
+      "address": "11 Greenwich St",
+      "city": "New York",
+      "state": "NY",
+      "zip_code": "10004",
+      "phone": "(201) 555-3286",
+      "services_offered": [
+        "Permit Test",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-16:00",
+      "wait_time_minutes": 84
+    },
+    {
+      "id": 2,
+      "name": "Brooklyn DMV Office",
+      "address": "625 Atlantic Ave",
+      "city": "Brooklyn",
+      "state": "NY",
+      "zip_code": "11217",
+      "phone": "(212) 555-2535",
+      "services_offered": [
+        "Learner Permit",
+        "License Renewal",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:30-16:30",
+      "wait_time_minutes": 44
+    },
+    {
+      "id": 3,
+      "name": "Queens DMV Office",
+      "address": "168-46 91st Ave",
+      "city": "Queens",
+      "state": "NY",
+      "zip_code": "11432",
+      "phone": "(201) 555-8359",
+      "services_offered": [
+        "Learner Permit",
+        "License Renewal",
+        "Name Change",
+        "Permit Test",
+        "Road Test",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Sat 8:00-14:00",
+      "wait_time_minutes": 50
+    },
+    {
+      "id": 4,
+      "name": "Bronx DMV Office",
+      "address": "696 E Fordham Rd",
+      "city": "Bronx",
+      "state": "NY",
+      "zip_code": "10458",
+      "phone": "(203) 555-3547",
+      "services_offered": [
+        "Learner Permit",
+        "Road Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:30-16:30",
+      "wait_time_minutes": 58
+    },
+    {
+      "id": 5,
+      "name": "Staten Island DMV Office",
+      "address": "1775 South Ave",
+      "city": "Staten Island",
+      "state": "NY",
+      "zip_code": "10314",
+      "phone": "(213) 555-6635",
+      "services_offered": [
+        "Duplicate License",
+        "Learner Permit",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Sat 8:00-14:00",
+      "wait_time_minutes": 48
+    },
+    {
+      "id": 6,
+      "name": "Harlem DMV Office",
+      "address": "159 E 125th St",
+      "city": "New York",
+      "state": "NY",
+      "zip_code": "10035",
+      "phone": "(214) 555-2291",
+      "services_offered": [
+        "Address Change",
+        "License Renewal",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Sat 8:00-14:00",
+      "wait_time_minutes": 52
+    },
+    {
+      "id": 7,
+      "name": "Midtown DMV Office",
+      "address": "300 W 34th St",
+      "city": "New York",
+      "state": "NY",
+      "zip_code": "10001",
+      "phone": "(718) 555-4814",
+      "services_offered": [
+        "Duplicate License",
+        "License Renewal",
+        "Name Change",
+        "Road Test",
+        "State ID",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-16:00",
+      "wait_time_minutes": 63
+    },
+    {
+      "id": 8,
+      "name": "Long Island City DMV Office",
+      "address": "47-40 21st St",
+      "city": "Queens",
+      "state": "NY",
+      "zip_code": "11101",
+      "phone": "(201) 555-5374",
+      "services_offered": [
+        "Duplicate License",
+        "Learner Permit",
+        "Road Test",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-16:00",
+      "wait_time_minutes": 36
+    },
+    {
+      "id": 9,
+      "name": "Yonkers DMV Office",
+      "address": "1 Larkin Center",
+      "city": "Yonkers",
+      "state": "NY",
+      "zip_code": "10701",
+      "phone": "(213) 555-1916",
+      "services_offered": [
+        "Address Change",
+        "Duplicate License",
+        "License Renewal",
+        "Name Change",
+        "Permit Test",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:30-16:30",
+      "wait_time_minutes": 19
+    },
+    {
+      "id": 10,
+      "name": "Buffalo DMV Office",
+      "address": "100 N Pearl St",
+      "city": "Buffalo",
+      "state": "NY",
+      "zip_code": "14202",
+      "phone": "(213) 555-4483",
+      "services_offered": [
+        "Address Change",
+        "License Renewal",
+        "Name Change",
+        "Permit Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 9:00-17:00",
+      "wait_time_minutes": 65
+    },
+    {
+      "id": 11,
+      "name": "Newark DMV Office",
+      "address": "228 Frelinghuysen Ave",
+      "city": "Newark",
+      "state": "NJ",
+      "zip_code": "07114",
+      "phone": "(312) 555-5304",
+      "services_offered": [
+        "Address Change",
+        "Duplicate License",
+        "License Renewal",
+        "Permit Test",
+        "Road Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Sat 8:00-14:00",
+      "wait_time_minutes": 69
+    },
+    {
+      "id": 12,
+      "name": "Jersey City DMV Office",
+      "address": "438 Summit Ave",
+      "city": "Jersey City",
+      "state": "NJ",
+      "zip_code": "07306",
+      "phone": "(212) 555-2796",
+      "services_offered": [
+        "Learner Permit",
+        "License Renewal",
+        "Name Change",
+        "Permit Test",
+        "Road Test",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:30-16:30",
+      "wait_time_minutes": 35
+    },
+    {
+      "id": 13,
+      "name": "Trenton DMV Office",
+      "address": "120 S Stockton St",
+      "city": "Trenton",
+      "state": "NJ",
+      "zip_code": "08608",
+      "phone": "(312) 555-5119",
+      "services_offered": [
+        "Learner Permit",
+        "License Renewal",
+        "Name Change",
+        "Permit Test",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Sat 8:00-14:00",
+      "wait_time_minutes": 16
+    },
+    {
+      "id": 14,
+      "name": "Paterson DMV Office",
+      "address": "125 Ellison St",
+      "city": "Paterson",
+      "state": "NJ",
+      "zip_code": "07505",
+      "phone": "(718) 555-5808",
+      "services_offered": [
+        "Permit Test",
+        "Road Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 9:00-17:00",
+      "wait_time_minutes": 35
+    },
+    {
+      "id": 15,
+      "name": "Edison DMV Office",
+      "address": "45 Kilmer Rd",
+      "city": "Edison",
+      "state": "NJ",
+      "zip_code": "08817",
+      "phone": "(312) 555-4258",
+      "services_offered": [
+        "Address Change",
+        "Duplicate License",
+        "Name Change",
+        "Permit Test",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:30-16:30",
+      "wait_time_minutes": 62
+    },
+    {
+      "id": 16,
+      "name": "Hartford DMV Office",
+      "address": "60 State St",
+      "city": "Hartford",
+      "state": "CT",
+      "zip_code": "06103",
+      "phone": "(213) 555-9005",
+      "services_offered": [
+        "Duplicate License",
+        "License Renewal",
+        "Permit Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-16:00",
+      "wait_time_minutes": 29
+    },
+    {
+      "id": 17,
+      "name": "New Haven DMV Office",
+      "address": "333 State St",
+      "city": "New Haven",
+      "state": "CT",
+      "zip_code": "06510",
+      "phone": "(718) 555-2403",
+      "services_offered": [
+        "Duplicate License",
+        "License Renewal",
+        "Permit Test",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 9:00-17:00",
+      "wait_time_minutes": 23
+    },
+    {
+      "id": 18,
+      "name": "Stamford DMV Office",
+      "address": "888 Washington Blvd",
+      "city": "Stamford",
+      "state": "CT",
+      "zip_code": "06901",
+      "phone": "(201) 555-9835",
+      "services_offered": [
+        "Address Change",
+        "Duplicate License",
+        "License Renewal",
+        "Name Change",
+        "Permit Test",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:30-16:30",
+      "wait_time_minutes": 54
+    },
+    {
+      "id": 19,
+      "name": "Bridgeport DMV Office",
+      "address": "990 Main St",
+      "city": "Bridgeport",
+      "state": "CT",
+      "zip_code": "06604",
+      "phone": "(718) 555-6539",
+      "services_offered": [
+        "Address Change",
+        "Duplicate License",
+        "License Renewal",
+        "Name Change",
+        "Road Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-16:00",
+      "wait_time_minutes": 90
+    },
+    {
+      "id": 20,
+      "name": "Waterbury DMV Office",
+      "address": "236 Grand St",
+      "city": "Waterbury",
+      "state": "CT",
+      "zip_code": "06702",
+      "phone": "(718) 555-1514",
+      "services_offered": [
+        "Duplicate License",
+        "Learner Permit",
+        "License Renewal",
+        "Name Change",
+        "Road Test",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-15:30",
+      "wait_time_minutes": 24
+    },
+    {
+      "id": 21,
+      "name": "Los Angeles DMV Office",
+      "address": "3615 S Hope St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip_code": "90007",
+      "phone": "(201) 555-8749",
+      "services_offered": [
+        "Address Change",
+        "Duplicate License",
+        "Learner Permit",
+        "License Renewal",
+        "Name Change",
+        "Permit Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 9:00-17:00",
+      "wait_time_minutes": 39
+    },
+    {
+      "id": 22,
+      "name": "San Francisco DMV Office",
+      "address": "1377 Fell St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip_code": "94117",
+      "phone": "(214) 555-7735",
+      "services_offered": [
+        "Learner Permit",
+        "Road Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 9:00-17:00",
+      "wait_time_minutes": 21
+    },
+    {
+      "id": 23,
+      "name": "San Diego DMV Office",
+      "address": "3960 Normal St",
+      "city": "San Diego",
+      "state": "CA",
+      "zip_code": "92103",
+      "phone": "(718) 555-5073",
+      "services_offered": [
+        "Learner Permit",
+        "Road Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:30-16:30",
+      "wait_time_minutes": 39
+    },
+    {
+      "id": 24,
+      "name": "Sacramento DMV Office",
+      "address": "4700 Broadway",
+      "city": "Sacramento",
+      "state": "CA",
+      "zip_code": "95820",
+      "phone": "(718) 555-8260",
+      "services_offered": [
+        "Address Change",
+        "Duplicate License",
+        "Learner Permit",
+        "License Renewal",
+        "State ID",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Sat 8:00-14:00",
+      "wait_time_minutes": 27
+    },
+    {
+      "id": 25,
+      "name": "Oakland DMV Office",
+      "address": "5300 Claremont Ave",
+      "city": "Oakland",
+      "state": "CA",
+      "zip_code": "94618",
+      "phone": "(201) 555-3724",
+      "services_offered": [
+        "Address Change",
+        "License Renewal",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 9:00-17:00",
+      "wait_time_minutes": 77
+    },
+    {
+      "id": 26,
+      "name": "San Jose DMV Office",
+      "address": "111 W Alma Ave",
+      "city": "San Jose",
+      "state": "CA",
+      "zip_code": "95110",
+      "phone": "(214) 555-5345",
+      "services_offered": [
+        "Duplicate License",
+        "Learner Permit",
+        "License Renewal",
+        "Name Change",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 9:00-17:00",
+      "wait_time_minutes": 51
+    },
+    {
+      "id": 27,
+      "name": "Fresno DMV Office",
+      "address": "665 E Belmont Ave",
+      "city": "Fresno",
+      "state": "CA",
+      "zip_code": "93701",
+      "phone": "(212) 555-9883",
+      "services_offered": [
+        "Duplicate License",
+        "Learner Permit",
+        "License Renewal",
+        "Name Change",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-16:00",
+      "wait_time_minutes": 55
+    },
+    {
+      "id": 28,
+      "name": "Long Beach DMV Office",
+      "address": "3700 E Willow St",
+      "city": "Long Beach",
+      "state": "CA",
+      "zip_code": "90815",
+      "phone": "(212) 555-9320",
+      "services_offered": [
+        "Name Change",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-16:00",
+      "wait_time_minutes": 38
+    },
+    {
+      "id": 29,
+      "name": "Houston DMV Office",
+      "address": "7011 Harwin Dr",
+      "city": "Houston",
+      "state": "TX",
+      "zip_code": "77036",
+      "phone": "(214) 555-2964",
+      "services_offered": [
+        "License Renewal",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Sat 8:00-14:00",
+      "wait_time_minutes": 46
+    },
+    {
+      "id": 30,
+      "name": "Dallas DMV Office",
+      "address": "4445 N Central Expy",
+      "city": "Dallas",
+      "state": "TX",
+      "zip_code": "75205",
+      "phone": "(203) 555-4346",
+      "services_offered": [
+        "Duplicate License",
+        "License Renewal",
+        "Permit Test",
+        "Road Test",
+        "State ID",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-15:30",
+      "wait_time_minutes": 45
+    },
+    {
+      "id": 31,
+      "name": "Austin DMV Office",
+      "address": "6121 N Lamar Blvd",
+      "city": "Austin",
+      "state": "TX",
+      "zip_code": "78752",
+      "phone": "(718) 555-1152",
+      "services_offered": [
+        "Address Change",
+        "Permit Test",
+        "State ID",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 9:00-17:00",
+      "wait_time_minutes": 87
+    },
+    {
+      "id": 32,
+      "name": "San Antonio DMV Office",
+      "address": "7106 Culebra Rd",
+      "city": "San Antonio",
+      "state": "TX",
+      "zip_code": "78238",
+      "phone": "(312) 555-5345",
+      "services_offered": [
+        "Address Change",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:30-16:30",
+      "wait_time_minutes": 59
+    },
+    {
+      "id": 33,
+      "name": "Fort Worth DMV Office",
+      "address": "4901 S Freeway",
+      "city": "Fort Worth",
+      "state": "TX",
+      "zip_code": "76115",
+      "phone": "(646) 555-8179",
+      "services_offered": [
+        "Permit Test",
+        "Road Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Sat 8:00-14:00",
+      "wait_time_minutes": 53
+    },
+    {
+      "id": 34,
+      "name": "El Paso DMV Office",
+      "address": "3731 Buckner St",
+      "city": "El Paso",
+      "state": "TX",
+      "zip_code": "79930",
+      "phone": "(718) 555-2753",
+      "services_offered": [
+        "Address Change",
+        "Duplicate License",
+        "License Renewal",
+        "Permit Test",
+        "Road Test",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Sat 8:00-14:00",
+      "wait_time_minutes": 34
+    },
+    {
+      "id": 35,
+      "name": "Miami DMV Office",
+      "address": "7900 NW 27th Ave",
+      "city": "Miami",
+      "state": "FL",
+      "zip_code": "33147",
+      "phone": "(203) 555-9280",
+      "services_offered": [
+        "License Renewal",
+        "Name Change",
+        "Road Test",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 9:00-17:00",
+      "wait_time_minutes": 47
+    },
+    {
+      "id": 36,
+      "name": "Orlando DMV Office",
+      "address": "6050 Metrowest Blvd",
+      "city": "Orlando",
+      "state": "FL",
+      "zip_code": "32835",
+      "phone": "(212) 555-1058",
+      "services_offered": [
+        "Learner Permit",
+        "Permit Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-15:30",
+      "wait_time_minutes": 31
+    },
+    {
+      "id": 37,
+      "name": "Tampa DMV Office",
+      "address": "1101 E Hillsborough Ave",
+      "city": "Tampa",
+      "state": "FL",
+      "zip_code": "33604",
+      "phone": "(718) 555-2232",
+      "services_offered": [
+        "Learner Permit",
+        "License Renewal",
+        "Name Change",
+        "Permit Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:30-16:30",
+      "wait_time_minutes": 84
+    },
+    {
+      "id": 38,
+      "name": "Jacksonville DMV Office",
+      "address": "7020 AC Skinner Pkwy",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip_code": "32256",
+      "phone": "(214) 555-3088",
+      "services_offered": [
+        "Address Change",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-16:00",
+      "wait_time_minutes": 54
+    },
+    {
+      "id": 39,
+      "name": "Chicago DMV Office",
+      "address": "100 W Randolph St",
+      "city": "Chicago",
+      "state": "IL",
+      "zip_code": "60601",
+      "phone": "(718) 555-6794",
+      "services_offered": [
+        "Address Change",
+        "License Renewal",
+        "Road Test",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Sat 8:00-14:00",
+      "wait_time_minutes": 67
+    },
+    {
+      "id": 40,
+      "name": "Springfield DMV Office",
+      "address": "2701 S Dirksen Pkwy",
+      "city": "Springfield",
+      "state": "IL",
+      "zip_code": "62703",
+      "phone": "(646) 555-6442",
+      "services_offered": [
+        "Address Change",
+        "Duplicate License",
+        "Learner Permit",
+        "License Renewal",
+        "State ID",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 9:00-17:00",
+      "wait_time_minutes": 46
+    },
+    {
+      "id": 41,
+      "name": "Philadelphia DMV Office",
+      "address": "8011 Roosevelt Blvd",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip_code": "19152",
+      "phone": "(305) 555-4644",
+      "services_offered": [
+        "Learner Permit",
+        "License Renewal",
+        "Name Change",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:30-16:30",
+      "wait_time_minutes": 73
+    },
+    {
+      "id": 42,
+      "name": "Pittsburgh DMV Office",
+      "address": "5164 Penn Ave",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "zip_code": "15224",
+      "phone": "(201) 555-7528",
+      "services_offered": [
+        "Address Change",
+        "License Renewal",
+        "Road Test",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-15:30",
+      "wait_time_minutes": 50
+    },
+    {
+      "id": 43,
+      "name": "Boston DMV Office",
+      "address": "630 Washington St",
+      "city": "Boston",
+      "state": "MA",
+      "zip_code": "02111",
+      "phone": "(312) 555-6425",
+      "services_offered": [
+        "Learner Permit",
+        "Road Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-16:00",
+      "wait_time_minutes": 29
+    },
+    {
+      "id": 44,
+      "name": "Cambridge DMV Office",
+      "address": "141 Portland St",
+      "city": "Cambridge",
+      "state": "MA",
+      "zip_code": "02139",
+      "phone": "(214) 555-6663",
+      "services_offered": [
+        "Address Change",
+        "License Renewal",
+        "Name Change",
+        "Permit Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-15:30",
+      "wait_time_minutes": 70
+    },
+    {
+      "id": 45,
+      "name": "Atlanta DMV Office",
+      "address": "2801 Candler Rd",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip_code": "30034",
+      "phone": "(214) 555-1027",
+      "services_offered": [
+        "Address Change",
+        "Duplicate License",
+        "Learner Permit",
+        "License Renewal",
+        "Permit Test",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Sat 8:00-14:00",
+      "wait_time_minutes": 83
+    },
+    {
+      "id": 46,
+      "name": "Seattle DMV Office",
+      "address": "12006 Aurora Ave N",
+      "city": "Seattle",
+      "state": "WA",
+      "zip_code": "98133",
+      "phone": "(213) 555-6143",
+      "services_offered": [
+        "Duplicate License",
+        "Learner Permit",
+        "License Renewal",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-16:00",
+      "wait_time_minutes": 53
+    },
+    {
+      "id": 47,
+      "name": "Denver DMV Office",
+      "address": "4685 Peoria St",
+      "city": "Denver",
+      "state": "CO",
+      "zip_code": "80239",
+      "phone": "(201) 555-7888",
+      "services_offered": [
+        "Learner Permit",
+        "License Renewal",
+        "Name Change",
+        "Road Test",
+        "State ID",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 9:00-17:00",
+      "wait_time_minutes": 37
+    },
+    {
+      "id": 48,
+      "name": "Phoenix DMV Office",
+      "address": "3434 W Clarendon Ave",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip_code": "85017",
+      "phone": "(201) 555-8043",
+      "services_offered": [
+        "Address Change",
+        "Learner Permit",
+        "License Renewal",
+        "Name Change",
+        "Permit Test",
+        "Title Transfer",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Sat 8:00-14:00",
+      "wait_time_minutes": 56
+    },
+    {
+      "id": 49,
+      "name": "Columbus DMV Office",
+      "address": "4738 Riverside Dr",
+      "city": "Columbus",
+      "state": "OH",
+      "zip_code": "43220",
+      "phone": "(718) 555-5649",
+      "services_offered": [
+        "Address Change",
+        "Duplicate License",
+        "License Renewal",
+        "Permit Test",
+        "State ID",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Sat 8:00-14:00",
+      "wait_time_minutes": 57
+    },
+    {
+      "id": 50,
+      "name": "Detroit DMV Office",
+      "address": "11700 Merriman Rd",
+      "city": "Detroit",
+      "state": "MI",
+      "zip_code": "48150",
+      "phone": "(201) 555-3414",
+      "services_offered": [
+        "Duplicate License",
+        "Permit Test",
+        "Vehicle Registration"
+      ],
+      "hours": "Mon-Fri 8:00-16:00",
+      "wait_time_minutes": 20
+    }
+  ]
+}

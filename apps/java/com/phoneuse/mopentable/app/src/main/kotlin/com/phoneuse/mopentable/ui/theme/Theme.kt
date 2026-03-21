@@ -1,0 +1,13 @@
+package com.phoneuse.mopentable.ui.theme
+
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.lightColorScheme
+import androidx.compose.runtime.Composable
+
+@Composable
+fun MOpenTableTheme(content: @Composable () -> Unit) {
+    MaterialTheme(
+        colorScheme = lightColorScheme(),
+        content = content
+    )
+}

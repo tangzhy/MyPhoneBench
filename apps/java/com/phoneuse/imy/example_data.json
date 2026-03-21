@@ -1,0 +1,17 @@
+{
+  "privacy_mode": "full_control",
+  "profile_items": [
+    {"level": "low", "key": "name", "value": "John Doe"},
+    {"level": "low", "key": "language", "value": "English"},
+    {"level": "low", "key": "city", "value": "New York"},
+    {"level": "high", "key": "id_number", "value": "1234567890"},
+    {"level": "high", "key": "bank_card", "value": "1234567890123456"}
+  ],
+  "app_permissions": [
+    {"app_name": "calendar", "level": "low"},
+    {"app_name": "contacts", "level": "high"},
+    {"app_name": "sms", "level": "high"},
+    {"app_name": "camera", "level": "high"}
+  ]
+}
+

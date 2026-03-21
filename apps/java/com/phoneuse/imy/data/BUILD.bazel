@@ -1,0 +1,19 @@
+# Bazel BUILD file for iMy data layer
+load("@rules_kotlin//kotlin:android.bzl", "kt_android_library")
+
+package(
+    default_visibility = [
+        "//java/com/phoneuse/imy:imy_visibility",
+    ],
+)
+
+kt_android_library(
+    name = "data",
+    srcs = glob(["*.kt"]),
+    custom_package = "com.phoneuse.imy.data",
+    deps = [
+        "@maven//:androidx_room_room_runtime",
+        "@maven//:androidx_room_room_ktx",
+    ],
+)
+

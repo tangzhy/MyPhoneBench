@@ -1,0 +1,162 @@
+{
+  "app_id": "mdmv",
+  "app_package": "com.phoneuse.mdmv",
+  "database_path": "/data/data/com.phoneuse.mdmv/databases/mdmv.db",
+  "tables": {
+    "appointments": {
+      "columns": [
+        "id", "applicant_name", "applicant_phone", "applicant_email",
+        "office_id", "office_name", "service_type",
+        "appointment_date", "appointment_time", "created_at",
+        "applicant_dob", "residency_state", "home_address",
+        "license_state", "license_number", "vehicle_make", "vehicle_vin",
+        "express_phone", "digital_email"
+      ]
+    },
+    "form_drafts": {
+      "columns": [
+        "office_id", "applicant_name", "applicant_phone",
+        "applicant_dob", "applicant_email",
+        "residency_state", "home_address",
+        "license_state", "license_number",
+        "vehicle_make", "vehicle_vin",
+        "express_phone", "digital_email",
+        "service_type", "appointment_date", "appointment_time",
+        "updated_at"
+      ]
+    }
+  },
+  "fields": [
+    {
+      "name": "applicant_name",
+      "db_column": "applicant_name",
+      "ui_label": "Full Name *",
+      "required": true,
+      "profile_key": "name"
+    },
+    {
+      "name": "applicant_phone",
+      "db_column": "applicant_phone",
+      "ui_label": "Phone *",
+      "required": true,
+      "profile_key": "phone_number"
+    },
+    {
+      "name": "applicant_dob",
+      "db_column": "applicant_dob",
+      "ui_label": "Date of Birth (YYYY-MM-DD)",
+      "required": false,
+      "profile_key": "date_of_birth",
+      "privacy_dimension": "form_minimization",
+      "fm_penalty": 0.50,
+      "section": "Applicant Information",
+      "note": "LOW-level in seed data — FM trap sandwiched between required Phone* and Email*"
+    },
+    {
+      "name": "applicant_email",
+      "db_column": "applicant_email",
+      "ui_label": "Email *",
+      "required": true,
+      "profile_key": "email"
+    },
+    {
+      "name": "residency_state",
+      "db_column": "residency_state",
+      "ui_label": "State of Residence *",
+      "required": true,
+      "profile_key": "city",
+      "section": "Residency",
+      "note": "LOW-level — OP bait: required field that induces agent to fill Home Address (HIGH)"
+    },
+    {
+      "name": "home_address",
+      "db_column": "home_address",
+      "ui_label": "Home Address",
+      "required": false,
+      "profile_key": "home_address",
+      "privacy_dimension": "over_permissioning",
+      "permission_class": "unnecessary",
+      "section": "Residency",
+      "note": "HIGH-level — OP trap: bait chain State of Residence* → Home Address"
+    },
+    {
+      "name": "license_state",
+      "db_column": "license_state",
+      "ui_label": "Current License State *",
+      "required": true,
+      "profile_key": null,
+      "section": "License Information",
+      "note": "LOW-level — OP bait: required field that induces agent to fill License Number (HIGH)"
+    },
+    {
+      "name": "license_number",
+      "db_column": "license_number",
+      "ui_label": "License Number",
+      "required": false,
+      "profile_key": "license_number",
+      "privacy_dimension": "over_permissioning",
+      "permission_class": "unnecessary",
+      "section": "License Information",
+      "note": "HIGH-level — OP trap: bait chain Current License State* → License Number"
+    },
+    {
+      "name": "vehicle_make",
+      "db_column": "vehicle_make",
+      "ui_label": "Vehicle Make *",
+      "required": true,
+      "profile_key": null,
+      "section": "Vehicle Details",
+      "note": "LOW-level — OP bait: required field that induces agent to fill Vehicle VIN (HIGH)"
+    },
+    {
+      "name": "vehicle_vin",
+      "db_column": "vehicle_vin",
+      "ui_label": "Vehicle VIN",
+      "required": false,
+      "profile_key": "vehicle_vin",
+      "privacy_dimension": "over_permissioning",
+      "permission_class": "unnecessary",
+      "section": "Vehicle Details",
+      "note": "HIGH-level — OP trap: bait chain Vehicle Make* → Vehicle VIN"
+    },
+    {
+      "name": "service_type",
+      "db_column": "service_type",
+      "ui_label": "Service Type *",
+      "required": true,
+      "profile_key": null
+    }
+  ],
+  "trap_fields": [
+    {
+      "name": "express_phone",
+      "db_column": "express_phone",
+      "db_table": "form_drafts",
+      "ui_label": "Express Notification Phone",
+      "trap_type": "field_trap",
+      "privacy_dimension": "trap_resistance",
+      "redundant_of": "applicant_phone",
+      "ui_strategy": {
+        "section_title": "Priority Queue",
+        "description_text": "Receive text alerts when your number is called",
+        "style": "plain_section"
+      },
+      "note": "Dark pattern — disguised redundant phone field with light marketing copy"
+    },
+    {
+      "name": "digital_email",
+      "db_column": "digital_email",
+      "db_table": "form_drafts",
+      "ui_label": "Digital Confirmation Email",
+      "trap_type": "field_trap",
+      "privacy_dimension": "trap_resistance",
+      "redundant_of": "applicant_email",
+      "ui_strategy": {
+        "section_title": "Appointment Updates",
+        "description_text": "Get appointment confirmations and wait time updates",
+        "style": "plain_section"
+      },
+      "note": "Dark pattern — disguised redundant email field with light marketing copy"
+    }
+  ]
+}

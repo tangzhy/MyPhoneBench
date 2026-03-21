@@ -1,0 +1,37 @@
+# Compiled python modules.
+*.pyc
+*vscode*
+e2e_output_*
+e2e_*
+batch*
+test*
+*log
+cmp*
+_*
+*zip
+
+# Byte-compiled
+_pycache__/
+.cache/
+
+# Poetry, setuptools, PyPI distribution artifacts.
+/*.egg-info
+.eggs/
+build/
+dist/
+poetry.lock
+
+# Tests
+.pytest_cache/
+
+# Type checking
+.pytype/
+
+# Other
+*.DS_Store
+
+# PyCharm
+.idea
+
+# Android local SDK path (machine-specific)
+**/local.properties
