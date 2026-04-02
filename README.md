@@ -4,6 +4,11 @@
 
 MyPhoneBench studies whether phone-use agents respect privacy while completing benign mobile tasks. It makes privacy behavior measurable by pairing an explicit privacy contract with fully observable mock Android apps and deterministic auditing. Rather than asking only whether an agent finishes a task, MyPhoneBench asks whether it requests only the data it needs, avoids unnecessary re-disclosure, and uses saved preferences correctly across sessions.
 
+<p align="center">
+  <img src="assets/realworld_agent_fails.png" width="90%" alt="Real-app examples of how a phone-use agent can cross privacy boundaries during a benign mobile task.">
+</p>
+<p align="center"><em>Real-app examples of how a phone-use agent can cross privacy boundaries during a benign mobile task.</em></p>
+
 Concretely, MyPhoneBench provides:
 
 - **iMy**, a minimal privacy contract for permissioned access, minimal disclosure, and user-controlled memory;
@@ -35,11 +40,25 @@ To make these questions measurable, MyPhoneBench combines:
 
 3. **Deterministic auditing.** Task success, privacy behavior, and later-session preference handling are scored with rule-based checks over access logs, form drafts, and database state — without LLM-as-judge.
 
+### The iMy Interface and Three Privacy Probes
+
+<p align="center">
+  <img src="assets/iMy_traps.jpg" width="90%" alt="The iMy interface and three recurring privacy-risk structures operationalized as controlled probes.">
+</p>
+<p align="center"><em><b>Left:</b> iMy separates default-access from permission-required data and keeps saved items visible, editable, and deletable. <b>Right:</b> three probe structures used to test over-permissioning, trap resistance, and form minimization.</em></p>
+
 ## What the paper shows
 
 - **Task success, privacy-compliant task completion, and later-session use of saved preferences are distinct capabilities.** No single model dominates all three.
 - **Evaluating success and privacy jointly changes the ranking.** High task success alone overestimates deployment readiness.
 - **The most persistent failure mode is data minimization.** Current agents still overfill optional personal entries that the task does not require.
+
+### Representative Trajectories
+
+<p align="center">
+  <img src="assets/iMy_cases.png" width="90%" alt="Representative execution under the iMy privacy contract.">
+</p>
+<p align="center"><em>Two strong models use the same four-tool privacy interface but diverge on permission-gated access, unnecessary disclosure, and later-session preference saving.</em></p>
 
 ## Key Features
 
