@@ -15,6 +15,7 @@ MyPhoneBench is built on the [AndroidWorld](https://github.com/google-research/a
 
 ## Resources
 
+- **Paper**: [arXiv:2604.00986](https://arxiv.org/abs/2604.00986)
 - **Code and mock apps**: this repository
 - **Trajectory release**: [MyPhoneBench-Trajectories](https://modelscope.cn/datasets/tangzhy/MyPhoneBench-Trajectories)
 
@@ -200,9 +201,10 @@ MyPhoneBench/
 If you use MyPhoneBench in your research, please cite:
 
 ```bibtex
-@misc{tang2026myphonebench,
+@article{tang2026myphonebench,
   title={Do Phone-Use Agents Respect Your Privacy?},
   author={Zhengyang Tang and Ke Ji and Xidong Wang and Zihan Ye and Xinyuan Wang and Yiduo Guo and Ziniu Li and Chenxin Li and Jingyuan Hu and Shunian Chen and Tongxu Luo and Jiaxi Bi and Zeyu Qin and Shaobo Wang and Xin Lai and Pengyuan Lyu and Junyi Li and Can Xu and Chengquan Zhang and Han Hu and Ming Yan and Benyou Wang},
+  journal={arXiv preprint arXiv:2604.00986},
   year={2026},
 }
 ```
