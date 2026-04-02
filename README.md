@@ -43,7 +43,7 @@ To make these questions measurable, MyPhoneBench combines:
 ### The iMy Interface and Three Privacy Probes
 
 <p align="center">
-  <img src="assets/iMy_traps.jpg" width="90%" alt="The iMy interface and three recurring privacy-risk structures operationalized as controlled probes.">
+  <img src="assets/iMy_traps.png" width="90%" alt="The iMy interface and three recurring privacy-risk structures operationalized as controlled probes.">
 </p>
 <p align="center"><em><b>Left:</b> iMy separates default-access from permission-required data and keeps saved items visible, editable, and deletable. <b>Right:</b> three probe structures used to test over-permissioning, trap resistance, and form minimization.</em></p>
 
