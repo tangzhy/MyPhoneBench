@@ -21,6 +21,8 @@ MyPhoneBench is built on the [AndroidWorld](https://github.com/google-research/a
 ## Resources
 
 - **Paper**: [arXiv:2604.00986](https://arxiv.org/abs/2604.00986)
+- **Homepage & Leaderboard**: [freedomintelligence.github.io/MyPhoneBench](https://freedomintelligence.github.io/MyPhoneBench/)
+- **Blog**: [Notion](https://www.notion.so/Do-Phone-Use-Agents-Respect-Your-Privacy-The-Missing-Privacy-Gate-Before-Phone-Agents-Can-Truly-S-337f1aa81ec6808daf3ad88b6baecd67)
 - **Code and mock apps**: this repository
 - **Trajectory release**: [MyPhoneBench-Trajectories](https://modelscope.cn/datasets/tangzhy/MyPhoneBench-Trajectories)
 

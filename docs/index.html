@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyPhoneBench — Do Phone-Use Agents Respect Your Privacy?</title>
+<style>
+  :root {
+    --bg-dark: #0f1117;
+    --bg-card: #1a1d2e;
+    --bg-white: #ffffff;
+    --accent: #e63946;
+    --accent-light: #ff6b6b;
+    --blue: #4361ee;
+    --blue-light: #7289da;
+    --text: #e8e8e8;
+    --text-dark: #1a1a2e;
+    --text-muted: #8892a4;
+    --border: #2a2d3e;
+    --gold: #f4a261;
+    --silver: #a8b2d1;
+    --bronze: #e09f7d;
+    --green: #2ec4b6;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg-dark); color: var(--text); line-height: 1.6; }
+  a { color: var(--blue-light); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 80px 20px 60px;
+    background: linear-gradient(135deg, #0f1117 0%, #1a1d2e 50%, #0f1117 100%);
+    border-bottom: 1px solid var(--border);
+  }
+  .hero-badge {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+  }
+  .hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    letter-spacing: -1px;
+  }
+  .hero h1 span { color: var(--accent); }
+  .hero .subtitle {
+    font-size: 22px;
+    color: var(--text-muted);
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-weight: 400;
+  }
+  .hero-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.2s;
+    text-decoration: none;
+  }
+  .btn:hover { text-decoration: none; transform: translateY(-1px); }
+  .btn-primary { background: var(--accent); color: white; }
+  .btn-primary:hover { background: var(--accent-light); }
+  .btn-outline { background: transparent; color: var(--text); border: 1px solid var(--border); }
+  .btn-outline:hover { border-color: var(--blue-light); color: var(--blue-light); }
+  .hero-img {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+  .hero-caption {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-top: 16px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Container */
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+  /* Section */
+  .section { padding: 70px 0; }
+  .section-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .section-desc {
+    text-align: center;
+    color: var(--text-muted);
+    max-width: 650px;
+    margin: 0 auto 40px;
+    font-size: 16px;
+  }
+
+  /* Leaderboard */
+  .leaderboard-section { background: var(--bg-dark); }
+  .leaderboard-wrapper {
+    overflow-x: auto;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  thead { background: #12141f; }
+  th {
+    padding: 16px 18px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--text-muted);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    position: relative;
+    transition: color 0.2s;
+  }
+  th:hover { color: var(--blue-light); }
+  th.sort-asc::after { content: ' \25B2'; font-size: 10px; }
+  th.sort-desc::after { content: ' \25BC'; font-size: 10px; }
+  th:first-child { text-align: center; width: 60px; }
+  td {
+    padding: 14px 18px;
+    text-align: center;
+    border-top: 1px solid var(--border);
+  }
+  td.model-cell {
+    text-align: left;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  td.model-cell .org {
+    font-weight: 400;
+    color: var(--text-muted);
+    font-size: 13px;
+    margin-left: 6px;
+  }
+  tr:hover { background: rgba(67, 97, 238, 0.06); }
+  .rank-cell { font-weight: 700; font-size: 16px; }
+  .rank-1 { color: var(--gold); }
+  .rank-2 { color: var(--silver); }
+  .rank-3 { color: var(--bronze); }
+  .best-val { color: var(--green); font-weight: 700; }
+  .avg-rank-cell { font-weight: 700; }
+  .leaderboard-note {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+  .leaderboard-note strong { color: var(--text); }
+
+  /* Findings */
+  .findings-section { background: #12141f; }
+  .findings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+  }
+  .finding-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 32px 28px;
+    transition: border-color 0.2s;
+  }
+  .finding-card:hover { border-color: var(--blue); }
+  .finding-num {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .finding-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  .finding-card p {
+    color: var(--text-muted);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* Framework */
+  .framework-section { background: var(--bg-dark); }
+  .framework-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+  }
+  .framework-text h3 { font-size: 20px; margin-bottom: 14px; color: var(--text); }
+  .framework-text p { color: var(--text-muted); margin-bottom: 16px; font-size: 15px; }
+  .framework-text ul { list-style: none; padding: 0; }
+  .framework-text li {
+    padding: 6px 0;
+    color: var(--text-muted);
+    font-size: 15px;
+  }
+  .framework-text li::before {
+    content: '\2713';
+    color: var(--green);
+    margin-right: 10px;
+    font-weight: 700;
+  }
+  .framework-img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+  }
+
+  /* Citation */
+  .citation-section { background: #12141f; border-top: 1px solid var(--border); }
+  .citation-block {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 13px;
+    color: var(--text-muted);
+    overflow-x: auto;
+    white-space: pre;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-muted);
+    font-size: 14px;
+    border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--blue-light); }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero h1 { font-size: 32px; }
+    .hero .subtitle { font-size: 18px; }
+    .framework-content { grid-template-columns: 1fr; }
+    .section { padding: 50px 0; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <h1>My<span>Phone</span>Bench</h1>
+    <p class="subtitle">Do Phone-Use Agents Respect Your Privacy?<br>The first end-to-end verifiable privacy evaluation framework for phone-use agents.</p>
+    <div class="hero-buttons">
+      <a href="https://arxiv.org/abs/2604.00986" class="btn btn-primary" target="_blank">&#128196; Paper</a>
+      <a href="https://github.com/FreedomIntelligence/MyPhoneBench" class="btn btn-outline" target="_blank">&#128187; Code</a>
+      <a href="https://www.notion.so/Do-Phone-Use-Agents-Respect-Your-Privacy-The-Missing-Privacy-Gate-Before-Phone-Agents-Can-Truly-S-337f1aa81ec6808daf3ad88b6baecd67" class="btn btn-outline" target="_blank">&#128221; Blog</a>
+      <a href="https://modelscope.cn/datasets/tangzhy/MyPhoneBench-Trajectories" class="btn btn-outline" target="_blank">&#128202; Trajectories</a>
+    </div>
+    <img src="../assets/realworld_agent_fails.png" alt="A phone-use agent crossing privacy boundaries during a benign KFC ordering task" class="hero-img">
+    <p class="hero-caption">A phone agent ordering a hamburger from KFC — but along the way it grabs the phone number without permission, enters the SMS code, enables persistent login, and types the number into a marketing pop-up.</p>
+  </div>
+</section>
+
+<!-- Leaderboard -->
+<section class="section leaderboard-section">
+  <div class="container">
+    <h2 class="section-title">Leaderboard</h2>
+    <p class="section-desc">5 frontier models evaluated across 10 mock Android apps and 300 tasks. Sorted by normalized overall score.</p>
+    <div class="leaderboard-wrapper">
+      <table id="leaderboard">
+        <thead>
+          <tr>
+            <th data-col="rank">#</th>
+            <th data-col="model" style="text-align:left">Model</th>
+            <th data-col="task_sr">Task SR (%)</th>
+            <th data-col="privacy">Privacy (%)</th>
+            <th data-col="pqsr">PQSR@0.7 (%)</th>
+            <th data-col="later_session">Later-Session (%)</th>
+            <th data-col="overall" class="sort-desc">Overall</th>
+          </tr>
+        </thead>
+        <tbody id="lb-body"></tbody>
+      </table>
+    </div>
+    <p class="leaderboard-note">
+      <strong>PQSR</strong> (Privacy-Qualified Success Rate) is the primary comparison metric &mdash; it jointly requires task completion <em>and</em> privacy compliance (&ge; 0.7). <strong>Overall</strong> = 50% PQSR + 20% Task SR + 10% Privacy + 20% Later-Session.<br>
+      Click any column header to re-sort.
+    </p>
+  </div>
+</section>
+
+<!-- Key Findings -->
+<section class="section findings-section">
+  <div class="container">
+    <h2 class="section-title">Key Findings</h2>
+    <p class="section-desc">Three takeaways from evaluating 5 frontier phone-use agents on privacy behavior.</p>
+    <div class="findings-grid">
+      <div class="finding-card">
+        <div class="finding-num">1</div>
+        <h3>Capability &#8800; Restraint</h3>
+        <p>Given the same tasks and the same privacy protocol, different models show vastly different "boundary awareness." Some skip unnecessary fields and save useful preferences; others over-request data and fill marketing traps.</p>
+      </div>
+      <div class="finding-card">
+        <div class="finding-num">2</div>
+        <h3>No Model Wins All Three Axes</h3>
+        <p>Task success, privacy-compliant completion, and later-session preference transfer are three distinct capabilities. The leader changes every time you switch the evaluation dimension.</p>
+      </div>
+      <div class="finding-card">
+        <div class="finding-num">3</div>
+        <h3>The Biggest Risk: Over-Helpfulness</h3>
+        <p>The most pervasive failure isn't adversarial attacks or permission confusion &mdash; it's agents filling optional personal fields "just because they can." Completion-oriented bias is the hardest privacy challenge.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Framework -->
+<section class="section framework-section">
+  <div class="container">
+    <h2 class="section-title">Evaluation Framework</h2>
+    <p class="section-desc">Three components that make phone-agent privacy measurable, verifiable, and reproducible.</p>
+    <div class="framework-content">
+      <div class="framework-text">
+        <h3>iMy Privacy Contract</h3>
+        <p>A minimal executable privacy protocol that gives agents clear boundaries and gives users full control.</p>
+        <ul>
+          <li>LOW/HIGH data access tiers with permission gating</li>
+          <li>4 privacy tools: request_permission, read_profile, save_profile, ask_user</li>
+          <li>User-controlled memory: always visible, editable, deletable</li>
+        </ul>
+        <h3 style="margin-top:24px;">10 Instrumented Mock Apps</h3>
+        <p>Covering healthcare, dining, travel, insurance, government and more &mdash; with SQLite backends and form_drafts logging for full auditability.</p>
+        <h3 style="margin-top:24px;">3 Privacy Probes</h3>
+        <ul>
+          <li><strong>Over-Permissioning (OP)</strong> &mdash; requesting data the task doesn't need</li>
+          <li><strong>Trap Resistance (TR)</strong> &mdash; avoiding plausible but unnecessary re-disclosure widgets</li>
+          <li><strong>Form Minimization (FM)</strong> &mdash; refraining from filling optional personal fields</li>
+        </ul>
+      </div>
+      <div>
+        <img src="../assets/iMy_traps.png" alt="iMy interface and three privacy probes" class="framework-img">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Citation -->
+<section class="section citation-section">
+  <div class="container">
+    <h2 class="section-title">Citation</h2>
+    <p class="section-desc">If you use MyPhoneBench in your research, please cite:</p>
+    <div class="citation-block">@article{tang2026myphonebench,
+  title={Do Phone-Use Agents Respect Your Privacy?},
+  author={Zhengyang Tang and Ke Ji and Xidong Wang and Zihan Ye and Xinyuan Wang and Yiduo Guo and Ziniu Li and Chenxin Li and Jingyuan Hu and Shunian Chen and Tongxu Luo and Jiaxi Bi and Zeyu Qin and Shaobo Wang and Xin Lai and Pengyuan Lyu and Junyi Li and Can Xu and Chengquan Zhang and Han Hu and Ming Yan and Benyou Wang},
+  journal={arXiv preprint arXiv:2604.00986},
+  year={2026},
+}</div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>MyPhoneBench &mdash; CUHK-Shenzhen FreedomAI &times; Tencent Hunyuan &times; CUHK &times; HKU &times; HKUST &times; SJTU</p>
+    <p style="margin-top:8px;">
+      <a href="https://arxiv.org/abs/2604.00986">Paper</a> &middot;
+      <a href="https://github.com/FreedomIntelligence/MyPhoneBench">Code</a> &middot;
+      <a href="https://www.notion.so/Do-Phone-Use-Agents-Respect-Your-Privacy-The-Missing-Privacy-Gate-Before-Phone-Agents-Can-Truly-S-337f1aa81ec6808daf3ad88b6baecd67">Blog</a> &middot;
+      <a href="https://modelscope.cn/datasets/tangzhy/MyPhoneBench-Trajectories">Trajectories</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+// Leaderboard data
+const models = [
+  { name: "Claude Opus 4.6", org: "Anthropic", task_sr: 82.8, privacy: 68.4, pqsr: 47.2, later_session: 72.0 },
+  { name: "Qwen 3.5 Plus", org: "Alibaba", task_sr: 76.0, privacy: 73.8, pqsr: 47.6, later_session: 48.0 },
+  { name: "Kimi K2.5", org: "Moonshot", task_sr: 65.2, privacy: 77.3, pqsr: 45.2, later_session: 58.0 },
+  { name: "Doubao Seed 1.8", org: "ByteDance", task_sr: 57.2, privacy: 71.0, pqsr: 31.2, later_session: 42.0 },
+  { name: "Gemini 3 Pro", org: "Google", task_sr: 50.4, privacy: 60.5, pqsr: 22.0, later_session: 20.0 }
+];
+
+// Compute overall score (weighted: 50% PQSR + 20% Task SR + 10% Privacy + 20% Later-Session)
+const metricKeys = ['task_sr', 'privacy', 'pqsr', 'later_session'];
+const weights = { task_sr: 0.20, privacy: 0.10, pqsr: 0.50, later_session: 0.20 };
+models.forEach(m => {
+  m.overall = metricKeys.reduce((sum, k) => sum + m[k] * weights[k], 0);
+});
+
+// Best values per column (for highlighting)
+const best = {};
+metricKeys.forEach(k => { best[k] = Math.max(...models.map(m => m[k])); });
+best['overall'] = Math.max(...models.map(m => m.overall));
+
+// Current sort state
+let sortCol = 'overall';
+let sortAsc = false; // descending: higher overall is better
+
+function renderTable() {
+  const sorted = [...models].sort((a, b) => {
+    const va = a[sortCol], vb = b[sortCol];
+    return sortAsc ? va - vb : vb - va;
+  });
+
+  const tbody = document.getElementById('lb-body');
+  tbody.innerHTML = '';
+
+  sorted.forEach((m, i) => {
+    const rank = i + 1;
+    const rankClass = rank <= 3 ? ` rank-${rank}` : '';
+    const row = document.createElement('tr');
+    row.innerHTML = `
+      <td class="rank-cell${rankClass}">${rank <= 3 ? ['&#129351;','&#129352;','&#129353;'][rank-1] : rank}</td>
+      <td class="model-cell">${m.name}<span class="org">${m.org}</span></td>
+      <td class="${m.task_sr === best.task_sr ? 'best-val' : ''}">${m.task_sr.toFixed(1)}</td>
+      <td class="${m.privacy === best.privacy ? 'best-val' : ''}">${m.privacy.toFixed(1)}</td>
+      <td class="${m.pqsr === best.pqsr ? 'best-val' : ''}">${m.pqsr.toFixed(1)}</td>
+      <td class="${m.later_session === best.later_session ? 'best-val' : ''}">${m.later_session.toFixed(1)}</td>
+      <td class="avg-rank-cell ${m.overall === best.overall ? 'best-val' : ''}">${m.overall.toFixed(1)}</td>
+    `;
+    tbody.appendChild(row);
+  });
+
+  // Update header sort indicators
+  document.querySelectorAll('#leaderboard th').forEach(th => {
+    th.classList.remove('sort-asc', 'sort-desc');
+    if (th.dataset.col === sortCol) {
+      th.classList.add(sortAsc ? 'sort-asc' : 'sort-desc');
+    }
+  });
+}
+
+// Click to sort
+document.querySelectorAll('#leaderboard th').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.col;
+    if (col === 'model' || col === 'rank') return;
+    if (sortCol === col) {
+      sortAsc = !sortAsc;
+    } else {
+      sortCol = col;
+      sortAsc = false; // default descending (higher is better for all columns)
+    }
+    renderTable();
+  });
+});
+
+// Initial render
+renderTable();
+</script>
+</body>
+</html>
